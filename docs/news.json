@@ -1,7 +1,31 @@
 {
- "updated": "2026-11-06 22:07",
+ "updated": "2026-11-06 23:01",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741666",
+   "title": "의정부시, 경제자유구역 지정…외투기업 유치 ‘총력’",
+   "time": "2026-11-06 21:00",
+   "category": "토지/개발",
+   "region": "의정부시",
+   "summary": "의정부시가 경제자유구역 지정을 위해 총력을 기울임\n미군 반환공여지를 활용해 첨단산업 중심지 전환 계획\n외국인 투자와 양질의 일자리를 통해 도시성장 도모",
+   "latlng": [
+    37.73807,
+    127.03397
+   ]
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741720",
+   "title": "조용호 오산시장, 국회 예결위원장 만나 국비 324억원 건의",
+   "time": "2026-11-06 17:15",
+   "category": "도로확장",
+   "region": "오산시",
+   "summary": "조용호 오산시장이 국회서 국비 324억 원 지원을 건의함\n서부로 재개설 및 경부선철도 횡단도로 개설 예산 포함\n지역 주요 현안 사업의 2027년 예산안 반영 요청",
+   "latlng": [
+    37.14994,
+    127.07746
+   ]
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741707",
    "title": "과천도시공사, 과천지식정보타운 13BL과 14BL 감정평가금액 공개",
