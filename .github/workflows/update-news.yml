@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name "news-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/news.json data/
+          git add docs/ data/
           if git diff --cached --quiet; then
             echo "바뀐 내용 없음"
           else

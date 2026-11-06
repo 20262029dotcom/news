@@ -1,5 +1,6 @@
 {
- "updated": "2026-11-06 23:01",
+ "updated": "2026-11-06 23:53",
+ "region": "경기·인천",
  "source": "중부일보",
  "items": [
   {
@@ -12,7 +13,8 @@
    "latlng": [
     37.73807,
     127.03397
-   ]
+   ],
+   "source": "중부일보"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741720",
@@ -24,7 +26,8 @@
    "latlng": [
     37.14994,
     127.07746
-   ]
+   ],
+   "source": "중부일보"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741707",
@@ -36,7 +39,8 @@
    "latlng": [
     37.4289,
     126.98817
-   ]
+   ],
+   "source": "중부일보"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741687",
@@ -48,7 +52,8 @@
    "latlng": [
     37.2345,
     127.2017
-   ]
+   ],
+   "source": "중부일보"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741657",
@@ -60,7 +65,8 @@
    "latlng": [
     37.4098,
     126.6787
-   ]
+   ],
+   "source": "중부일보"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741622",
@@ -72,7 +78,8 @@
    "latlng": [
     37.37989,
     126.80323
-   ]
+   ],
+   "source": "중부일보"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741522",
@@ -84,7 +91,8 @@
    "latlng": [
     37.89483,
     127.20073
-   ]
+   ],
+   "source": "중부일보"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741437",
@@ -96,7 +104,8 @@
    "latlng": [
     36.9925,
     127.11272
-   ]
+   ],
+   "source": "중부일보"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741381",
@@ -105,7 +114,8 @@
    "category": "도로확장",
    "region": "",
    "summary": "GTX-A 삼성역 무정차 통과 2027년 상반기로 지연\n시공오류 원인 분석 및 보강방안 검토 진행\n철거 후 재시공 등 전방위적 검증 추진",
-   "latlng": null
+   "latlng": null,
+   "source": "중부일보"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741236",
@@ -114,7 +124,8 @@
    "category": "시장동향",
    "region": "",
    "summary": "11월 경기 아파트 분양 물량 1만1천여 세대 예정\n전국 최다 규모로 평택·의정부·부천 등 집중\n전년 동월 대비 분양 예정 물량 약 58% 증가",
-   "latlng": null
+   "latlng": null,
+   "source": "중부일보"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741114",
@@ -123,7 +134,8 @@
    "category": "시장동향",
    "region": "",
    "summary": "경기지역 같은 동 내 아파트 매매가 격차 확대\n역세권 및 대형 인프라 입지 단지로 매수 집중\n교통·상업 시설 접근성에 따라 집가격 양극화",
-   "latlng": null
+   "latlng": null,
+   "source": "중부일보"
   }
  ]
 }
