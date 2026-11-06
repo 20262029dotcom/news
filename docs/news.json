@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06 23:53",
+ "updated": "2026-11-07 07:34",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
@@ -106,6 +106,19 @@
     127.11272
    ],
    "source": "중부일보"
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741414",
+   "title": "“김포시민 집단적 무력감 우려”…이회수 김포미래비전 상임대표, 정부 주택공급 정책 전환 촉구",
+   "time": "2026-11-04 10:41",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "김포시",
+   "summary": "김포아라지구 3만7천호 신규택지 발표\n교통 및 생활 인프라 부족 문제 지적\n실질적 교통대책과 시민의견 반영 촉구",
+   "latlng": [
+    37.61557,
+    126.71578
+   ]
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741381",
