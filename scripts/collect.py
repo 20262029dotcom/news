@@ -8,6 +8,7 @@
 - 이미 처리한 기사는 다시 보내지 않는다 (무료 한도 절약: 지역마다 실행 1회당 Gemini 요청 1회 이하).
 - 환경 변수
     GEMINI_API_KEY : Google AI Studio에서 받은 키 (없으면 새 기사를 처리하지 않음)
+    KAKAO_REST_KEY : 카카오 REST API 키 (단지·지구 이름으로 좌표 찾기. 없으면 시·군·구 위치로 표시)
     GEMINI_MODEL   : 사용할 모델 (기본 gemini-3.5-flash)
     KEEP_DAYS      : 며칠 치 기사를 보여 줄지 (기본 7)
     ONLY_REGION    : 한 지역만 실행할 때 (gyeonggi 또는 seoul)
@@ -174,6 +175,7 @@ REGIONS = {
         "collect": collect_gyeonggi,
         "prepare": None,
         "geo_prefix": ("경기도 ", ("인천", "경기")),
+        "sido": ("경기", "인천"),
         "scope": "경기·인천 지역 신문(중부일보) 기사",
         "relevant": "경기·인천 지역의 부동산 투자자에게 의미 있는 기사",
         "region_rule": ('경기·인천의 시·군·구 이름으로 (예: "수원시", "성남시 분당구", "인천 남동구"). '
@@ -186,6 +188,7 @@ REGIONS = {
         "collect": collect_seoul,
         "prepare": fill_seoul_leads,
         "geo_prefix": ("서울특별시 ", ("서울",)),
+        "sido": ("서울",),
         "scope": "경제신문(한국경제·서울경제) 부동산 기사",
         "relevant": ("서울 부동산 투자자에게 의미 있는 기사. 서울 안의 지역·단지·사업을 다루거나, "
                      "서울 집값·전월세·분양·규제에 직접 영향을 주는 정책이면 true. "
@@ -210,10 +213,32 @@ PROMPT = """아래는 {scope} 목록이다. 기사마다 다음을 정하라.
 - region: 기사의 핵심 지역. {region_rule} 여러 곳이면 가장 중심이 되는 한 곳.
 - summary: 핵심 내용 3줄. 각 줄 30자 안팎의 개조식, 제목과 앞부분에 있는 사실만 쓴다. 줄 사이는 \\n.
   relevant가 false면 "".
+- place: {place_rule}
 - id는 입력 그대로 돌려준다.
 
 기사 목록(JSON):
 {articles}"""
+
+PLACE_RULE = """지도에 표시할 가장 구체적인 장소를 지도 검색어 형태로.
+  기사에 나온 아파트 단지명, 재건축·재개발 구역명, 택지·개발지구명, 역 이름, 건물·사업지 이름을 시·군·구와 함께 쓴다.
+  (예: "서초구 신반포22차", "영등포구 여의도 목화아파트", "시흥시 거모지구", "용인시 김량장역", "과천시 과천지식정보타운")
+  여러 곳이면 가장 중심이 되는 한 곳. 시·군·구보다 구체적인 장소가 기사에 없으면 ""."""
+
+PLACE_PROMPT = """아래는 부동산 기사(제목·요약·지역) 목록이다. 기사마다 place를 정하라.
+- place: {place_rule}
+- id는 입력 그대로 돌려준다.
+
+기사 목록(JSON):
+{articles}"""
+
+PLACE_SCHEMA = {
+    "type": "ARRAY",
+    "items": {
+        "type": "OBJECT",
+        "properties": {"id": {"type": "INTEGER"}, "place": {"type": "STRING"}},
+        "required": ["id", "place"],
+    },
+}
 
 SCHEMA = {
     "type": "ARRAY",
@@ -225,8 +250,9 @@ SCHEMA = {
             "category": {"type": "STRING", "enum": CATEGORIES},
             "region": {"type": "STRING"},
             "summary": {"type": "STRING"},
+            "place": {"type": "STRING"},
         },
-        "required": ["id", "relevant", "category", "region", "summary"],
+        "required": ["id", "relevant", "category", "region", "summary", "place"],
     },
 }
 
@@ -235,14 +261,27 @@ def ask_gemini(articles, key, cfg):
     payload = [{"id": i, "title": a["title"], "lead": a["lead"][:400]}
                for i, a in enumerate(articles)]
     text = PROMPT.format(scope=cfg["scope"], relevant=cfg["relevant"],
-                         region_rule=cfg["region_rule"],
+                         region_rule=cfg["region_rule"], place_rule=PLACE_RULE,
                          cats=" | ".join(f'"{c}"' for c in CATEGORIES),
                          articles=json.dumps(payload, ensure_ascii=False))
+    return gemini_call(text, SCHEMA, key)
+
+
+def ask_places(items, key):
+    """예전에 처리한 기사에 place(단지·지구명)만 새로 붙인다."""
+    payload = [{"id": i, "title": it["title"], "summary": it.get("summary", ""),
+                "region": it.get("region", "")} for i, it in enumerate(items)]
+    text = PLACE_PROMPT.format(place_rule=PLACE_RULE,
+                               articles=json.dumps(payload, ensure_ascii=False))
+    return gemini_call(text, PLACE_SCHEMA, key)
+
+
+def gemini_call(text, schema, key):
     body = {
         "contents": [{"role": "user", "parts": [{"text": text}]}],
         "generationConfig": {
             "responseMimeType": "application/json",
-            "responseSchema": SCHEMA,
+            "responseSchema": schema,
             "temperature": 0.2,
             "maxOutputTokens": 16384,
         },
@@ -297,6 +336,56 @@ def geocode(region, cfg, cache):
     return coords
 
 
+def kakao_search(query, kkey):
+    """카카오 키워드 장소 검색. 실패하면 None, 결과가 없으면 []."""
+    url = ("https://dapi.kakao.com/v2/local/search/keyword.json?size=5&query="
+           + urllib.parse.quote(query))
+    req = urllib.request.Request(url, headers={"Authorization": f"KakaoAK {kkey}", "User-Agent": UA})
+    try:
+        with urllib.request.urlopen(req, timeout=15) as r:
+            return json.loads(r.read().decode("utf-8")).get("documents", [])
+    except urllib.error.HTTPError as e:
+        log(f"[카카오 오류 {e.code}] {e.read().decode('utf-8', 'replace')[:150]}")
+    except Exception as e:
+        log(f"[카카오 실패] {e}")
+    return None
+
+
+def find_place(place, region, cfg, cache, kkey):
+    """단지·지구 이름으로 좌표를 찾는다. 기사 지역(시·군·구)과 주소가 맞는 결과만 쓴다."""
+    ck = "place:" + place
+    if ck in cache:
+        return cache[ck]
+    docs = kakao_search(place, kkey)
+    if docs is None:
+        return None  # 일시 오류는 캐시하지 않고 다음에 다시
+    words = [w for w in re.split(r"\s+", f"{region} {place}") if re.search(r"(시|군|구)$", w)]
+    hit = None
+    for d in docs:
+        addr = d.get("address_name", "")
+        if not addr.startswith(cfg["sido"]):
+            continue
+        if words and not any(w in addr for w in words):
+            continue
+        hit = {"latlng": [round(float(d["y"]), 6), round(float(d["x"]), 6)],
+               "name": d.get("place_name", "")}
+        break
+    cache[ck] = hit
+    time.sleep(0.2)
+    return hit
+
+
+def locate(item, cfg, cache, kkey):
+    """item에 latlng·pin·pin_name을 채운다. 단지·지구 이름 → 실패하면 시·군·구 위치."""
+    place, region = item.get("place", ""), item.get("region", "")
+    if place and kkey:
+        hit = find_place(place, region, cfg, cache, kkey)
+        if hit:
+            item.update(latlng=hit["latlng"], pin="place", pin_name=hit["name"])
+            return
+    item.update(latlng=geocode(region, cfg, cache), pin="region", pin_name=region)
+
+
 def load_json(path, default):
     try:
         with open(path, encoding="utf-8") as f:
@@ -311,7 +400,7 @@ def save_json(path, data):
         json.dump(data, f, ensure_ascii=False, indent=1)
 
 
-def run_region(code, key, cache):
+def run_region(code, key, kkey, cache):
     cfg = REGIONS[code]
     log(f"\n=== {cfg['name']} ===")
     shown = {it["url"]: it for it in load_json(cfg["out"], {"items": []}).get("items", [])}
@@ -349,17 +438,32 @@ def run_region(code, key, cache):
                 seen[a["url"]] = today
                 if not r["relevant"]:
                     continue
-                region = r["region"].strip()
-                shown[a["url"]] = {
+                item = {
                     "url": a["url"], "title": a["title"], "time": a["time"],
                     "source": a.get("source", ""), "category": r["category"],
-                    "region": region, "summary": r["summary"].strip(),
-                    "latlng": geocode(region, cfg, cache),
+                    "region": r["region"].strip(), "summary": r["summary"].strip(),
+                    "place": r.get("place", "").strip(),
                 }
+                locate(item, cfg, cache, kkey)
+                shown[a["url"]] = item
                 kept += 1
             log(f"부동산 관련 기사 {kept}건 추가")
 
     items = [it for it in shown.values() if (it.get("time") or "9999") >= cutoff]
+
+    # 예전 기사 보완: place가 없으면 Gemini로 한 번 붙이고, 카카오 키가 생기면 좌표를 다시 찾는다
+    need_place = [it for it in items if "place" not in it]
+    if need_place and key:
+        res = ask_places(need_place, key)
+        if res is not None:
+            for i, it in enumerate(need_place):
+                it["place"] = (res.get(i) or {}).get("place", "").strip()
+            log(f"예전 기사 {len(need_place)}건에 단지·지구명 추가")
+    for it in items:
+        if "pin" not in it or (kkey and it.get("pin") == "region" and it.get("place")
+                               and ("place:" + it["place"]) not in cache):
+            locate(it, cfg, cache, kkey)
+
     items.sort(key=lambda it: it.get("time", ""), reverse=True)
     save_json(cfg["out"], {
         "updated": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
@@ -375,6 +479,9 @@ def run_region(code, key, cache):
 
 def main():
     key = os.environ.get("GEMINI_API_KEY", "").strip()
+    kkey = os.environ.get("KAKAO_REST_KEY", "").strip()
+    if not kkey:
+        log("[알림] KAKAO_REST_KEY가 없어 시·군·구 위치로만 표시합니다")
     only = os.environ.get("ONLY_REGION", "").strip()
     cache = load_json(GEO_PATH, {})
     failed = []
@@ -382,7 +489,7 @@ def main():
         if only and code != only:
             continue
         try:
-            run_region(code, key, cache)
+            run_region(code, key, kkey, cache)
         except Exception as e:  # 한 지역이 실패해도 다른 지역은 계속
             log(f"[실패] {REGIONS[code]['name']}: {e}")
             failed.append(code)

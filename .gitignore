@@ -2,3 +2,4 @@
 .env
 gemini_key.txt
 __pycache__/
+kakao_key.txt

@@ -29,6 +29,7 @@ jobs:
       - name: 뉴스 수집·요약
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
         run: python scripts/collect.py
 
