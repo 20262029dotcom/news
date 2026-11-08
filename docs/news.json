@@ -1,8 +1,24 @@
 {
- "updated": "2026-11-08 13:57",
+ "updated": "2026-11-08 14:12",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741808",
+   "title": "새 단장 마친 ‘김포 대명항’… 관광객 발길 이어져",
+   "time": "2026-11-08 14:00",
+   "source": "중부일보",
+   "category": "상권개발",
+   "region": "김포시",
+   "summary": "271억 투입 대명항 어촌뉴딜300사업 완료\n42개 점포 보유한 수산물직판장 새 단장\n먹거리와 문화·관광 즐길 수 있는 공간 조성",
+   "place": "김포시 대명항",
+   "latlng": [
+    37.639372,
+    126.541728
+   ],
+   "pin": "place",
+   "pin_name": "대명항대명포구"
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741800",
    "title": "한강 밑 뚫리는 김포~파주 연결길…한강터널 김포방향 굴진 시작",
@@ -13,11 +29,11 @@
    "summary": "김포~파주 고속도로 한강터널 굴착공사 시작\n2029년 준공 목표로 서북부 광역교통망 구축\n파주시 송촌동 제2공구서 TBM 굴진식 개최",
    "place": "파주시 한강터널",
    "latlng": [
-    37.7599,
-    126.78015
+    37.743626,
+    126.700441
    ],
-   "pin": "region",
-   "pin_name": "파주시"
+   "pin": "place",
+   "pin_name": "한강터널홍보관"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741794",
@@ -42,11 +58,11 @@
    "summary": "평택 고덕 우미린 더 프리미어 견본주택 개관\n전용 84~111㎡ 총 623가구 분양 청약 일정 시작\n고덕국제화계획지구 Abc-33블록에 조성",
    "place": "평택시 평택 고덕 우미린 더 프리미어",
    "latlng": [
-    36.9925,
-    127.11272
+    37.051092,
+    127.029265
    ],
-   "pin": "region",
-   "pin_name": "평택시"
+   "pin": "place",
+   "pin_name": "평택고덕우미린더프리미어아파트 (2029년05월예정)"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741666",
@@ -88,13 +104,13 @@
    "region": "과천시",
    "summary": "과천지식정보타운 용지 감정평가금액 사전공개\n지식기반산업용지 13BL·14BL 총 20만㎡ 규모\n건폐율 70%·용적률 500% 이하 최고 8층 건축",
    "latlng": [
-    37.4289,
-    126.98817
+    37.408162,
+    126.980634
    ],
    "source": "중부일보",
    "place": "과천시 과천지식정보타운",
-   "pin": "region",
-   "pin_name": "과천시"
+   "pin": "place",
+   "pin_name": "과천린파밀리에아파트"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741687",
@@ -104,13 +120,13 @@
    "region": "용인시 처인구",
    "summary": "용인 김량장역 주변 도로 4차로 확장 공사 완료\n금호어울림~중앙지구대 구간 병목현상 해소 기대\n시비 98억 원 투입 길이 100m 구간 정비",
    "latlng": [
-    37.2345,
-    127.2017
+    37.237911,
+    127.209052
    ],
    "source": "중부일보",
    "place": "용인시 김량장역",
-   "pin": "region",
-   "pin_name": "용인시 처인구"
+   "pin": "place",
+   "pin_name": "용인중앙시장역 에버라인"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741657",
@@ -120,13 +136,13 @@
    "region": "인천 연수구",
    "summary": "인천경제청 송도 에디슨박물관 백지화설 부인\nC1블록 복합문화도서관과 함께 조성 검토 중\nA12블록 6천700억 원 규모 사업 차질 없이 추진",
    "latlng": [
-    37.4098,
-    126.6787
+    37.390864,
+    126.638869
    ],
    "source": "중부일보",
    "place": "연수구 송도",
-   "pin": "region",
-   "pin_name": "인천 연수구"
+   "pin": "place",
+   "pin_name": "송도한옥마을"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741622",
@@ -136,13 +152,13 @@
    "region": "시흥시",
    "summary": "시흥거모지구 '엘리프 시흥 더프라임' 분양\n전용 84㎡ 분양가 5억9천만 원대 책정\n총 338가구 중 304가구 일반분양 진행",
    "latlng": [
-    37.37989,
-    126.80323
+    37.347793,
+    126.778293
    ],
    "source": "중부일보",
    "place": "시흥시 거모지구",
-   "pin": "region",
-   "pin_name": "시흥시"
+   "pin": "place",
+   "pin_name": "시흥거모 공공주택지구"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741522",
@@ -168,13 +184,13 @@
    "region": "평택시",
    "summary": "평택 세교동 '한화포레나 지제역' 1천98가구 분양\n평택지제역 생활권 위치 브랜드 대단지\n6일 견본주택 개관 후 청약 일정 진행",
    "latlng": [
-    36.9925,
-    127.11272
+    37.018782,
+    127.069833
    ],
    "source": "중부일보",
    "place": "평택시 평택지제역",
-   "pin": "region",
-   "pin_name": "평택시"
+   "pin": "place",
+   "pin_name": "평택지제역"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741414",
