@@ -1,8 +1,40 @@
 {
- "updated": "2026-11-08 18:39",
+ "updated": "2026-11-09 07:30",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741841",
+   "title": "경기 아파트값 상승률 8주째 서울 상회",
+   "time": "2026-11-08 16:03",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "용인시 기흥구",
+   "summary": "경기 아파트 매매가 8주 연속 서울 상승률 상회\n용인시 기흥구 0.60%·군포시 0.57% 상승세 지속\n반도체 배후지 상승세가 인근 비규제지역으로 확산",
+   "place": "",
+   "latlng": [
+    37.2801,
+    127.1148
+   ],
+   "pin": "region",
+   "pin_name": "용인시 기흥구"
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741840",
+   "title": "LH, 의정부우정 단독주택용지 등 68필지 공급",
+   "time": "2026-11-08 16:02",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "의정부시",
+   "summary": "LH, 의정부우정지구 단독주택용지 등 68필지 공급\n주거전용 30필지·점포겸용 26필지 등 251억 규모\n주거전용 평당 약 400만 원·점포겸용 600만 원선",
+   "place": "의정부시 의정부우정지구",
+   "latlng": [
+    37.765401,
+    127.039366
+   ],
+   "pin": "place",
+   "pin_name": "의정부우정 공공주택지구"
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741808",
    "title": "새 단장 마친 ‘김포 대명항’… 관광객 발길 이어져",
@@ -63,6 +95,38 @@
    ],
    "pin": "place",
    "pin_name": "평택고덕우미린더프리미어아파트 (2029년05월예정)"
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741775",
+   "title": "인천 옹진군 도로 곳곳에 남은 미보상 사유지…정리는 ‘감감’",
+   "time": "2026-11-08 13:00",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "인천 옹진군",
+   "summary": "인천 옹진군 도로 편입 미보상 사유지 7천600필지\n과거 도로 개설 시 소유권 정리 안 돼 장기 방치\n토지 소유주 매수 신청에만 의존해 대책 마련 필요",
+   "place": "",
+   "latlng": [
+    37.53302,
+    126.4289
+   ],
+   "pin": "region",
+   "pin_name": "인천 옹진군"
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741745",
+   "title": "[물치도 수난사] 25만 명 찾던 관광지가 어째서… 거듭되는 개발 실패",
+   "time": "2026-11-08 09:53",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "인천 제물포구",
+   "summary": "인천 만석동 무인도 물치도 해양 휴양지 개발 잔혹사\n2013년 뱃길 끊긴 이후 관광 기능 잃고 잊혀\n거듭된 민간 개발 실패로 섬 방치 문제 지속",
+   "place": "인천 제물포구 물치도",
+   "latlng": [
+    37.497531,
+    126.588694
+   ],
+   "pin": "place",
+   "pin_name": "물치도"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741666",
@@ -228,19 +292,6 @@
    "category": "시장동향",
    "region": "",
    "summary": "11월 경기 아파트 분양 물량 1만1천여 세대 예정\n전국 최다 규모로 평택·의정부·부천 등 집중\n전년 동월 대비 분양 예정 물량 약 58% 증가",
-   "latlng": null,
-   "source": "중부일보",
-   "place": "",
-   "pin": "region",
-   "pin_name": ""
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741114",
-   "title": "같은 동인데 2배 차이…경기도 내 아파트 동네 안에서도 격차 뚜렷",
-   "time": "2026-11-01 17:47",
-   "category": "시장동향",
-   "region": "",
-   "summary": "경기지역 같은 동 내 아파트 매매가 격차 확대\n역세권 및 대형 인프라 입지 단지로 매수 집중\n교통·상업 시설 접근성에 따라 집가격 양극화",
    "latlng": null,
    "source": "중부일보",
    "place": "",

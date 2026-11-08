@@ -1,8 +1,63 @@
 {
- "updated": "2026-11-08 18:40",
+ "updated": "2026-11-09 07:31",
  "region": "서울",
  "source": "서울경제 · 한국경제",
  "items": [
+  {
+   "url": "https://www.sedaily.com/article/20111686",
+   "title": "서울 생애최초 매수자 두 달 새 24% 감소…2030은 외곽으로 몰렸다[코주부]",
+   "time": "2026-11-09 07:10",
+   "source": "서울경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "서울 생애최초 주택 매수자 두 달 새 감소\n집값 상승과 금리 부담에 관망세 돌아서\n2030세대 매수 수요는 서울 외곽 이동",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": ""
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026110608116",
+   "title": "\"전세요? 요즘 누가 해요\"…집주인도 세입자도 등 돌린 이유 [시장톡]",
+   "time": "2026-11-09 06:30",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "서울 아파트 월세 계약 비중 51.1% 달성\n고금리·대출 규제로 임대차 시장 월세화\n전세 외면하고 월세 선호 현상 심화",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": ""
+  },
+  {
+   "url": "https://www.sedaily.com/article/20111688",
+   "title": "서울 연말 분양 3750가구 쏟아진다…반포선 30억 원 시세차익 기대[집슐랭]",
+   "time": "2026-11-09 06:19",
+   "source": "서울경제",
+   "category": "시장동향",
+   "region": "서초구",
+   "summary": "서울 연말에 3750가구 일반분양 공급\n반포 단지 최대 30억 원 시세차익 기대\n강남권 알짜 단지 청약에 실수요자 집중",
+   "place": "서초구 반포동",
+   "latlng": [
+    37.508021,
+    126.989929
+   ],
+   "pin": "place",
+   "pin_name": "서래섬"
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026110834457",
+   "title": "종부세 '비거주 공제' 9억→12억→14억?…여론 악화에 움직인 與 [종합]",
+   "time": "2026-11-08 21:44",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "종부세 비거주 공제 상향 개편 논의\n기존 9억 원에서 12억·14억 원 안 검토\n여론 악화에 여당 중심으로 세제 수정",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": ""
+  },
   {
    "url": "https://www.sedaily.com/article/20111658",
    "title": "공급 메말랐던 서울…두달간 12곳서 3800가구 쏟아진다",
