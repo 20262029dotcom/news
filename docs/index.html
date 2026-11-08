@@ -8,8 +8,6 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="부동산뉴스">
 <title>경기·인천 부동산 뉴스</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <style>
 * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
 html, body { height:100%; }
@@ -76,7 +74,13 @@ body.show-map #mapPane { visibility:visible; }
   border-radius:10px; padding:8px 11px; box-shadow:0 2px 10px rgba(0,0,0,.12); font-size:11.5px; color:#444; }
 .legend div { display:flex; align-items:center; gap:6px; margin:2px 0; }
 .legend i { width:9px; height:9px; border-radius:50%; display:inline-block; }
-.leaflet-popup-content { margin:12px 14px !important; }
+.kdot { width:18px; height:18px; border-radius:50%; border:3px solid #fff; box-shadow:0 2px 6px rgba(0,0,0,.4); cursor:pointer; }
+.kdot.area { width:14px; height:14px; border-width:2px; opacity:.75; }  /* 단지명을 못 찾아 시·군·구 위치에 표시한 기사 */
+.kpop { position:relative; background:#fff; border-radius:12px; padding:12px 30px 12px 14px; width:250px;
+  box-shadow:0 6px 20px rgba(0,0,0,.2); font-family:inherit; white-space:normal; }
+.kpop:after { content:''; position:absolute; left:50%; bottom:-8px; margin-left:-8px;
+  border:8px solid transparent; border-bottom:0; border-top-color:#fff; }
+.kpop-x { position:absolute; top:6px; right:8px; border:none; background:none; font-size:18px; color:#99a; cursor:pointer; }
 .pop-cat { font-size:11px; font-weight:700; margin-bottom:4px; }
 .pop-ttl { font-size:13px; font-weight:700; color:#1a2a3a; line-height:1.45; margin-bottom:6px; }
 .pop-btn { font-size:12px; color:#0d6efd; background:none; border:none; padding:0; font-weight:700; cursor:pointer; font-family:inherit; }
@@ -116,53 +120,131 @@ body.show-map #mapPane { visibility:visible; }
 </div>
 
 <script>
+// 카카오 개발자 콘솔의 JavaScript 키 (등록한 도메인에서만 작동하므로 공개돼도 다른 곳에서 쓸 수 없음)
+const KAKAO_JS_KEY = '997b87d7a5a35bc160624fba963badb2';
+
 const CATS = {
   '토지/개발':'#27ae60', '도로확장':'#e67e22', '재건축/재개발':'#e74c3c',
   '상권개발':'#8e44ad', '시장동향':'#0d8ab5'
 };
 const REGION = {
-  gyeonggi: { name:'경기·인천', file:'news.json',  center:[37.45, 127.0],  zoom:9  },
-  seoul:    { name:'서울',      file:'seoul.json', center:[37.56, 126.99], zoom:11 },
+  gyeonggi: { name:'경기·인천', file:'news.json',  center:[37.45, 127.0],  level:10 },
+  seoul:    { name:'서울',      file:'seoul.json', center:[37.56, 126.99], level:8  },
 };
 const regionCode = () => (location.hash.slice(1) in REGION) ? location.hash.slice(1) : 'gyeonggi';
 const color = c => CATS[c] || '#0d6efd';
 const esc = s => String(s ?? '').replace(/[&<>"']/g, ch =>
   ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 const safeUrl = u => /^https:\/\/(www\.)?(joongboo|hankyung|sedaily)\.com\//.test(u || '') ? u : '';
+const pinLabel = n => n.pin === 'place' && n.pin_name ? n.pin_name : n.region;
 
-let news = [], filter = '전체', markers = {}, map;
+let news = [], filter = '전체', markers = {}, map = null, popup = null, mapReady = false;
 
-// ── 지도 ─────────────────────────────────────────
-function initMap() {
-  map = L.map('map', { zoomControl:false }).setView(REGION.gyeonggi.center, REGION.gyeonggi.zoom);
-  L.control.zoom({ position:'bottomright' }).addTo(map);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution:'© OpenStreetMap', maxZoom:18
-  }).addTo(map);
-  document.getElementById('legend').innerHTML =
-    Object.entries(CATS).map(([k,v]) => `<div><i style="background:${v}"></i>${k}</div>`).join('');
+// ── 카카오 지도 ───────────────────────────────────
+function loadKakao() {
+  return new Promise((resolve, reject) => {
+    if (!KAKAO_JS_KEY) return reject(new Error('no key'));
+    const s = document.createElement('script');
+    s.src = `https://dapi.kakao.com/v2/maps/sdk.js?appkey=${KAKAO_JS_KEY}&autoload=false`;
+    s.onload = () => (window.kakao && kakao.maps) ? kakao.maps.load(resolve) : reject(new Error('sdk'));
+    s.onerror = () => reject(new Error('load'));
+    document.head.appendChild(s);
+  });
 }
 
-function dot(c) {
-  return L.divIcon({ className:'', iconSize:[18,18], iconAnchor:[9,9],
-    html:`<div style="width:18px;height:18px;border-radius:50%;background:${c};border:3px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.35)"></div>` });
+async function initMap() {
+  document.getElementById('legend').innerHTML =
+    Object.entries(CATS).map(([k,v]) => `<div><i style="background:${v}"></i>${k}</div>`).join('');
+  try {
+    await loadKakao();
+    const R = REGION[regionCode()];
+    map = new kakao.maps.Map(document.getElementById('map'), {
+      center: new kakao.maps.LatLng(...R.center), level: R.level });
+    map.addControl(new kakao.maps.MapTypeControl(), kakao.maps.ControlPosition.TOPLEFT);
+    map.addControl(new kakao.maps.ZoomControl(), kakao.maps.ControlPosition.RIGHT);
+    kakao.maps.event.addListener(map, 'click', closePopup);
+    mapReady = true;
+    drawMarkers();
+  } catch (e) {
+    document.getElementById('map').innerHTML =
+      `<div class="empty"><div class="ico">🗺️</div>지도를 불러오지 못했습니다.<br>카카오 지도 키와 등록된 사이트 주소를 확인해 주세요.</div>`;
+  }
+}
+
+function closePopup() { if (popup) { popup.setMap(null); popup = null; } }
+
+function openPopup(n, pos) {
+  closePopup();
+  const el = document.createElement('div');
+  el.className = 'kpop';
+  el.innerHTML = `<button class="kpop-x" aria-label="닫기">×</button>
+    <div class="pop-cat" style="color:${color(n.category)}">${esc(n.category)} · ${esc(pinLabel(n))}</div>
+    <div class="pop-ttl">${esc(n.title)}</div>
+    <button class="pop-btn">요약 보기 ›</button>`;
+  el.querySelector('.kpop-x').onclick = closePopup;
+  el.querySelector('.pop-btn').onclick = () => goCard(n.id);
+  ['mousedown','touchstart','click'].forEach(ev => el.addEventListener(ev, e => e.stopPropagation()));
+  popup = new kakao.maps.CustomOverlay({ position: pos, content: el, yAnchor: 1.18, zIndex: 10 });
+  popup.setMap(map);
+}
+
+function drawMarkers() {
+  if (!mapReady) return;
+  closePopup();
+  Object.values(markers).forEach(m => m.overlay.setMap(null));
+  markers = {};
+  const data = filter === '전체' ? news : news.filter(n => n.category === filter);
+  const bounds = new kakao.maps.LatLngBounds(), used = {};
+  data.forEach(n => {
+    if (!n.latlng) return;
+    // 같은 위치 기사가 겹치지 않도록 살짝 흩뜨림
+    const k = n.latlng.join(','), same = used[k] = (used[k] || 0) + 1;
+    const pos = new kakao.maps.LatLng(n.latlng[0] + (same - 1) * 0.0007, n.latlng[1] + (same - 1) * 0.0009);
+    const el = document.createElement('div');
+    el.className = 'kdot' + (n.pin === 'place' ? '' : ' area');
+    el.style.background = color(n.category);
+    el.title = pinLabel(n);
+    el.onclick = e => { e.stopPropagation(); openPopup(n, pos); select(n.id); };
+    const overlay = new kakao.maps.CustomOverlay({ position: pos, content: el, yAnchor: 0.5, zIndex: 3 });
+    overlay.setMap(map);
+    markers[n.id] = { overlay, pos, n };
+    bounds.extend(pos);
+  });
+  fitAll(bounds, Object.keys(markers).length);
+}
+
+function fitAll(bounds, count) {
+  const R = REGION[regionCode()];
+  if (!count) { map.setCenter(new kakao.maps.LatLng(...R.center)); map.setLevel(R.level); return; }
+  map.setBounds(bounds || allBounds(), 50, 40, 90, 40);
+  if (map.getLevel() < 5) map.setLevel(5);
+}
+function allBounds() {
+  const b = new kakao.maps.LatLngBounds();
+  Object.values(markers).forEach(m => b.extend(m.pos));
+  return b;
 }
 
 function showMap(on) {
   document.body.classList.toggle('show-map', on);
   document.getElementById('tabMap').classList.toggle('on', on);
   document.getElementById('tabList').classList.toggle('on', !on);
-  if (on) setTimeout(() => map.invalidateSize(), 50);
+  if (on && mapReady) setTimeout(() => map.relayout(), 50);
 }
 
-// 카드의 지역 버튼 → 지도로 이동
+// 카드의 위치 버튼 → 지도로 이동
 function goMap(id) {
   const m = markers[id]; if (!m) return;
   showMap(true);
-  setTimeout(() => { map.setView(m.getLatLng(), 12); m.openPopup(); }, 80);
   select(id);
+  setTimeout(() => {
+    map.relayout();
+    map.setLevel(m.n.pin === 'place' ? 4 : 7);
+    map.setCenter(m.pos);
+    openPopup(m.n, m.pos);
+  }, 80);
 }
-// 지도 팝업의 "기사 보기" → 목록의 해당 카드로
+// 지도 팝업의 "요약 보기" → 목록의 해당 카드로
 function goCard(id) {
   showMap(false);
   select(id);
@@ -197,9 +279,10 @@ function render() {
       lastDay = day;
       const lines = (n.summary || '').split('\n').map(s => s.trim()).filter(Boolean).slice(0, 3);
       const url = safeUrl(n.url);
-      const rgn = n.region
-        ? (n.latlng ? `<button class="rgn" onclick="goMap(${n.id})">📍 ${esc(n.region)}</button>`
-                    : `<span class="rgn nomap">📍 ${esc(n.region)}</span>`) : '';
+      const label = pinLabel(n);
+      const rgn = label
+        ? (n.latlng ? `<button class="rgn" onclick="goMap(${n.id})">📍 ${esc(label)}</button>`
+                    : `<span class="rgn nomap">📍 ${esc(label)}</span>`) : '';
       return `${head}<article class="card" id="c${n.id}">
         <div class="top"><span class="cat" style="background:${color(n.category)}">${esc(n.category)}</span>
           ${rgn}<span class="tm">${esc((n.time || '').slice(11, 16))}</span></div>
@@ -210,24 +293,7 @@ function render() {
       </article>`;
     }).join('');
   }
-
-  // 마커: 기사 id로 연결 (카드 순서와 어긋나지 않게)
-  Object.values(markers).forEach(m => map.removeLayer(m));
-  markers = {};
-  const pts = [];
-  data.forEach(n => {
-    if (!n.latlng) return;
-    // 같은 지역 기사가 겹치지 않도록 살짝 흩뜨림
-    const same = pts.filter(p => p[0] === n.latlng[0] && p[1] === n.latlng[1]).length;
-    const ll = [n.latlng[0] + same * 0.004, n.latlng[1] + same * 0.004];
-    const m = L.marker(ll, { icon: dot(color(n.category)) }).addTo(map)
-      .bindPopup(`<div class="pop-cat" style="color:${color(n.category)}">${esc(n.category)} · ${esc(n.region)}</div>
-        <div class="pop-ttl">${esc(n.title)}</div>
-        <button class="pop-btn" onclick="goCard(${n.id})">요약 보기 ›</button>`, { maxWidth:260 });
-    markers[n.id] = m;
-    pts.push(n.latlng);
-  });
-  if (pts.length) map.fitBounds(pts, { padding:[40, 40], maxZoom:12 });
+  drawMarkers();
 }
 
 function dayLabel(d) {
@@ -255,13 +321,13 @@ async function load() {
     news = (d.items || []).map((n, i) => ({ ...n, id:i }));
     document.getElementById('meta').textContent =
       `${d.source || ''} · 최근 7일 ${news.length}건 · 업데이트 ${d.updated || '-'}`;
-    renderFilters();
-    render();
-    if (!news.some(n => n.latlng)) map.setView(R.center, R.zoom);
   } catch (e) {
-    news = []; renderFilters();
-    Object.values(markers).forEach(m => map.removeLayer(m)); markers = {};
+    news = [];
     document.getElementById('meta').textContent = '불러오기 실패';
+  }
+  renderFilters();
+  render();
+  if (!news.length && document.getElementById('meta').textContent === '불러오기 실패') {
     document.getElementById('listPane').innerHTML =
       `<div class="empty"><div class="ico">⚠️</div>뉴스 데이터를 불러오지 못했습니다.<br>잠시 후 새로고침해 주세요.</div>`;
   }
