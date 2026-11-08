@@ -1,8 +1,53 @@
 {
- "updated": "2026-11-08 07:30",
+ "updated": "2026-11-08 13:57",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741800",
+   "title": "한강 밑 뚫리는 김포~파주 연결길…한강터널 김포방향 굴진 시작",
+   "time": "2026-11-08 13:47",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "파주시",
+   "summary": "김포~파주 고속도로 한강터널 굴착공사 시작\n2029년 준공 목표로 서북부 광역교통망 구축\n파주시 송촌동 제2공구서 TBM 굴진식 개최",
+   "place": "파주시 한강터널",
+   "latlng": [
+    37.7599,
+    126.78015
+   ],
+   "pin": "region",
+   "pin_name": "파주시"
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741794",
+   "title": "‘전세 가뭄’ 속 경기도 주택공급 수도권 꼴찌… 행감서 도마",
+   "time": "2026-11-08 13:26",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "",
+   "summary": "경기도 주택 공급 실적 저조로 전세난 심화 지적\n수도권 전세가뭄 속 정부 공급 확대 기조 역행 질타\n경기도의회 행감서 주거 여건 미비점 집중 논의",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": ""
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741784",
+   "title": "[분양] 우미건설, ‘평택 고덕 우미린 더 프리미어’ 6일 견본주택 개관",
+   "time": "2026-11-08 13:21",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "평택시",
+   "summary": "평택 고덕 우미린 더 프리미어 견본주택 개관\n전용 84~111㎡ 총 623가구 분양 청약 일정 시작\n고덕국제화계획지구 Abc-33블록에 조성",
+   "place": "평택시 평택 고덕 우미린 더 프리미어",
+   "latlng": [
+    36.9925,
+    127.11272
+   ],
+   "pin": "region",
+   "pin_name": "평택시"
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741666",
    "title": "의정부시, 경제자유구역 지정…외투기업 유치 ‘총력’",
@@ -14,7 +59,10 @@
     37.73807,
     127.03397
    ],
-   "source": "중부일보"
+   "source": "중부일보",
+   "place": "",
+   "pin": "region",
+   "pin_name": "의정부시"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741720",
@@ -27,7 +75,10 @@
     37.14994,
     127.07746
    ],
-   "source": "중부일보"
+   "source": "중부일보",
+   "place": "",
+   "pin": "region",
+   "pin_name": "오산시"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741707",
@@ -40,7 +91,10 @@
     37.4289,
     126.98817
    ],
-   "source": "중부일보"
+   "source": "중부일보",
+   "place": "과천시 과천지식정보타운",
+   "pin": "region",
+   "pin_name": "과천시"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741687",
@@ -53,7 +107,10 @@
     37.2345,
     127.2017
    ],
-   "source": "중부일보"
+   "source": "중부일보",
+   "place": "용인시 김량장역",
+   "pin": "region",
+   "pin_name": "용인시 처인구"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741657",
@@ -66,7 +123,10 @@
     37.4098,
     126.6787
    ],
-   "source": "중부일보"
+   "source": "중부일보",
+   "place": "연수구 송도",
+   "pin": "region",
+   "pin_name": "인천 연수구"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741622",
@@ -79,7 +139,10 @@
     37.37989,
     126.80323
    ],
-   "source": "중부일보"
+   "source": "중부일보",
+   "place": "시흥시 거모지구",
+   "pin": "region",
+   "pin_name": "시흥시"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741522",
@@ -92,7 +155,10 @@
     37.89483,
     127.20073
    ],
-   "source": "중부일보"
+   "source": "중부일보",
+   "place": "포천시 6군단",
+   "pin": "region",
+   "pin_name": "포천시"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741437",
@@ -105,7 +171,10 @@
     36.9925,
     127.11272
    ],
-   "source": "중부일보"
+   "source": "중부일보",
+   "place": "평택시 평택지제역",
+   "pin": "region",
+   "pin_name": "평택시"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741414",
@@ -118,7 +187,10 @@
    "latlng": [
     37.61557,
     126.71578
-   ]
+   ],
+   "place": "김포시 김포아라지구",
+   "pin": "region",
+   "pin_name": "김포시"
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741381",
@@ -128,7 +200,10 @@
    "region": "",
    "summary": "GTX-A 삼성역 무정차 통과 2027년 상반기로 지연\n시공오류 원인 분석 및 보강방안 검토 진행\n철거 후 재시공 등 전방위적 검증 추진",
    "latlng": null,
-   "source": "중부일보"
+   "source": "중부일보",
+   "place": "강남구 삼성역",
+   "pin": "region",
+   "pin_name": ""
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741236",
@@ -138,7 +213,10 @@
    "region": "",
    "summary": "11월 경기 아파트 분양 물량 1만1천여 세대 예정\n전국 최다 규모로 평택·의정부·부천 등 집중\n전년 동월 대비 분양 예정 물량 약 58% 증가",
    "latlng": null,
-   "source": "중부일보"
+   "source": "중부일보",
+   "place": "",
+   "pin": "region",
+   "pin_name": ""
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741114",
@@ -148,7 +226,10 @@
    "region": "",
    "summary": "경기지역 같은 동 내 아파트 매매가 격차 확대\n역세권 및 대형 인프라 입지 단지로 매수 집중\n교통·상업 시설 접근성에 따라 집가격 양극화",
    "latlng": null,
-   "source": "중부일보"
+   "source": "중부일보",
+   "place": "",
+   "pin": "region",
+   "pin_name": ""
   }
  ]
 }
