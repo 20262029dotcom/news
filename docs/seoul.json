@@ -1,8 +1,121 @@
 {
- "updated": "2026-11-09 07:31",
+ "updated": "2026-11-09 13:33",
  "region": "서울",
  "source": "서울경제 · 한국경제",
  "items": [
+  {
+   "url": "https://www.sedaily.com/article/20111915",
+   "title": "요즘 서울 집값 심상찮더니 “팔겠다는 사람만 넘쳐”…매물 3개월새 ‘30%’ 급증",
+   "time": "2026-11-09 12:01",
+   "source": "서울경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "서울 아파트 매매 매물 8만 건 돌파\n강남3구 하락세 vs 나머지 지역 상승세\n석 달 새 아파트 매물 30% 급증",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/202611094347i",
+   "title": "서초구, 신반포 재건축 3개 단지 착공 '밀착 지원'",
+   "time": "2026-11-09 11:08",
+   "source": "한국경제",
+   "category": "재건축/재개발",
+   "region": "서초구",
+   "summary": "서초구 신반포 재건축 3개 단지 착공 지원\n신속지원단 네 번째 회의 열어 점검\n동절기 선행공사 안전관리 집중",
+   "place": "서초구 신반포",
+   "latlng": [
+    37.498389,
+    126.994998
+   ],
+   "pin": "place",
+   "pin_name": "신반포주유소",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20111868",
+   "title": "목동 첫 래미안…삼성물산, 13단지 재건축 시공권 확보",
+   "time": "2026-11-09 11:04",
+   "source": "서울경제",
+   "category": "재건축/재개발",
+   "region": "양천구",
+   "summary": "삼성물산 목동13단지 재건축 시공권 확보\n목동 일대 최초 래미안 브랜드 입성\n대신자산신탁 전체회의서 최종 선정",
+   "place": "양천구 목동13단지",
+   "latlng": [
+    37.51511,
+    126.866174
+   ],
+   "pin": "place",
+   "pin_name": "목동신시가지13단지아파트",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/202611094539i",
+   "title": "목동에 래미안 '첫발'…13단지 시공사에 삼성물산 최종 선정",
+   "time": "2026-11-09 10:59",
+   "source": "한국경제",
+   "category": "재건축/재개발",
+   "region": "양천구",
+   "summary": "목동13단지 재건축 시공사 삼성물산 선정\n목동 최초 래미안 브랜드 입성 확정\n토지등소유자 전체회의서 안건 통과",
+   "place": "양천구 목동13단지",
+   "latlng": [
+    37.51511,
+    126.866174
+   ],
+   "pin": "place",
+   "pin_name": "목동신시가지13단지아파트",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20111830",
+   "title": "‘30억 로또’ 디에이치 반포124…꽉 막혔던 서울 청약, 연말 3800가구 쏟아진다",
+   "time": "2026-11-09 10:16",
+   "source": "서울경제",
+   "category": "시장동향",
+   "region": "서초구",
+   "summary": "서울 연말 민간 분양 3800가구 공급\n디에이치 반포124 전용 84㎡ 30억 원대\n분양가상한제 적용 대단지 청약 관심",
+   "place": "서초구 디에이치 반포124",
+   "latlng": [
+    37.503289,
+    126.987443
+   ],
+   "pin": "place",
+   "pin_name": "디에이치반포124아파트 (예정)",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026110939036",
+   "title": "\"1억만 더 보태면 국평 갈텐데\"…서울 집주인 고민하는 까닭",
+   "time": "2026-11-09 09:04",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "서울 아파트 소형-중형 평형 격차 축소\n갈아타기 평균 비용 1.7억 원 기록\n1년 전 대비 매매가 격차 30% 감소",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026110938706",
+   "title": "목동에 첫 '래미안' 들어선다…13단지 2조4000억원 재건축",
+   "time": "2026-11-09 08:48",
+   "source": "한국경제",
+   "category": "재건축/재개발",
+   "region": "양천구",
+   "summary": "목동13단지 2조 4000억 재건축 사업\n기존 2280가구에서 최고 49층 3757가구로\n삼성물산 '래미안 모브13' 단지명 제안",
+   "place": "양천구 목동13단지",
+   "latlng": [
+    37.51511,
+    126.866174
+   ],
+   "pin": "place",
+   "pin_name": "목동신시가지13단지아파트",
+   "loc_v": 2
+  },
   {
    "url": "https://www.sedaily.com/article/20111686",
    "title": "서울 생애최초 매수자 두 달 새 24% 감소…2030은 외곽으로 몰렸다[코주부]",
@@ -14,7 +127,8 @@
    "place": "",
    "latlng": null,
    "pin": "region",
-   "pin_name": ""
+   "pin_name": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110608116",
@@ -27,7 +141,8 @@
    "place": "",
    "latlng": null,
    "pin": "region",
-   "pin_name": ""
+   "pin_name": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20111688",
@@ -39,11 +154,12 @@
    "summary": "서울 연말에 3750가구 일반분양 공급\n반포 단지 최대 30억 원 시세차익 기대\n강남권 알짜 단지 청약에 실수요자 집중",
    "place": "서초구 반포동",
    "latlng": [
-    37.508021,
-    126.989929
+    37.505145,
+    127.013359
    ],
    "pin": "place",
-   "pin_name": "서래섬"
+   "pin_name": "반포동",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110834457",
@@ -56,7 +172,8 @@
    "place": "",
    "latlng": null,
    "pin": "region",
-   "pin_name": ""
+   "pin_name": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20111658",
@@ -69,7 +186,8 @@
    "place": "",
    "latlng": null,
    "pin": "region",
-   "pin_name": ""
+   "pin_name": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20111655",
@@ -82,7 +200,8 @@
    "place": "",
    "latlng": null,
    "pin": "region",
-   "pin_name": ""
+   "pin_name": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110833101",
@@ -95,7 +214,8 @@
    "place": "",
    "latlng": null,
    "pin": "region",
-   "pin_name": ""
+   "pin_name": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110832131",
@@ -111,7 +231,8 @@
     126.973473
    ],
    "pin": "place",
-   "pin_name": "한강맨션"
+   "pin_name": "한강맨션",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110832121",
@@ -124,7 +245,8 @@
    "place": "",
    "latlng": null,
    "pin": "region",
-   "pin_name": ""
+   "pin_name": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110586266",
@@ -140,7 +262,8 @@
     127.024498
    ],
    "pin": "place",
-   "pin_name": "현대아파트"
+   "pin_name": "현대아파트",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20111570",
@@ -156,7 +279,8 @@
     126.924353
    ],
    "pin": "place",
-   "pin_name": "전문건설회관"
+   "pin_name": "전문건설회관",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110829047",
@@ -172,7 +296,8 @@
     127.060499
    ],
    "pin": "place",
-   "pin_name": "라브르27아파트 (예정)"
+   "pin_name": "라브르27아파트 (예정)",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110826307",
@@ -188,7 +313,8 @@
     127.015352
    ],
    "pin": "place",
-   "pin_name": "한남라테라스"
+   "pin_name": "한남라테라스",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20111427",
@@ -204,7 +330,8 @@
    ],
    "pin": "place",
    "pin_name": "은마아파트",
-   "place": "강남구 대치동 은마아파트"
+   "place": "강남구 대치동 은마아파트",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20111382",
@@ -215,12 +342,13 @@
    "region": "강남구",
    "summary": "은마아파트 재초환 부담금 4.6억 원 상회\n공사비 상승에 재초환 부담까지 겹쳐\n강남권 재건축 사업 추진의 변수로 부상",
    "latlng": [
-    37.5177,
-    127.0473
+    37.497418,
+    127.065327
    ],
-   "pin": "region",
-   "pin_name": "강남구",
-   "place": "강남구 대치동 은마아파트"
+   "pin": "place",
+   "pin_name": "은마아파트",
+   "place": "강남구 대치동 은마아파트",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20111373",
@@ -231,12 +359,13 @@
    "region": "강남구",
    "summary": "은마아파트 재초환 부담금 통지로 강남 재건축 속도 조절 우려\n공사비 상승과 분담금 증가 속 재초환이 핵심 변수로 떠올라\n추가 부담금과 재초환 부담이 겹쳐 조합원 부담이 한층 가중됨",
    "latlng": [
-    37.5177,
-    127.0473
+    37.497418,
+    127.065327
    ],
-   "pin": "region",
-   "pin_name": "강남구",
-   "place": "강남구 대치동 은마아파트"
+   "pin": "place",
+   "pin_name": "은마아파트",
+   "place": "강남구 대치동 은마아파트",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110617271",
@@ -247,12 +376,13 @@
    "region": "강남구",
    "summary": "은마아파트 조합원에 1인당 4.6억 원의 재초환 부담금 통지\n전용 84㎡는 추가 분담금을 더해 부담금이 9억 원에 달함\n강남구 재건축 단지 전반에 재초환 비상이 걸림",
    "latlng": [
-    37.5177,
-    127.0473
+    37.497418,
+    127.065327
    ],
-   "pin": "region",
-   "pin_name": "강남구",
-   "place": "강남구 대치동 은마아파트"
+   "pin": "place",
+   "pin_name": "은마아파트",
+   "place": "강남구 대치동 은마아파트",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20111287",
@@ -263,12 +393,13 @@
    "region": "강남구",
    "summary": "대치동 은마아파트 재건축 조합원 1인당 4.6억 부담금 통지\n공사비 상승에 따른 추가 분담금과 더해져 조합원 부담 가중\n강남권 재건축 사업 전반의 속도 지연 가능성 제기",
    "latlng": [
-    37.5177,
-    127.0473
+    37.497418,
+    127.065327
    ],
-   "pin": "region",
-   "pin_name": "강남구",
-   "place": "강남구 대치동 은마아파트"
+   "pin": "place",
+   "pin_name": "은마아파트",
+   "place": "강남구 대치동 은마아파트",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110614281",
@@ -281,7 +412,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110614371",
@@ -297,7 +429,8 @@
    ],
    "pin": "place",
    "pin_name": "목화아파트",
-   "place": "영등포구 여의도 목화아파트"
+   "place": "영등포구 여의도 목화아파트",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110614291",
@@ -308,12 +441,13 @@
    "region": "서초구",
    "summary": "신반포22차가 3.3㎡당 1억 3천만 원대 분양가를 책정함\n30가구 미만 분양으로 분양가 상한제 규제를 피하게 됨\n고분양가 타당성과 강남 매수 심리에 미칠 영향에 관심 집중",
    "latlng": [
-    37.4835,
-    127.0322
+    37.512114,
+    127.006655
    ],
-   "pin": "region",
-   "pin_name": "서초구",
-   "place": "서초구 신반포22차"
+   "pin": "place",
+   "pin_name": "IBK기업은행365 한신22차아파트",
+   "place": "서초구 신반포22차",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20111256",
@@ -326,7 +460,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/202611060326i",
@@ -337,12 +472,13 @@
    "region": "영등포구",
    "summary": "여의도 목화아파트 재건축안이 통합심의를 통과하여 416가구로 신축\n종로구 창신1구역 3지구 정비사업계획도 함께 통과함\n서울 도심 정비사업 속도가 한층 빨라질 것으로 기대",
    "latlng": [
-    37.5262,
-    126.8959
+    37.526001,
+    126.932634
    ],
-   "pin": "region",
-   "pin_name": "영등포구",
-   "place": "영등포구 여의도 목화아파트"
+   "pin": "place",
+   "pin_name": "목화아파트",
+   "place": "영등포구 여의도 목화아파트",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110608437",
@@ -355,7 +491,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/202611060846i",
@@ -368,7 +505,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20111072",
@@ -384,7 +522,8 @@
    ],
    "pin": "place",
    "pin_name": "래미안원베일리아파트",
-   "place": "서초구 래미안원베일리"
+   "place": "서초구 래미안원베일리",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20111008",
@@ -397,7 +536,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110699296",
@@ -413,7 +553,8 @@
    ],
    "pin": "place",
    "pin_name": "래미안원베일리아파트",
-   "place": "서초구 반포동 래미안원베일리"
+   "place": "서초구 반포동 래미안원베일리",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110699267",
@@ -429,7 +570,8 @@
    ],
    "pin": "place",
    "pin_name": "수락파크빌",
-   "place": "노원구 수락파크빌"
+   "place": "노원구 수락파크빌",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110698277",
@@ -445,7 +587,8 @@
    ],
    "pin": "place",
    "pin_name": "고덕강일3단지토지임대부분양아파트 (2027년05월예정)",
-   "place": "강동구 고덕강일3단지"
+   "place": "강동구 고덕강일3단지",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/202611058319i",
@@ -461,7 +604,8 @@
    ],
    "pin": "region",
    "pin_name": "서초구",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20110895",
@@ -474,7 +618,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20110897",
@@ -487,7 +632,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20110903",
@@ -500,7 +646,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110589761",
@@ -511,12 +658,13 @@
    "region": "종로구",
    "summary": "서울시가 정비사업 인허가를 표준화하여 재개발 기간 대폭 축소\n동의율 75%를 달성하고도 지연되던 종로구 창신동 등 사업 가속\n5년 내 31만 가구 착공을 목표로 행정 절차 병목 해소 추진",
    "latlng": [
-    37.570016,
-    127.015331
+    37.575225,
+    127.012828
    ],
    "pin": "place",
-   "pin_name": "청계천 애완동물거리",
-   "place": "종로구 창신동"
+   "pin_name": "창신동",
+   "place": "종로구 창신동",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110589771",
@@ -529,7 +677,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110589821",
@@ -542,7 +691,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110589801",
@@ -558,7 +708,8 @@
    ],
    "pin": "place",
    "pin_name": "서울고덕강일 공공주택지구",
-   "place": "강동구 고덕강일지구"
+   "place": "강동구 고덕강일지구",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20110819",
@@ -571,7 +722,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/202611058713i",
@@ -584,7 +736,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20110794",
@@ -597,7 +750,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/202611020763i",
@@ -613,7 +767,8 @@
    ],
    "pin": "region",
    "pin_name": "노원구",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/202611058693i",
@@ -626,7 +781,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/202611058682i",
@@ -642,7 +798,8 @@
    ],
    "pin": "place",
    "pin_name": "스위스 그랜드 호텔",
-   "place": "서대문구 스위스그랜드호텔"
+   "place": "서대문구 스위스그랜드호텔",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110580686",
@@ -655,7 +812,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20110636",
@@ -668,7 +826,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20110607",
@@ -679,12 +838,13 @@
    "region": "중구",
    "summary": "오세훈 서울시장이 세운4구역 재개발 심의 지연에 국가유산청 비판\n영향평가 요구와 매장유산 심의 보류로 정비사업이 장기 차질\n서울시는 법적 근거 없는 과도한 규제가 사업을 막는다고 지적",
    "latlng": [
-    37.56366,
-    126.99751
+    37.566822,
+    127.002221
    ],
-   "pin": "region",
-   "pin_name": "중구",
-   "place": "중구 세운4구역"
+   "pin": "place",
+   "pin_name": "을지스타몰 4구역",
+   "place": "중구 세운4구역",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20110578",
@@ -697,7 +857,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/202611057471i",
@@ -710,7 +871,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20110572",
@@ -723,7 +885,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20110481",
@@ -734,12 +897,13 @@
    "region": "성북구",
    "summary": "이재명 대통령이 성북구 장위동을 찾아 공공재개발 추진 의지 강조\n재개발 동의율 완화 및 표준건축비 보장 등 지원책 발표\n오세훈 서울시장은 공공 만능론을 경계하며 대립 구도 형성",
    "latlng": [
-    37.616169,
-    127.052039
+    37.617057,
+    127.049565
    ],
    "pin": "place",
-   "pin_name": "장위동김진흥가옥",
-   "place": "성북구 장위동"
+   "pin_name": "장위동",
+   "place": "성북구 장위동",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/202611057526i",
@@ -752,7 +916,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20110509",
@@ -768,7 +933,8 @@
    ],
    "pin": "region",
    "pin_name": "서초구",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110573456",
@@ -781,7 +947,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/202611057436i",
@@ -794,7 +961,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110444596",
@@ -807,7 +975,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20110382",
@@ -820,7 +989,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20110383",
@@ -833,7 +1003,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20110381",
@@ -843,10 +1014,14 @@
    "category": "재건축/재개발",
    "region": "",
    "summary": "오세훈 시장 장위동 방문 대통령에 창신동 방문 요청\n공공재개발과 민간 정비사업 균형 지원 촉구\n창신동 사업 지연 및 공급 기여도 점검 강조",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "place": "성북구 장위동"
+   "latlng": [
+    37.617057,
+    127.049565
+   ],
+   "pin": "place",
+   "pin_name": "장위동",
+   "place": "성북구 장위동",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20110338",
@@ -859,7 +1034,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20110326",
@@ -872,7 +1048,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20110320",
@@ -885,7 +1062,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110462321",
@@ -898,7 +1076,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/2026110462341",
@@ -911,7 +1090,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20110194",
@@ -927,7 +1107,8 @@
    ],
    "pin": "place",
    "pin_name": "북아현2재정비촉진구역주택재개발정비사업조합",
-   "place": "서대문구 북아현2구역"
+   "place": "서대문구 북아현2구역",
+   "loc_v": 2
   },
   {
    "url": "https://www.hankyung.com/article/202611045204H",
@@ -938,12 +1119,13 @@
    "region": "강남구",
    "summary": "압구정 재건축 단지 고점 대비 실거래가 하락\n폭등 이전 가격과 비교 시 여전히 높은 수준 유지\n강남권 일부 조정 속 강북권 집값은 상승세 지속",
    "latlng": [
-    37.526756,
-    127.039152
+    37.530669,
+    127.030809
    ],
    "pin": "place",
-   "pin_name": "압구정로데오거리",
-   "place": "강남구 압구정동"
+   "pin_name": "압구정동",
+   "place": "강남구 압구정동",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20110175",
@@ -959,7 +1141,8 @@
    ],
    "pin": "place",
    "pin_name": "상계2재정비촉진구역 주택재개발정비사업조합",
-   "place": "노원구 상계2구역"
+   "place": "노원구 상계2구역",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20109951",
@@ -970,12 +1153,13 @@
    "region": "",
    "summary": "정부 집값 경고에도 서울 외곽 매매 지속\n성북구 길음동 등 일부 단지 신고가 경신\n서울 시내 공급 절벽 우려로 시장 반응 엇갈려",
    "latlng": [
-    37.603476,
-    127.02453
+    37.607666,
+    127.023344
    ],
    "pin": "place",
-   "pin_name": "오롯한손길",
-   "place": "성북구 길음동"
+   "pin_name": "길음동",
+   "place": "성북구 길음동",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20109917",
@@ -988,7 +1172,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20109877",
@@ -1001,7 +1186,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20109853",
@@ -1014,7 +1200,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20109821",
@@ -1027,7 +1214,8 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
-   "place": ""
+   "place": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.sedaily.com/article/20109812",
@@ -1038,12 +1226,13 @@
    "region": "서초구",
    "summary": "서초구 신반포22차 전용 84㎡ 분양가 40억 상회\n30가구 미만 일반분양으로 분상제 규제 피해\n국민평형 기준 역대 최고 분양가 기록 전망",
    "latlng": [
-    37.4835,
-    127.0322
+    37.512114,
+    127.006655
    ],
-   "pin": "region",
-   "pin_name": "서초구",
-   "place": "서초구 신반포22차"
+   "pin": "place",
+   "pin_name": "IBK기업은행365 한신22차아파트",
+   "place": "서초구 신반포22차",
+   "loc_v": 2
   }
  ]
 }

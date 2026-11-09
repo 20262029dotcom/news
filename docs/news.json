@@ -1,8 +1,59 @@
 {
- "updated": "2026-11-09 07:30",
+ "updated": "2026-11-09 13:32",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741909",
+   "title": "서울 서남권 연결·GTX 오이도 연장...시흥시, 국가철도망 반영 건의",
+   "time": "2026-11-09 13:07",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "시흥시",
+   "summary": "시흥시가 신천~신림선과 GTX-C 오이도역 연장을 건의함.\n신천~신림선은 신천역에서 서울 신림역을 잇는 철도 구상임.\n제5차 국가철도망 구축계획 반영을 국토교통부에 요청함.",
+   "place": "시흥시 오이도역",
+   "latlng": [
+    37.361703,
+    126.738404
+   ],
+   "pin": "place",
+   "pin_name": "오이도역 4호선",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741907",
+   "title": "“물류터미널 연장 말고 이전”...군포시민 1천여 명 거리로",
+   "time": "2026-11-09 13:05",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "군포시",
+   "summary": "군포시민 1천여 명이 군포복합물류터미널 이전을 촉구함.\n범시민추진위원회가 출범식을 열고 이전을 강력히 요구함.\n터미널 운영기간 연장 반대와 주민 피해 대책 마련을 주장함.",
+   "place": "군포시 군포복합물류터미널",
+   "latlng": [
+    37.330947,
+    126.937223
+   ],
+   "pin": "place",
+   "pin_name": "군포복합물류터미널",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741893",
+   "title": "경기도, 재정난에 광교청사 매각 검토…최대 1조 원대 전망",
+   "time": "2026-11-09 11:15",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "수원시 영통구",
+   "summary": "경기도가 재정난 해소를 위해 광교 도청사 매각을 검토함.\n매각 대상은 경기융합타운 내 토지·건물로 감정가 8천억대임.\n광교신도시 입지 가치를 감안하면 최대 1조 원대로 추산됨.",
+   "place": "수원시 영통구 경기융합타운",
+   "latlng": [
+    37.289233,
+    127.053404
+   ],
+   "pin": "place",
+   "pin_name": "광교경기융합타운",
+   "loc_v": 2
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741841",
    "title": "경기 아파트값 상승률 8주째 서울 상회",
@@ -17,7 +68,8 @@
     127.1148
    ],
    "pin": "region",
-   "pin_name": "용인시 기흥구"
+   "pin_name": "용인시 기흥구",
+   "loc_v": 2
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741840",
@@ -33,7 +85,8 @@
     127.039366
    ],
    "pin": "place",
-   "pin_name": "의정부우정 공공주택지구"
+   "pin_name": "의정부우정 공공주택지구",
+   "loc_v": 2
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741808",
@@ -49,7 +102,8 @@
     126.541728
    ],
    "pin": "place",
-   "pin_name": "대명항대명포구"
+   "pin_name": "대명항대명포구",
+   "loc_v": 2
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741800",
@@ -65,7 +119,8 @@
     126.700441
    ],
    "pin": "place",
-   "pin_name": "한강터널홍보관"
+   "pin_name": "한강터널홍보관",
+   "loc_v": 2
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741794",
@@ -78,7 +133,8 @@
    "place": "",
    "latlng": null,
    "pin": "region",
-   "pin_name": ""
+   "pin_name": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741784",
@@ -94,7 +150,8 @@
     127.029265
    ],
    "pin": "place",
-   "pin_name": "평택고덕우미린더프리미어아파트 (2029년05월예정)"
+   "pin_name": "평택고덕우미린더프리미어아파트 (2029년05월예정)",
+   "loc_v": 2
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741775",
@@ -110,7 +167,8 @@
     126.4289
    ],
    "pin": "region",
-   "pin_name": "인천 옹진군"
+   "pin_name": "인천 옹진군",
+   "loc_v": 2
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741745",
@@ -126,7 +184,8 @@
     126.588694
    ],
    "pin": "place",
-   "pin_name": "물치도"
+   "pin_name": "물치도",
+   "loc_v": 2
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741666",
@@ -142,7 +201,8 @@
    "source": "중부일보",
    "place": "",
    "pin": "region",
-   "pin_name": "의정부시"
+   "pin_name": "의정부시",
+   "loc_v": 2
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741720",
@@ -158,7 +218,8 @@
    "source": "중부일보",
    "place": "",
    "pin": "region",
-   "pin_name": "오산시"
+   "pin_name": "오산시",
+   "loc_v": 2
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741707",
@@ -174,7 +235,8 @@
    "source": "중부일보",
    "place": "과천시 과천지식정보타운",
    "pin": "place",
-   "pin_name": "과천린파밀리에아파트"
+   "pin_name": "과천린파밀리에아파트",
+   "loc_v": 2
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741687",
@@ -190,7 +252,8 @@
    "source": "중부일보",
    "place": "용인시 김량장역",
    "pin": "place",
-   "pin_name": "용인중앙시장역 에버라인"
+   "pin_name": "용인중앙시장역 에버라인",
+   "loc_v": 2
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741657",
@@ -206,7 +269,8 @@
    "source": "중부일보",
    "place": "연수구 송도",
    "pin": "place",
-   "pin_name": "송도한옥마을"
+   "pin_name": "송도한옥마을",
+   "loc_v": 2
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741622",
@@ -222,7 +286,8 @@
    "source": "중부일보",
    "place": "시흥시 거모지구",
    "pin": "place",
-   "pin_name": "시흥거모 공공주택지구"
+   "pin_name": "시흥거모 공공주택지구",
+   "loc_v": 2
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741522",
@@ -238,7 +303,8 @@
    "source": "중부일보",
    "place": "포천시 6군단",
    "pin": "region",
-   "pin_name": "포천시"
+   "pin_name": "포천시",
+   "loc_v": 2
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741437",
@@ -254,7 +320,8 @@
    "source": "중부일보",
    "place": "평택시 평택지제역",
    "pin": "place",
-   "pin_name": "평택지제역"
+   "pin_name": "평택지제역",
+   "loc_v": 2
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741414",
@@ -270,7 +337,8 @@
    ],
    "place": "김포시 김포아라지구",
    "pin": "region",
-   "pin_name": "김포시"
+   "pin_name": "김포시",
+   "loc_v": 2
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741381",
@@ -283,7 +351,8 @@
    "source": "중부일보",
    "place": "강남구 삼성역",
    "pin": "region",
-   "pin_name": ""
+   "pin_name": "",
+   "loc_v": 2
   },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741236",
@@ -296,7 +365,8 @@
    "source": "중부일보",
    "place": "",
    "pin": "region",
-   "pin_name": ""
+   "pin_name": "",
+   "loc_v": 2
   }
  ]
 }
