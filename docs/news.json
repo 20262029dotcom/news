@@ -1,8 +1,93 @@
 {
- "updated": "2026-11-09 13:32",
+ "updated": "2026-11-09 18:57",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741983",
+   "title": "“도시기본계획 ‘장밋빛 인구계획’ 바로잡아야”… 경기도의회서도 지적",
+   "time": "2026-11-09 18:38",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "경기도",
+   "summary": "경기도의회에서 도시·군기본계획 인구 뻥튀기 지적\n승인권자인 경기도의 부실 검증과 예산 낭비 추궁\n난개발 방지 및 현실적인 도시계획 수립 촉구",
+   "place": "",
+   "latlng": [
+    37.28847,
+    127.05352
+   ],
+   "pin": "region",
+   "pin_name": "경기도",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741981",
+   "title": "경기도 시·군의 운명걸린 철도망 구축 구상…5차 국가철도망 구축계획 포함 여부에 희비 엇갈린다",
+   "time": "2026-11-09 17:58",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "경기도",
+   "summary": "정부 5차 국가철도망 구축계획 지자체 의견 수렴 착수\n경기도 시·군 건의 40개 철도 사업 포함 여부 주목\n반영 여부에 따라 철도망 확보 및 도시발전 향방 갈려",
+   "place": "",
+   "latlng": [
+    37.28847,
+    127.05352
+   ],
+   "pin": "region",
+   "pin_name": "경기도",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741969",
+   "title": "과천시, ‘제5차 국가철도망 구축계획 수립’과 관련 시민들의 적극적인 참여 당부",
+   "time": "2026-11-09 17:18",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "과천시",
+   "summary": "과천시가 5차 국가철도망 구축계획 관련 시민 참여 당부\n지역 철도망 확충 필요성 알리고 사전 설문조사 안내\n철도 정책에 과천시 의견 반영 위한 협조 요청",
+   "place": "",
+   "latlng": [
+    37.4289,
+    126.98817
+   ],
+   "pin": "region",
+   "pin_name": "과천시",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741967",
+   "title": "대체매립지 후보 2곳 적합하다는데 공개 지연… “지자체 인센티브 협의가 먼저”",
+   "time": "2026-11-09 17:10",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "인천시",
+   "summary": "수도권 대체매립지 4차 공모 민간 후보지 2곳 적합 판정\n지자체 인센티브 부족 판정으로 후보지 공개 재연기\n환경부와 4자 협의체가 인센티브 방안 추가 논의",
+   "place": "",
+   "latlng": [
+    37.456,
+    126.7052
+   ],
+   "pin": "region",
+   "pin_name": "인천시",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741945",
+   "title": "GTX-D·E 운명 가를 제5차 국가철도망 계획…‘연내 고시’ 물 건너가나",
+   "time": "2026-11-09 16:34",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "인천시",
+   "summary": "제5차 국가철도망 구축계획 연내 확정·고시 불투명\nGTX-D·E 포함 인천시 건의 노선 발표 연기 가능성\n총사업비 한도 협의 지연으로 13일 의견수렴청취 진행",
+   "place": "",
+   "latlng": [
+    37.456,
+    126.7052
+   ],
+   "pin": "region",
+   "pin_name": "인천시",
+   "loc_v": 2
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741909",
    "title": "서울 서남권 연결·GTX 오이도 연장...시흥시, 국가철도망 반영 건의",
