@@ -1,8 +1,25 @@
 {
- "updated": "2026-11-09 18:57",
+ "updated": "2026-11-10 07:40",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741988",
+   "title": "LH, 광교·안성 주택 21호 무순위 공급…청약 통장 없어도 신청 가능",
+   "time": "2026-11-09 19:10",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "수원시",
+   "summary": "LH 경기남부본부 주택 21호 무순위 공급\n수원 광교 및 안성 공도읍 일대 대상\n청약 통장 없이 신청 가능하며 23~24일 접수",
+   "place": "수원시 광교신도시",
+   "latlng": [
+    37.277665,
+    127.066833
+   ],
+   "pin": "place",
+   "pin_name": "광교신도시충전소",
+   "loc_v": 2
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741983",
    "title": "“도시기본계획 ‘장밋빛 인구계획’ 바로잡아야”… 경기도의회서도 지적",
@@ -435,20 +452,6 @@
    "latlng": null,
    "source": "중부일보",
    "place": "강남구 삼성역",
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741236",
-   "title": "11월 경기도 아파트 분양 전국 최다…평택·의정부·부천 집중",
-   "time": "2026-11-02 17:25",
-   "category": "시장동향",
-   "region": "",
-   "summary": "11월 경기 아파트 분양 물량 1만1천여 세대 예정\n전국 최다 규모로 평택·의정부·부천 등 집중\n전년 동월 대비 분양 예정 물량 약 58% 증가",
-   "latlng": null,
-   "source": "중부일보",
-   "place": "",
    "pin": "region",
    "pin_name": "",
    "loc_v": 2
