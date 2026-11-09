@@ -336,9 +336,12 @@ def geocode(region, cfg, cache):
     return coords
 
 
-def kakao_search(query, kkey):
-    """카카오 키워드 장소 검색. 실패하면 None, 결과가 없으면 []."""
-    url = ("https://dapi.kakao.com/v2/local/search/keyword.json?size=5&query="
+LOC_VERSION = 2  # 위치 찾는 방식이 바뀌면 올린다 → 모든 기사 위치를 한 번 다시 찾음
+
+
+def kakao_get(kind, query, kkey):
+    """카카오 로컬 검색 (kind: keyword=장소, address=주소). 실패하면 None, 결과가 없으면 []."""
+    url = (f"https://dapi.kakao.com/v2/local/search/{kind}.json?size=5&query="
            + urllib.parse.quote(query))
     req = urllib.request.Request(url, headers={"Authorization": f"KakaoAK {kkey}", "User-Agent": UA})
     try:
@@ -351,27 +354,55 @@ def kakao_search(query, kkey):
     return None
 
 
+def is_district(w):
+    """'서초구', '의정부시', '옹진군' 같은 시·군·구 이름인지 ('우정지구', '4구역'은 아님)."""
+    return bool(re.fullmatch(r"[가-힣]{1,4}(시|군|구)", w)) and not w.endswith(("지구", "구역"))
+
+
+def is_dong(w):
+    """'반포동', '창신동', '장위동', '종로1가', '진접읍' 같은 동·읍·면 이름인지."""
+    return bool(re.fullmatch(r"[가-힣]{1,5}[0-9]?(동|가|읍|면|리)", w)) and not w.endswith(("단지", "마을"))
+
+
 def find_place(place, region, cfg, cache, kkey):
-    """단지·지구 이름으로 좌표를 찾는다. 기사 지역(시·군·구)과 주소가 맞는 결과만 쓴다."""
-    ck = "place:" + place
+    """단지·지구 이름으로 좌표를 찾는다. 기사 지역(시·군·구)과 주소가 맞는 결과만 쓴다.
+    - 마지막 낱말이 동·읍·면이면 주소 검색으로 그 동의 위치를 쓴다 (장소 검색은 엉뚱한 가게가 나옴)
+    - 단지명은 '시·군·구 + 이름' → '이름' → '이름 + 아파트' 순서로 찾아본다"""
+    ck = f"place{LOC_VERSION}:" + place
     if ck in cache:
         return cache[ck]
-    docs = kakao_search(place, kkey)
-    if docs is None:
-        return None  # 일시 오류는 캐시하지 않고 다음에 다시
-    words = [w for w in re.split(r"\s+", f"{region} {place}") if re.search(r"(시|군|구)$", w)]
+    tokens = place.split()
+    districts = [w for w in (region.split() + tokens) if is_district(w)]
+    own = cfg["geo_prefix"][1]
     hit = None
-    for d in docs:
-        addr = d.get("address_name", "")
-        if not addr.startswith(cfg["sido"]):
-            continue
-        if words and not any(w in addr for w in words):
-            continue
-        hit = {"latlng": [round(float(d["y"]), 6), round(float(d["x"]), 6)],
-               "name": d.get("place_name", "")}
-        break
+
+    if tokens and is_dong(tokens[-1]):
+        q = place if place.startswith(own) else cfg["geo_prefix"][0] + place
+        docs = kakao_get("address", q, kkey)
+        if docs is None:
+            return None  # 일시 오류는 캐시하지 않고 다음에 다시
+        for d in docs:
+            addr = d.get("address_name", "")
+            if addr.startswith(cfg["sido"]) and (not districts or any(w in addr for w in districts)):
+                hit = {"latlng": [round(float(d["y"]), 6), round(float(d["x"]), 6)], "name": tokens[-1]}
+                break
+    else:
+        core = " ".join(t for t in tokens if not is_district(t) and not t.startswith(own)) or place
+        queries = list(dict.fromkeys([place, core] + ([core + " 아파트"] if not core.endswith("아파트") else [])))
+        for q in queries:
+            docs = kakao_get("keyword", q, kkey)
+            if docs is None:
+                return None
+            for d in docs:
+                addr = d.get("address_name", "")
+                if addr.startswith(cfg["sido"]) and (not districts or any(w in addr for w in districts)):
+                    hit = {"latlng": [round(float(d["y"]), 6), round(float(d["x"]), 6)],
+                           "name": d.get("place_name", "")}
+                    break
+            time.sleep(0.2)
+            if hit:
+                break
     cache[ck] = hit
-    time.sleep(0.2)
     return hit
 
 
@@ -381,9 +412,10 @@ def locate(item, cfg, cache, kkey):
     if place and kkey:
         hit = find_place(place, region, cfg, cache, kkey)
         if hit:
-            item.update(latlng=hit["latlng"], pin="place", pin_name=hit["name"])
+            item.update(latlng=hit["latlng"], pin="place", pin_name=hit["name"], loc_v=LOC_VERSION)
             return
-    item.update(latlng=geocode(region, cfg, cache), pin="region", pin_name=region)
+    item.update(latlng=geocode(region, cfg, cache), pin="region", pin_name=region,
+                loc_v=LOC_VERSION if kkey else 0)
 
 
 def load_json(path, default):
@@ -460,8 +492,7 @@ def run_region(code, key, kkey, cache):
                 it["place"] = (res.get(i) or {}).get("place", "").strip()
             log(f"예전 기사 {len(need_place)}건에 단지·지구명 추가")
     for it in items:
-        if "pin" not in it or (kkey and it.get("pin") == "region" and it.get("place")
-                               and ("place:" + it["place"]) not in cache):
+        if "pin" not in it or (kkey and it.get("loc_v") != LOC_VERSION):
             locate(it, cfg, cache, kkey)
 
     items.sort(key=lambda it: it.get("time", ""), reverse=True)
@@ -484,6 +515,8 @@ def main():
         log("[알림] KAKAO_REST_KEY가 없어 시·군·구 위치로만 표시합니다")
     only = os.environ.get("ONLY_REGION", "").strip()
     cache = load_json(GEO_PATH, {})
+    for k in [k for k in cache if k.startswith("place") and not k.startswith(f"place{LOC_VERSION}:")]:
+        del cache[k]
     failed = []
     for code in REGIONS:
         if only and code != only:
