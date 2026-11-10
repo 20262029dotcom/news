@@ -1,8 +1,101 @@
 {
- "updated": "2026-11-10 18:53",
+ "updated": "2026-11-11 07:36",
  "region": "서울",
- "source": "한국경제 · 서울경제",
+ "source": "서울경제 · 한국경제",
  "items": [
+  {
+   "url": "https://www.sedaily.com/article/20112589",
+   "title": "9월 서울 상업용 빌딩 거래액 ‘반토막’…대형 매매 실종 여파",
+   "time": "2026-11-11 06:40",
+   "source": "서울경제",
+   "category": "상권개발",
+   "region": "",
+   "summary": "9월 서울 상업용 빌딩 거래액 급감\n1000억원 이상 대형 매매 거래 실종\n전달 대비 거래액 40% 이상 감소",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026111080226",
+   "title": "\"이렇게 오래 오른 적 없었다\"…서울 집값 심상찮은 기록 [시장톡]",
+   "time": "2026-11-11 06:30",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "서울 아파트값 91주 연속 상승세 기록\n내년 1월 100주 연속 달성 가능성 제시\n단기 급락 어려우나 시장 체력은 약화",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20112591",
+   "title": "디에이치반포124 분양공고에 ‘통행권’ 명시…입주 후 생길 분쟁 소지 없앤다 [집슐랭]",
+   "time": "2026-11-11 06:00",
+   "source": "서울경제",
+   "category": "재건축/재개발",
+   "region": "서초구",
+   "summary": "디에이치반포124 분양공고에 통행권 명시\n공공보행통로 외부 개방 관련 지역권 설정\n입주 후 보행통로 폐쇄 분쟁 예방 목적",
+   "place": "서초구 디에이치반포124",
+   "latlng": [
+    37.503289,
+    126.987443
+   ],
+   "pin": "place",
+   "pin_name": "디에이치반포124아파트 (예정)",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20112707",
+   "title": "“아파트 청약 당첨되려고 퇴사까지?” 고소득 의사 부부의 황당한 꼼수…354건 무더기 적발",
+   "time": "2026-11-10 21:10",
+   "source": "서울경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "부정청약 의심 사례 354건 무더기 적발\n위장퇴사 등 고소득층 편법 청약 포함\n국토부·국무조정실 합동 점검 결과 발표",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026111083991",
+   "title": "[단독] \"수도권 직장인 숨통 트이나\"…11조 들여 '핀셋 확충'",
+   "time": "2026-11-10 18:30",
+   "source": "한국경제",
+   "category": "도로확장",
+   "region": "강남구",
+   "summary": "수서~평택 등 철도 병목구간 3곳 노선 확충\n5차 국가철도망 계획에 70조원 투입 예정\nGTX-E·F 사업 일정은 연기될 전망",
+   "place": "강남구 수서역",
+   "latlng": [
+    37.485496,
+    127.104371
+   ],
+   "pin": "place",
+   "pin_name": "수서역",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026111084441",
+   "title": "[단독] 수서~평택 등 '병목구간 3곳' 노선 늘린다",
+   "time": "2026-11-10 18:30",
+   "source": "한국경제",
+   "category": "도로확장",
+   "region": "강남구",
+   "summary": "수서~평택 등 철도 병목구간 3곳 노선 확충\n5차 국가철도망 계획에 70조원 투입 예정\nGTX-E·F 사업 일정은 연기될 전망",
+   "place": "강남구 수서역",
+   "latlng": [
+    37.485496,
+    127.104371
+   ],
+   "pin": "place",
+   "pin_name": "수서역",
+   "loc_v": 2
+  },
   {
    "url": "https://www.hankyung.com/article/2026111083981",
    "title": "삐걱대는 GTX…B노선 잇단 유찰, C는 10년 만에 착공",
@@ -1739,51 +1832,6 @@
    "pin": "region",
    "pin_name": "",
    "place": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.sedaily.com/article/20109853",
-   "title": "서울 거래 줄고 매물 늘었다지만…외곽 11개구선 매매 활발",
-   "time": "2026-11-03 19:00",
-   "source": "서울경제",
-   "category": "시장동향",
-   "region": "",
-   "summary": "집값 하락 경고에도 서울 외곽 매매 활발\n2030년까지 서울 아파트 공급 부족 우려 잔존\n하락 안정 전환 여부에 대해 시장 시각 엇갈려",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "place": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.sedaily.com/article/20109821",
-   "title": "370대 1 뚫었지만 계약 포기…서울도 시세차익 없으면 외면",
-   "time": "2026-11-03 18:00",
-   "source": "서울경제",
-   "category": "시장동향",
-   "region": "",
-   "summary": "서울 아파트 무순위 청약 반복 사례 발생\n시세차익 부족 시 높은 경쟁률 후 계약 포기\n신축 선호 속 입지와 분양가 따지는 선별 매수",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "place": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.sedaily.com/article/20109812",
-   "title": "‘신반포22차 재건축’ 국평 최소 40억…분상제 미적용에 최고가 쓸듯",
-   "time": "2026-11-03 17:52",
-   "source": "서울경제",
-   "category": "재건축/재개발",
-   "region": "서초구",
-   "summary": "서초구 신반포22차 전용 84㎡ 분양가 40억 상회\n30가구 미만 일반분양으로 분상제 규제 피해\n국민평형 기준 역대 최고 분양가 기록 전망",
-   "latlng": [
-    37.512114,
-    127.006655
-   ],
-   "pin": "place",
-   "pin_name": "IBK기업은행365 한신22차아파트",
-   "place": "서초구 신반포22차",
    "loc_v": 2
   }
  ]
