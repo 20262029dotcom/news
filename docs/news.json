@@ -1,8 +1,76 @@
 {
- "updated": "2026-11-10 07:40",
+ "updated": "2026-11-10 18:51",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742095",
+   "title": "수원영통 5천 세대 대규모 이주에 전·월세난 심화되나…임시 보금자리 찾는 전세난민 현상 우려",
+   "time": "2026-11-10 17:28",
+   "source": "중부일보",
+   "category": "재건축/재개발",
+   "region": "수원시 영통구",
+   "summary": "수원 영통 대규모 리모델링 추진\n내년 상반기 5천 세대 이주 시작\n수원 인근 지역 전월세난 심화 우려",
+   "place": "수원시 영통구 신성신안쌍용진흥단지",
+   "latlng": [
+    37.25439,
+    127.065527
+   ],
+   "pin": "place",
+   "pin_name": "신성신안쌍용진흥아파트",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742085",
+   "title": "GTX-B 청학역 총사업비 2천694억…인천시 “내년 본예산 470억 반영”",
+   "time": "2026-11-10 17:14",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "인천 연수구",
+   "summary": "GTX-B 청학역 총사업비 2694억\n인천시 내년 예산 470억원 반영\n연수구 숙원 신설사업 집중 점검",
+   "place": "인천 연수구 청학역",
+   "latlng": [
+    37.419038,
+    126.676393
+   ],
+   "pin": "place",
+   "pin_name": "연수역남부공영주차장",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742086",
+   "title": "장고개도로 개통 지연에...인천시의회, 제3보급단 관통도로 ‘임시 개방’ 촉구",
+   "time": "2026-11-10 17:14",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "인천 부평구",
+   "summary": "장고개도로 개통 지연 문제 논의\n제3보급단 관통도로 임시개방 촉구\n국방부 협의 통한 도로 개방 추진",
+   "place": "인천 부평구 제3보급단",
+   "latlng": [
+    37.50702,
+    126.72201
+   ],
+   "pin": "region",
+   "pin_name": "인천 부평구",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742047",
+   "title": "김교흥 의원 “GTX-D Y자·E 노선 등 국가철도망 구축계획 반영해야”",
+   "time": "2026-11-10 14:47",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "인천 서구",
+   "summary": "GTX-D Y자 및 E 노선 반영 촉구\n대장홍대선 청라 계양 연장 요청\n제5차 국가철도망 구축계획 추진",
+   "place": "인천 서구 청라국제도시",
+   "latlng": [
+    37.545,
+    126.676
+   ],
+   "pin": "region",
+   "pin_name": "인천 서구",
+   "loc_v": 2
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363741988",
    "title": "LH, 광교·안성 주택 21호 무순위 공급…청약 통장 없어도 신청 가능",
