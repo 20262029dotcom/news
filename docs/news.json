@@ -1,8 +1,25 @@
 {
- "updated": "2026-11-11 18:53",
+ "updated": "2026-11-12 07:45",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742124",
+   "title": "[시군정담] 용인을 변화하게 만드는 ‘적극행정’",
+   "time": "2026-11-11 18:52",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "용인시 처인구",
+   "summary": "용인 이동·남사 첨단시스템반도체 산단 조성 착공\n후보지 15곳 중 산단계획 승인 완료 유일\n삼성전자 6개 반도체 생산라인 들어설 예정",
+   "place": "용인시 처인구 이동·남사읍 첨단시스템반도체 클러스터 국가산업단지",
+   "latlng": [
+    37.2345,
+    127.2017
+   ],
+   "pin": "region",
+   "pin_name": "용인시 처인구",
+   "loc_v": 2
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363742251",
    "title": "10월 경기도 취업자, 1년 전보다 6만1천 명 늘었다",
@@ -100,6 +117,74 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742222",
+   "title": "[행감인물] 김진후 경기도의원 “경기남부광역철도, 권역별 논리로 설명해야”",
+   "time": "2026-11-11 17:20",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "수원시",
+   "summary": "제5차 국가철도망 계획 반영 논리 수립 주문\n경기남부광역철도 반영 전략 마련 체계화 제안\n수원 등 지역 이동 수요 대응 및 불편 해소 강조",
+   "place": "",
+   "latlng": [
+    37.26333,
+    127.02875
+   ],
+   "pin": "region",
+   "pin_name": "수원시",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742214",
+   "title": "인천시 ‘5대 노선’ 국가계획 반영 전면전…박찬대 시장 직접 뛴다",
+   "time": "2026-11-11 17:07",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "인천 서구",
+   "summary": "GTX-D·E 및 대장홍대선 청라 연장 반영 추진\n제5차 국가철도망 구축계획 의견수렴 참석\n인천시 건의 노선 필요성 국토부에 직접 설명",
+   "place": "인천 서구 청라국제도시",
+   "latlng": [
+    37.545,
+    126.676
+   ],
+   "pin": "region",
+   "pin_name": "인천 서구",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742206",
+   "title": "“집과 땅 내놓고 어디로 가란 말인가”…김포한강2 원주민들, 정부 신규택지 발표에 반발",
+   "time": "2026-11-11 16:40",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "김포시",
+   "summary": "김포한강2·김포아라 8만9천 가구 공급 추진 반발\n원주민 대책위 보상 및 교통 대책 수립 요구\n공공임대 비율 유지와 선교통 후입주 방안 제시",
+   "place": "김포시 김포한강2 공공주택지구",
+   "latlng": [
+    37.657746,
+    126.654008
+   ],
+   "pin": "place",
+   "pin_name": "김포한강2 공공주택지구",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742181",
+   "title": "LH, 인천계양 신도시 첫 입주단지 ‘셔틀버스 운행협약’ 체결...출퇴근 시간 집중 배치",
+   "time": "2026-11-11 14:42",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "인천 계양구",
+   "summary": "LH 인천계양 A2·3블록 셔틀버스 운행협약 체결\n3기 신도시 최초 입주 단지 교통 불편 해소 추진\n출퇴근 시간대 셔틀버스 집중 배치 및 운행",
+   "place": "인천 계양구 인천계양 A2블록",
+   "latlng": [
+    37.556132,
+    126.754699
+   ],
+   "pin": "place",
+   "pin_name": "인천계양루시안트아파트(A2) (2026년12월예정)",
    "loc_v": 2
   },
   {
@@ -587,57 +672,6 @@
    "place": "시흥시 거모지구",
    "pin": "place",
    "pin_name": "시흥거모 공공주택지구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741522",
-   "title": "포천시의회, 옛6군단 부지 내 시유지 교환 ‘반대’…새 국면 맞나",
-   "time": "2026-11-04 17:42",
-   "category": "토지/개발",
-   "region": "포천시",
-   "summary": "옛 6군단 부지 시유지 교환 안건 포천시의회 부결\n시유지 일부 교환 계획 반대로 개발 추진 차질\n공유재산 관리계획안 찬성 3표·반대 4표 표결",
-   "latlng": [
-    37.89483,
-    127.20073
-   ],
-   "source": "중부일보",
-   "place": "포천시 6군단",
-   "pin": "region",
-   "pin_name": "포천시",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741437",
-   "title": "[분양] 5개 노선이 만나는 평택지제역 랜드마크 ‘한화포레나 지제역’ 6일 오픈",
-   "time": "2026-11-04 13:23",
-   "category": "시장동향",
-   "region": "평택시",
-   "summary": "평택 세교동 '한화포레나 지제역' 1천98가구 분양\n평택지제역 생활권 위치 브랜드 대단지\n6일 견본주택 개관 후 청약 일정 진행",
-   "latlng": [
-    37.018782,
-    127.069833
-   ],
-   "source": "중부일보",
-   "place": "평택시 평택지제역",
-   "pin": "place",
-   "pin_name": "평택지제역",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741414",
-   "title": "“김포시민 집단적 무력감 우려”…이회수 김포미래비전 상임대표, 정부 주택공급 정책 전환 촉구",
-   "time": "2026-11-04 10:41",
-   "source": "중부일보",
-   "category": "토지/개발",
-   "region": "김포시",
-   "summary": "김포아라지구 3만7천호 신규택지 발표\n교통 및 생활 인프라 부족 문제 지적\n실질적 교통대책과 시민의견 반영 촉구",
-   "latlng": [
-    37.61557,
-    126.71578
-   ],
-   "place": "김포시 김포아라지구",
-   "pin": "region",
-   "pin_name": "김포시",
    "loc_v": 2
   }
  ]
