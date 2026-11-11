@@ -1,8 +1,124 @@
 {
- "updated": "2026-11-11 07:36",
+ "updated": "2026-11-11 18:53",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742251",
+   "title": "10월 경기도 취업자, 1년 전보다 6만1천 명 늘었다",
+   "time": "2026-11-11 18:12",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "경기도",
+   "summary": "10월 경기도 취업자 785만 1천 명 기록.\n전년 동기 대비 6만 1천 명 증가함.\n고용률은 63.5%로 전년 대비 소폭 하락.",
+   "place": "",
+   "latlng": [
+    37.28847,
+    127.05352
+   ],
+   "pin": "region",
+   "pin_name": "경기도",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742249",
+   "title": "추미애, 연일 광폭 소통 행보…여야·중앙정부 이어 공무원 노조까지",
+   "time": "2026-11-11 17:59",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "경기도",
+   "summary": "경기도, 민주당과 당정협의회 개최.\n광역교통망 개선 및 재정 확충 논의.\n철도망 확충 등 주요 현안 해법 모색.",
+   "place": "",
+   "latlng": [
+    37.28847,
+    127.05352
+   ],
+   "pin": "region",
+   "pin_name": "경기도",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742246",
+   "title": "토지 매입 안돼 늦춰진 ‘수원 새빛학교 개교’…도의회 행감서도 지적",
+   "time": "2026-11-11 17:58",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "수원시",
+   "summary": "수원 새빛학교 개교 1년 6개월 지연.\n토지 매입 및 용지 변경 문제 발생.\n도의회 행감서 설립 지연 원인 질타.",
+   "place": "수원시 새빛학교",
+   "latlng": [
+    37.247996,
+    127.055646
+   ],
+   "pin": "place",
+   "pin_name": "새빛학교 (2028년 9월 예정)",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742244",
+   "title": "지역경제 활성화?…개원 6년에도 나타나지 않는 ‘대형병원 특수’",
+   "time": "2026-11-11 17:57",
+   "source": "중부일보",
+   "category": "상권개발",
+   "region": "용인시",
+   "summary": "용인세브란스병원 인근 상가 공실 심각.\n개원 6년 지났으나 상권 활성화 미비.\n대형 상가 입주 업체 저조한 상태.",
+   "place": "용인시 동백지구",
+   "latlng": [
+    37.274876,
+    127.157334
+   ],
+   "pin": "place",
+   "pin_name": "동백지구",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742234",
+   "title": "12년 만의 위반건축물 양성화… 인천 주거용 2천여 건, 신청 안내는 ‘깜깜’",
+   "time": "2026-11-11 17:32",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "인천",
+   "summary": "소규모 주거용 위반건축물 양성화 추진.\n인천 내 대상 2천여 건 확인됨.\n정부 지침 미비로 신청 안내 차질.",
+   "place": "인천광역시",
+   "latlng": [
+    37.456,
+    126.7052
+   ],
+   "pin": "region",
+   "pin_name": "인천",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742235",
+   "title": "‘롤러코스터 코스피’ 안전자산 쏠리는 투자자 관심…“투자 가치 판단해야”",
+   "time": "2026-11-11 17:32",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "",
+   "summary": "코스피 급등락 반복하며 변동성 확대.\n투자자 안전자산 선호 현상 뚜렷.\n기업 본질 가치 중심 투자 조언.",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742152",
+   "title": "인천 제물포구 신포청사에 ‘제물포라운지’ 개소…침체된 신포동 상권 활력 기대",
+   "time": "2026-11-11 13:30",
+   "source": "중부일보",
+   "category": "상권개발",
+   "region": "인천",
+   "summary": "제물포구 신포청사에 제물포라운지 개소.\n행정 기능 축소된 청사 복합문화공간화.\n침체된 신포동 상권 활력 기대.",
+   "place": "인천 제물포구 신포청사",
+   "latlng": [
+    37.473386,
+    126.621712
+   ],
+   "pin": "place",
+   "pin_name": "인천제물포구청 신포청사 주차장",
+   "loc_v": 2
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363742109",
    "title": "위장전입·자격매매로 노린 아파트 당첨…부정청약 의심 354건 적발",

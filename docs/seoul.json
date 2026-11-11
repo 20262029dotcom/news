@@ -1,8 +1,290 @@
 {
- "updated": "2026-11-11 07:36",
+ "updated": "2026-11-11 18:54",
  "region": "서울",
  "source": "서울경제 · 한국경제",
  "items": [
+  {
+   "url": "https://www.sedaily.com/article/20113180",
+   "title": "국내 첫 ‘지분적립형’ 특공 흥행…경쟁률 100대 1",
+   "time": "2026-11-11 18:13",
+   "source": "서울경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "분양가 25% 선납 지분적립형 아파트 공급\n1순위 청약 경쟁률 100대 1 기록\n무주택 청년 위한 주거 사다리 역할 기대",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20113178",
+   "title": "인허가·자금 조달 ‘원스톱 지원’…22곳서 3.9만가구 공급 박차",
+   "time": "2026-11-11 18:11",
+   "source": "서울경제",
+   "category": "재건축/재개발",
+   "region": "",
+   "summary": "LH 공공재개발 사업 속도 가속화\n인허가·자금 조달 원스톱 지원\n22곳서 3.9만가구 공급 추진",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026111109601",
+   "title": "\"7억 아래요? 씨가 말랐어요\"…갈 곳 잃은 세입자들 '비상'",
+   "time": "2026-11-11 17:50",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "전세 보증금 7억 초과 매물 급증\n공적보증 가입 제한으로 세입자 부담\n비싼 민간 보증 상품 이용 이중고",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026111109921",
+   "title": "전세 3건 중 1건이 7억 넘어…보증 사각지대 몰린 세입자",
+   "time": "2026-11-11 17:48",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "전세 3건 중 1건 보증금 7억 상회\nHUG 등 공적보증 가입 사각지대 발생\n세입자 주거비 부담 가중",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026111109631",
+   "title": "전세난에 '월세살이'…임대 거래 51%가 월세",
+   "time": "2026-11-11 17:39",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "임대 거래 중 월세 비중 51% 차지\n평균 월세 144만원에서 166만원 급등\n주거비 부담으로 내 집 마련 지연",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026111109641",
+   "title": "전세사기 피해 76%가 2030…보증 가입은 감소",
+   "time": "2026-11-11 17:38",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "전세사기 피해자 76%가 2030 세대\n전세보증 가입률은 오히려 감소세\n시장 여건에 맞춘 안전망 강화 필요",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026111108851",
+   "title": "'100대 1 vs 미달'…청약 큰장 열리자 '옥석 가리기'",
+   "time": "2026-11-11 17:31",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "수도권 연말 아파트 분양 물량 증가\n지분적립형 등 인기 단지 쏠림 현상\n대출 규제로 인한 선별 청약 심화",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026111108941",
+   "title": "주택공급 걸림돌 '버티기·알박기' 뽑아낸다",
+   "time": "2026-11-11 17:29",
+   "source": "한국경제",
+   "category": "재건축/재개발",
+   "region": "",
+   "summary": "주택공급 방해하는 알박기 등 근절\n정부 명도 방해 행위 전수조사 실시\n처벌 요건 강화 등 제도 보완 검토",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026111108881",
+   "title": "중랑 '라온프라이빗 센트로' 250가구",
+   "time": "2026-11-11 17:28",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "중랑구",
+   "summary": "중랑구 중화역 인근 250가구 공급\n7호선 중화역 및 GTX-B 노선 인접\n17일 아파트 1순위 청약 진행",
+   "place": "중랑구 중화역",
+   "latlng": [
+    37.602553,
+    127.079312
+   ],
+   "pin": "place",
+   "pin_name": "중화역 7호선",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026111108871",
+   "title": "안쓰는 땅 많은데…재건축 학교용지 先확보 논란",
+   "time": "2026-11-11 17:28",
+   "source": "한국경제",
+   "category": "재건축/재개발",
+   "region": "양천구",
+   "summary": "목동 재건축 학교용지 확보 논란\n교육청 학급 부족 문제 제기\n시와 교육부 간 심사 절차 이견",
+   "place": "양천구 목동",
+   "latlng": [
+    37.530436,
+    126.870989
+   ],
+   "pin": "place",
+   "pin_name": "목동",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026111108921",
+   "title": "4호선 한성대입구역 인근 18층 870가구로 재개발",
+   "time": "2026-11-11 17:27",
+   "source": "한국경제",
+   "category": "재건축/재개발",
+   "region": "성북구",
+   "summary": "한성대입구역 인근 재개발 추진\n최고 18층 870가구 규모 조성\n주거 환경 개선 및 정비사업 진행",
+   "place": "성북구 한성대입구역",
+   "latlng": [
+    37.588425,
+    127.006018
+   ],
+   "pin": "place",
+   "pin_name": "한성대입구역 4호선",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20112990",
+   "title": "옛 가리봉시장 부지에 공공주택 181가구 들어선다",
+   "time": "2026-11-11 14:47",
+   "source": "서울경제",
+   "category": "재건축/재개발",
+   "region": "구로구",
+   "summary": "가리봉시장 부지 공공주택 181가구\n공영주차장 및 청년센터 복합 조성\n공공주택통합심의위원회 계획 통과",
+   "place": "구로구 가리봉시장",
+   "latlng": [
+    37.481732,
+    126.889344
+   ],
+   "pin": "place",
+   "pin_name": "가리봉시장",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20112988",
+   "title": "선사현대, 리모델링으로 3206가구 탈바꿈…망우동 옛 터미널엔 상생주택",
+   "time": "2026-11-11 14:45",
+   "source": "서울경제",
+   "category": "재건축/재개발",
+   "region": "강동구",
+   "summary": "암사동 선사현대 리모델링 3206가구\n망우동 옛 터미널 부지 상생주택\n서울시 건축심의위원회 통과",
+   "place": "강동구 선사현대아파트",
+   "latlng": [
+    37.552247,
+    127.126672
+   ],
+   "pin": "place",
+   "pin_name": "선사현대아파트",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/202611119943i",
+   "title": "서울 오피스 거래 6조4077억…강남 공실률 0.8%",
+   "time": "2026-11-11 13:50",
+   "source": "한국경제",
+   "category": "상권개발",
+   "region": "강남구",
+   "summary": "서울 오피스 거래액 6조원 돌파\n강남권 오피스 공실률 0.8% 기록\n업무지구 수요 견고함 지속",
+   "place": "강남구",
+   "latlng": [
+    37.509111,
+    127.048929
+   ],
+   "pin": "place",
+   "pin_name": "서울선릉과정릉",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/202611119500i",
+   "title": "성북 삼선동1가 한성대입구역 인근 18층 870가구 재개발",
+   "time": "2026-11-11 11:16",
+   "source": "한국경제",
+   "category": "재건축/재개발",
+   "region": "성북구",
+   "summary": "삼선동1가 한성대입구역 재개발\n신속통합기획 확정으로 870가구\n한양도성 인근 선형공원 조성",
+   "place": "성북구 삼선동1가",
+   "latlng": [
+    37.584682,
+    127.008396
+   ],
+   "pin": "place",
+   "pin_name": "삼선동1가",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20112815",
+   "title": "흔들리는 ‘대장 아파트’…강남 재건축 지고 준신축이 버틴다",
+   "time": "2026-11-11 11:00",
+   "source": "서울경제",
+   "category": "시장동향",
+   "region": "강남구",
+   "summary": "강남 재건축 단지 시세 총액 감소\n대장주 아파트 양극화 현상 심화\n준신축 아파트 가격 방어력 우세",
+   "place": "강남구 은마아파트",
+   "latlng": [
+    37.497418,
+    127.065327
+   ],
+   "pin": "place",
+   "pin_name": "은마아파트",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/202611119602i",
+   "title": "중랑구 '중화역 라온프라이빗 센트로' 113가구 일반분양",
+   "time": "2026-11-11 10:16",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "중랑구",
+   "summary": "중화역 라온프라이빗 센트로 분양\n7호선 중화역 도보 3분 거리\n단지 내 영어도서관 등 편의시설",
+   "place": "중랑구 중화역",
+   "latlng": [
+    37.602553,
+    127.079312
+   ],
+   "pin": "place",
+   "pin_name": "중화역 7호선",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026110955736",
+   "title": "\"내 집인데 허락받고 팔라니\"…4.6만명 몰린 아파트의 진실 [주간이집]",
+   "time": "2026-11-11 09:30",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "수원시",
+   "summary": "지분적립형 아파트 매각 제한 논란\n공사 동의 필요 및 차익 배분 조건\n대금 장기 미납 시 계약 해제 가능",
+   "place": "수원시 광교신도시",
+   "latlng": [
+    37.277665,
+    127.066833
+   ],
+   "pin": "place",
+   "pin_name": "광교신도시충전소",
+   "loc_v": 2
+  },
   {
    "url": "https://www.sedaily.com/article/20112589",
    "title": "9월 서울 상업용 빌딩 거래액 ‘반토막’…대형 매매 실종 여파",
