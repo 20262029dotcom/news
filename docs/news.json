@@ -1,8 +1,76 @@
 {
- "updated": "2026-11-12 18:54",
+ "updated": "2026-11-13 07:41",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742405",
+   "title": "박찬대 인천시장, 박홍근 기획예산처 장관 만나 백령공항·장봉~모도 연도교 예타 통과 및 내년도 국비 지원 건의",
+   "time": "2026-11-12 20:52",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "인천",
+   "summary": "인천시가 백령공항 건설 사업을 추진함.\n장봉도~모도 연도교 건설 예타 통과 건의.\n도서 지역 교통 인프라 확충 및 국비 요청.",
+   "place": "인천 백령공항",
+   "latlng": [
+    37.456,
+    126.7052
+   ],
+   "pin": "region",
+   "pin_name": "인천",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742356",
+   "title": "[사설] 경기도 교통망, 국가철도망에 미래 달렸다",
+   "time": "2026-11-12 19:00",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "경기도",
+   "summary": "경기도가 제5차 국가철도망 구축계획 대응.\n도내 철도망 확충을 위한 정부 지원 요청.\n광역 교통망 개선을 위한 중앙정부 설득.",
+   "place": "",
+   "latlng": [
+    37.28847,
+    127.05352
+   ],
+   "pin": "region",
+   "pin_name": "경기도",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742397",
+   "title": "10억 들인 안중근 평화센터…알고 보니 건축물 용도는 '음식점'",
+   "time": "2026-11-12 18:03",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "파주시",
+   "summary": "파주 임진각 안중근 평화센터 건축물 용도 논란.\n전시 공간을 일반음식점으로 운영 중임.\n시설 안전성 및 용도 변경 절차 문제 제기.",
+   "place": "파주시 임진각 평화누리",
+   "latlng": [
+    37.7599,
+    126.78015
+   ],
+   "pin": "region",
+   "pin_name": "파주시",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742398",
+   "title": "추미애, 국비 5조4천억 확보 ‘승부수’…여의도에 경기도 상황실 설치",
+   "time": "2026-11-12 18:03",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "경기도",
+   "summary": "경기도 내년 국비 5조 4천억 확보 총력.\n국회 인근에 종합상황실 설치 및 운영.\n예산안 계수조정 대비 행정력 집중.",
+   "place": "",
+   "latlng": [
+    37.28847,
+    127.05352
+   ],
+   "pin": "region",
+   "pin_name": "경기도",
+   "loc_v": 2
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363742387",
    "title": "공판서 뒤집어진 서울~양평고속도로 진술...사업 재추진 앞두고 변수되나",
@@ -35,6 +103,57 @@
    ],
    "pin": "region",
    "pin_name": "인천 연수구",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742364",
+   "title": "LH, 광명시흥 지구·용인반도체 산단에 2조 원 추가 투입 ‘사업 속도’",
+   "time": "2026-11-12 16:53",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "광명시",
+   "summary": "LH 광명시흥 지구 및 용인 산단 투자 확대.\n핵심 정책사업에 2조 원 추가 투입 결정.\n수도권 주택공급 및 첨단산업 인프라 구축.",
+   "place": "광명시 광명시흥 공공주택지구",
+   "latlng": [
+    37.442228,
+    126.83844
+   ],
+   "pin": "place",
+   "pin_name": "광명시흥 공공주택지구",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742363",
+   "title": "LH 경기북부, 주거 환경 범죄예방 힘써 경찰청장 표창 ‘영예’",
+   "time": "2026-11-12 16:53",
+   "source": "중부일보",
+   "category": "재건축/재개발",
+   "region": "의정부시",
+   "summary": "LH 경기북부본부 범죄예방대상 표창 수상.\n매입임대주택 주거환경 개선 사업 성과.\n범죄예방환경디자인 적용으로 안전 강화.",
+   "place": "의정부시",
+   "latlng": [
+    37.744725,
+    127.049573
+   ],
+   "pin": "place",
+   "pin_name": "의정부부대찌개거리",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742351",
+   "title": "여주시의회 현장 행보, 도시공사·세종문화관광재단 찾아 현안 점검",
+   "time": "2026-11-12 16:43",
+   "source": "중부일보",
+   "category": "상권개발",
+   "region": "여주시",
+   "summary": "여주시의회 산하기관 현장 점검 실시.\n도시공사 및 문화관광재단 현안 확인.\n시민 편의 증진 및 지역 관광 활성화 모색.",
+   "place": "여주시 강천섬",
+   "latlng": [
+    37.232706,
+    127.700318
+   ],
+   "pin": "place",
+   "pin_name": "한강6경바위늪경 강천섬",
    "loc_v": 2
   },
   {
@@ -689,40 +808,6 @@
    "place": "용인시 김량장역",
    "pin": "place",
    "pin_name": "용인중앙시장역 에버라인",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741657",
-   "title": "송도 에디슨박물관 대신 아파트?… 인천경제청 “사실 아냐”",
-   "time": "2026-11-05 16:51",
-   "category": "토지/개발",
-   "region": "인천 연수구",
-   "summary": "인천경제청 송도 에디슨박물관 백지화설 부인\nC1블록 복합문화도서관과 함께 조성 검토 중\nA12블록 6천700억 원 규모 사업 차질 없이 추진",
-   "latlng": [
-    37.390864,
-    126.638869
-   ],
-   "source": "중부일보",
-   "place": "연수구 송도",
-   "pin": "place",
-   "pin_name": "송도한옥마을",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741622",
-   "title": "[분양] 계룡건설 ‘엘리프 시흥 더프라임’ 6일 분양…전용 84㎡ 5억원대",
-   "time": "2026-11-05 16:05",
-   "category": "시장동향",
-   "region": "시흥시",
-   "summary": "시흥거모지구 '엘리프 시흥 더프라임' 분양\n전용 84㎡ 분양가 5억9천만 원대 책정\n총 338가구 중 304가구 일반분양 진행",
-   "latlng": [
-    37.347793,
-    126.778293
-   ],
-   "source": "중부일보",
-   "place": "시흥시 거모지구",
-   "pin": "place",
-   "pin_name": "시흥거모 공공주택지구",
    "loc_v": 2
   }
  ]
