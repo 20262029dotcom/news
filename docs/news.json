@@ -1,8 +1,59 @@
 {
- "updated": "2026-11-12 07:45",
+ "updated": "2026-11-12 18:54",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742387",
+   "title": "공판서 뒤집어진 서울~양평고속도로 진술...사업 재추진 앞두고 변수되나",
+   "time": "2026-11-12 17:26",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "양평군",
+   "summary": "서울~양평고속도로 종점 변경 의혹 재판서 핵심 피고인이 진술 번복\n윗선 개입 의혹이 원점으로 회귀하며 사업 재추진의 주요 변수로 등장\n국토부의 노선 재검토 과정 및 사업 일정에 미칠 영향 주목",
+   "place": "",
+   "latlng": [
+    37.4916,
+    127.4875
+   ],
+   "pin": "region",
+   "pin_name": "양평군",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742383",
+   "title": "인천시 “송도 열병합발전소 주민 철회 요구 수용 못해”...내년 초 도시계획위 안건 상정 전망",
+   "time": "2026-11-12 17:16",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "인천 연수구",
+   "summary": "인천시가 송도 열병합발전소 증설 철회를 요구한 주민 의견을 불수용\n주민들은 환경 피해와 안전 우려를 이유로 사업 백지화를 주장\n내년 초 도시계획위원회에 도시관리계획 변경안 상정 예정",
+   "place": "인천 연수구 송도 열병합발전소",
+   "latlng": [
+    37.4098,
+    126.6787
+   ],
+   "pin": "region",
+   "pin_name": "인천 연수구",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742300",
+   "title": "인천 계양구, 3기 신도시 첫 입주 앞두고 지원 추진단 운영",
+   "time": "2026-11-12 13:44",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "인천 계양구",
+   "summary": "인천 계양구가 계양 3기 신도시 첫 입주를 앞두고 지원 추진단 가동\n인천지하철 1호선 연계 셔틀버스 운행 등 대중교통 노선 조정 추진\n어린이 통학 환경 개선과 보육·환경 인프라 점검 병행",
+   "place": "인천 계양구 계양 3기 신도시",
+   "latlng": [
+    37.543152,
+    126.713652
+   ],
+   "pin": "place",
+   "pin_name": "서송병원 전기차충전소",
+   "loc_v": 2
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363742124",
    "title": "[시군정담] 용인을 변화하게 만드는 ‘적극행정’",
