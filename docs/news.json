@@ -1,8 +1,121 @@
 {
- "updated": "2026-11-13 07:41",
+ "updated": "2026-11-13 18:54",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742436",
+   "title": "LIG D&A, 성남에 방위산업 연구단지 조성",
+   "time": "2026-11-13 17:05",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "성남시 수정구",
+   "summary": "성남 수정구 시흥동에 방위산업 R&D 단지가 조성된다.\n6만여㎡ 부지의 용도지역을 변경해 2028년 착공 예정이다.\nLIG D&A 본사 이전 및 지역상생 사업도 함께 추진된다.",
+   "place": "성남시 수정구 시흥동 234",
+   "latlng": [
+    37.417298,
+    127.099138
+   ],
+   "pin": "place",
+   "pin_name": "LIG 디펜스&에어로스페이스 2판교하우스 R&D센터",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742429",
+   "title": "국가철도망 새 기준 윤곽…고양 ‘3호선 급행·교외선’ 분수령",
+   "time": "2026-11-13 16:03",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "고양시",
+   "summary": "제5차 국가철도망 구축계획의 윤곽이 구체화되고 있다.\n고양시는 3호선 일산선 급행화와 교외선 반영에 집중한다.\n창릉신도시·일산 재정비 및 대곡역세권 연계가 관건이다.",
+   "place": "고양시 대곡역",
+   "latlng": [
+    37.631697,
+    126.810931
+   ],
+   "pin": "place",
+   "pin_name": "대곡역 3호선",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742424",
+   "title": "“서울 출퇴근 63.6분”… 인천시, 제5차 국가철도망에 5대 노선 반영 촉구",
+   "time": "2026-11-13 14:33",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "",
+   "summary": "인천시가 제5차 국가철도망 계획에 5대 노선 반영을 요구했다.\n인천~서울 대중교통 평균 이동시간은 63.6분으로 최장이다.\n수도권 교통 격차 해소를 위해 광역철도 확충을 피력했다.",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742419",
+   "title": "고양창릉·남양주왕숙 분양 본격화…광명시흥엔 6조8천억 푼다",
+   "time": "2026-11-13 11:45",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "고양시",
+   "summary": "연말까지 고양창릉·남양주왕숙·부천대장에서 2천가구가 분양된다.\n광명시흥 지구에는 토지 보상비 1조3천억 원이 추가 투입된다.\n남양주왕숙2와 시흥거모 등에서는 민간참여 공공주택을 연계한다.",
+   "place": "고양시 고양창릉지구",
+   "latlng": [
+    37.625915,
+    126.863207
+   ],
+   "pin": "place",
+   "pin_name": "고양창릉S4아파트 (2030년03월예정)",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742416",
+   "title": "추미애 “집은 들어섰는데 철도는 언제 오나”…40개 사업 반영 촉구",
+   "time": "2026-11-13 11:29",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "",
+   "summary": "경기도가 제5차 국가철도망 계획에 40개 사업 반영을 촉구했다.\n인구와 주택 확충 속도에 비하여 철도망 적시 공급이 부족하다.\n도민의 출퇴근 부담 경감과 주거 안정을 최우선으로 요구했다.",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742187",
+   "title": "[금주의 시흥시] 신천신림선·GTX-C 오이도 연장 반영 총력…철도 확충 필요성 강조 外",
+   "time": "2026-11-13 10:00",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "시흥시",
+   "summary": "시흥시가 신천신림선과 GTX-C 오이도 연장 반영을 추진한다.\n제5차 국가철도망 구축계획 국토부 설문 참여를 당부했다.\n광역 철도망 확충으로 시민의 교통 편의를 강화할 방침이다.",
+   "place": "시흥시 오이도역",
+   "latlng": [
+    37.361703,
+    126.738404
+   ],
+   "pin": "place",
+   "pin_name": "오이도역 4호선",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742407",
+   "title": "[금주의 용인시] ‘주말 상습정체’ 용인 공세·고매동 우회도로 연내 첫 삽 外",
+   "time": "2026-11-13 09:48",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "용인시 기흥구",
+   "summary": "용인 공세동과 지곡동을 잇는 우회도로 공사가 연내 착공한다.\n총 1.45km 구간을 왕복 4차로 도시계획도로로 신설한다.\n주말마다 발생하는 상습 교통 혼잡이 크게 완화될 전망이다.",
+   "place": "용인시 기흥구 공세동 713-3",
+   "latlng": [
+    37.243079,
+    127.121775
+   ],
+   "pin": "place",
+   "pin_name": "탑실마을대주피오레2단지아파트",
+   "loc_v": 2
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363742405",
    "title": "박찬대 인천시장, 박홍근 기획예산처 장관 만나 백령공항·장봉~모도 연도교 예타 통과 및 내년도 국비 지원 건의",

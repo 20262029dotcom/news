@@ -1,8 +1,121 @@
 {
- "updated": "2026-11-13 07:42",
+ "updated": "2026-11-13 18:55",
  "region": "서울",
  "source": "서울경제 · 한국경제",
  "items": [
+  {
+   "url": "https://www.sedaily.com/article/20114114",
+   "title": "IPARK현대산업개발, 이촌 강변강서 재건축 수주 추진…용산 사업 확대",
+   "time": "2026-11-13 16:40",
+   "source": "서울경제",
+   "category": "재건축/재개발",
+   "region": "용산구",
+   "summary": "HDC현대산업개발 이촌동 수주 추진\n강변강서아파트 재건축 사업 대상\n용산 정비창 전면1구역 이어 영역 확대",
+   "place": "용산구 강변강서아파트",
+   "latlng": [
+    37.5323,
+    126.99
+   ],
+   "pin": "region",
+   "pin_name": "용산구",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20114048",
+   "title": "올해냐 2029년이냐…국토부, 재초환 부과시점 이달 중 정리",
+   "time": "2026-11-13 15:06",
+   "source": "서울경제",
+   "category": "재건축/재개발",
+   "region": "",
+   "summary": "국토부 재초환 부과시점 이달 확정\n부담금 부과기한 법률 해석 정리 예정\n3차 주택공급 브리핑서 입장 밝혀",
+   "place": "종로구 정부서울청사",
+   "latlng": [
+    37.574941,
+    126.975141
+   ],
+   "pin": "place",
+   "pin_name": "정부서울청사 본관",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/202611134765H",
+   "title": "\"80억 벌고 또 한남동으로\"…BTS 진, 이번엔 빌딩 샀다 [집코노미-핫!부동산]",
+   "time": "2026-11-13 11:18",
+   "source": "한국경제",
+   "category": "토지/개발",
+   "region": "용산구",
+   "summary": "BTS 진 서울 용산구 한남동 빌딩 매입\n80억원 시세차익 후 한남동 재투자\n용산구 한남동 일대 부동산 투자 지속",
+   "place": "용산구 한남동",
+   "latlng": [
+    37.53463,
+    127.000552
+   ],
+   "pin": "place",
+   "pin_name": "한남동",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20113934",
+   "title": "강남3구·용산 토허 신청 20% 늘었지만…신청가격은 낙폭 확대",
+   "time": "2026-11-13 11:06",
+   "source": "서울경제",
+   "category": "시장동향",
+   "region": "강남구",
+   "summary": "강남3구·용산 토허 신청 20% 증가\n신청가격은 낙폭 확대 흐름 보여\n전체 신청 건수는 고점의 절반 수준",
+   "place": "강남구",
+   "latlng": [
+    37.509111,
+    127.048929
+   ],
+   "pin": "place",
+   "pin_name": "서울선릉과정릉",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026111235051",
+   "title": "\"내년 수도권 집값 3.0% 상승할 것\"",
+   "time": "2026-11-13 10:31",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "내년 수도권 집값 3.0% 상승 전망\n건산연 전셋값 입주 감소로 4.5%↑\n건설경기 AI투자 등으로 회복 기대",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20113887",
+   "title": "국토부 “재산권 침해 소지 있어”…재초환 폐지·완화 급물살",
+   "time": "2026-11-13 10:15",
+   "source": "서울경제",
+   "category": "재건축/재개발",
+   "region": "강남구",
+   "summary": "국토부 재산권 침해 소지 지적\n재초환 폐지 및 완화 논의 급물살\n은마·반포현대 등 부담금 사전통지",
+   "place": "강남구 은마아파트",
+   "latlng": [
+    37.497418,
+    127.065327
+   ],
+   "pin": "place",
+   "pin_name": "은마아파트",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026111342916",
+   "title": "서울 아파트 토허 신청 두 달 연속 증가…외곽 상승세 지속",
+   "time": "2026-11-13 09:10",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "서울 아파트 토허 신청 두 달 연속 증가\n서울 외곽 지역 아파트 상승세 지속\n거래허가 구역 중심 시장 동향 주목",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
   {
    "url": "https://www.sedaily.com/article/20113742",
    "title": "억대 재초환 부담금 줄줄이 통지…“산정 방식부터 바꿔야”[집슐랭]",
