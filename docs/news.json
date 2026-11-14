@@ -1,8 +1,42 @@
 {
- "updated": "2026-11-14 07:40",
+ "updated": "2026-11-14 18:39",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742454",
+   "title": "김진용 전 인천경제청장 “송도 글로벌 특화병원 무산, 제정신이냐” 직격탄",
+   "time": "2026-11-14 10:17",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "인천 연수구",
+   "summary": "김진용 전 청장 송도 글로벌 특화병원 무산 비판\n인천경제청의 조례 수정 불가 등 무산 사유 반박\n5공구 Rm2 블록 개발수익 활용 링키지 관련 지적",
+   "place": "인천 연수구 송도국제도시",
+   "latlng": [
+    37.424741,
+    126.615587
+   ],
+   "pin": "place",
+   "pin_name": "송도국제도시 9공구",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742453",
+   "title": "“설렘과 기쁨, 그리고 기대”… 인천계양 3기 신도시 첫 입주 맞이 행사 개최",
+   "time": "2026-11-14 09:56",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "인천 계양구",
+   "summary": "LH 인천계양 3기 신도시 첫 입주 맞이 행사 개최\n계양 A2·A3블록서 입주 축하 및 신도시 입주 시작\n인천 계양구 박촌동 일원에 335만㎡ 규모 조성",
+   "place": "인천 계양구 동양동 410-4",
+   "latlng": [
+    37.558239,
+    126.75718
+   ],
+   "pin": "place",
+   "pin_name": "한진해모로아파트",
+   "loc_v": 2
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363742436",
    "title": "LIG D&A, 성남에 방위산업 연구단지 조성",
