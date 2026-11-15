@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15 18:41",
+ "updated": "2026-11-16 07:33",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
@@ -80,6 +80,40 @@
    "latlng": null,
    "pin": "region",
    "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742524",
+   "title": "인천시, 도시개발 공공기여 기준 개정 시행…용적률 따라 부담 차등",
+   "time": "2026-11-15 15:11",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "인천광역시",
+   "summary": "인천시 도시개발 공공기여시설 설치 기준 개정 시행\n녹지·농림·관리지역 주거용지 개발 시 공공 환원\n용적률 상향 사업에 밀도 비례 공공기여 의무화",
+   "place": "",
+   "latlng": [
+    37.456,
+    126.7052
+   ],
+   "pin": "region",
+   "pin_name": "인천광역시",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742519",
+   "title": "인천 5대 철도망 완성 땐 ‘서울 30분대·전국 직결’ 생활권 열린다",
+   "time": "2026-11-15 15:08",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "인천광역시",
+   "summary": "인천시 제5차 국가철도망 5대 핵심 사업 반영 건의\nGTX-D Y자·GTX-E·대장홍대선 청라 연장 등 포함\n서울 주요 거점 30분대 연결 및 전국 직결 추진",
+   "place": "",
+   "latlng": [
+    37.456,
+    126.7052
+   ],
+   "pin": "region",
+   "pin_name": "인천광역시",
    "loc_v": 2
   },
   {
@@ -850,139 +884,6 @@
    ],
    "pin": "place",
    "pin_name": "광교경기융합타운",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741841",
-   "title": "경기 아파트값 상승률 8주째 서울 상회",
-   "time": "2026-11-08 16:03",
-   "source": "중부일보",
-   "category": "시장동향",
-   "region": "용인시 기흥구",
-   "summary": "경기 아파트 매매가 8주 연속 서울 상승률 상회\n용인시 기흥구 0.60%·군포시 0.57% 상승세 지속\n반도체 배후지 상승세가 인근 비규제지역으로 확산",
-   "place": "",
-   "latlng": [
-    37.2801,
-    127.1148
-   ],
-   "pin": "region",
-   "pin_name": "용인시 기흥구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741840",
-   "title": "LH, 의정부우정 단독주택용지 등 68필지 공급",
-   "time": "2026-11-08 16:02",
-   "source": "중부일보",
-   "category": "토지/개발",
-   "region": "의정부시",
-   "summary": "LH, 의정부우정지구 단독주택용지 등 68필지 공급\n주거전용 30필지·점포겸용 26필지 등 251억 규모\n주거전용 평당 약 400만 원·점포겸용 600만 원선",
-   "place": "의정부시 의정부우정지구",
-   "latlng": [
-    37.765401,
-    127.039366
-   ],
-   "pin": "place",
-   "pin_name": "의정부우정 공공주택지구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741808",
-   "title": "새 단장 마친 ‘김포 대명항’… 관광객 발길 이어져",
-   "time": "2026-11-08 14:00",
-   "source": "중부일보",
-   "category": "상권개발",
-   "region": "김포시",
-   "summary": "271억 투입 대명항 어촌뉴딜300사업 완료\n42개 점포 보유한 수산물직판장 새 단장\n먹거리와 문화·관광 즐길 수 있는 공간 조성",
-   "place": "김포시 대명항",
-   "latlng": [
-    37.639372,
-    126.541728
-   ],
-   "pin": "place",
-   "pin_name": "대명항대명포구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741800",
-   "title": "한강 밑 뚫리는 김포~파주 연결길…한강터널 김포방향 굴진 시작",
-   "time": "2026-11-08 13:47",
-   "source": "중부일보",
-   "category": "도로확장",
-   "region": "파주시",
-   "summary": "김포~파주 고속도로 한강터널 굴착공사 시작\n2029년 준공 목표로 서북부 광역교통망 구축\n파주시 송촌동 제2공구서 TBM 굴진식 개최",
-   "place": "파주시 한강터널",
-   "latlng": [
-    37.743626,
-    126.700441
-   ],
-   "pin": "place",
-   "pin_name": "한강터널홍보관",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741794",
-   "title": "‘전세 가뭄’ 속 경기도 주택공급 수도권 꼴찌… 행감서 도마",
-   "time": "2026-11-08 13:26",
-   "source": "중부일보",
-   "category": "시장동향",
-   "region": "",
-   "summary": "경기도 주택 공급 실적 저조로 전세난 심화 지적\n수도권 전세가뭄 속 정부 공급 확대 기조 역행 질타\n경기도의회 행감서 주거 여건 미비점 집중 논의",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741784",
-   "title": "[분양] 우미건설, ‘평택 고덕 우미린 더 프리미어’ 6일 견본주택 개관",
-   "time": "2026-11-08 13:21",
-   "source": "중부일보",
-   "category": "시장동향",
-   "region": "평택시",
-   "summary": "평택 고덕 우미린 더 프리미어 견본주택 개관\n전용 84~111㎡ 총 623가구 분양 청약 일정 시작\n고덕국제화계획지구 Abc-33블록에 조성",
-   "place": "평택시 평택 고덕 우미린 더 프리미어",
-   "latlng": [
-    37.051092,
-    127.029265
-   ],
-   "pin": "place",
-   "pin_name": "평택고덕우미린더프리미어아파트 (2029년05월예정)",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741775",
-   "title": "인천 옹진군 도로 곳곳에 남은 미보상 사유지…정리는 ‘감감’",
-   "time": "2026-11-08 13:00",
-   "source": "중부일보",
-   "category": "도로확장",
-   "region": "인천 옹진군",
-   "summary": "인천 옹진군 도로 편입 미보상 사유지 7천600필지\n과거 도로 개설 시 소유권 정리 안 돼 장기 방치\n토지 소유주 매수 신청에만 의존해 대책 마련 필요",
-   "place": "",
-   "latlng": [
-    37.53302,
-    126.4289
-   ],
-   "pin": "region",
-   "pin_name": "인천 옹진군",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741745",
-   "title": "[물치도 수난사] 25만 명 찾던 관광지가 어째서… 거듭되는 개발 실패",
-   "time": "2026-11-08 09:53",
-   "source": "중부일보",
-   "category": "토지/개발",
-   "region": "인천 제물포구",
-   "summary": "인천 만석동 무인도 물치도 해양 휴양지 개발 잔혹사\n2013년 뱃길 끊긴 이후 관광 기능 잃고 잊혀\n거듭된 민간 개발 실패로 섬 방치 문제 지속",
-   "place": "인천 제물포구 물치도",
-   "latlng": [
-    37.497531,
-    126.588694
-   ],
-   "pin": "place",
-   "pin_name": "물치도",
    "loc_v": 2
   }
  ]
