@@ -1,8 +1,39 @@
 {
- "updated": "2026-11-16 07:33",
+ "updated": "2026-11-16 19:37",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742703",
+   "title": "경기도 집합건물 20년 초과 보유자 35.1% 급증…“8·3 세제개편안 등 영향”",
+   "time": "2026-11-16 18:53",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "",
+   "summary": "경기 집합건물 매도인 전년 대비 12.7% 증가\n보유 20년 초과 장기 보유자 매도 35.1% 급증\n가격 상승 기대 및 8·3 세제개편안 영향 분석",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742701",
+   "title": "LH 인천지역본부, 부천 지역 청년층 ‘파격적 임대료 지원’",
+   "time": "2026-11-16 18:13",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "부천시",
+   "summary": "LH와 부천시 청년 드림주택 공급 협약 체결\n청년층 대상 매입임대주택 공급 및 임대료 지원\n월 최대 20만 원 지원해 자부담 최소화 추진",
+   "place": "",
+   "latlng": [
+    37.50144,
+    126.76601
+   ],
+   "pin": "region",
+   "pin_name": "부천시",
+   "loc_v": 2
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363742549",
    "title": "김성제 의왕시장 “의왕 왕곡동까지 국가철도망 연장해야”",
