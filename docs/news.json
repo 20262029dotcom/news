@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16 19:37",
+ "updated": "2026-11-17 07:42",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
@@ -32,6 +32,71 @@
    ],
    "pin": "region",
    "pin_name": "부천시",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742688",
+   "title": "정부, 철도지하화 종합계획 공청회 개최… 경부·경인·안산·경의중앙선 계획 중인 경기도 ‘촉각’",
+   "time": "2026-11-16 17:32",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "",
+   "summary": "정부, 철도지하화 종합계획 수립 공청회 개최\n경부·경인·안산·경의중앙선 노선 지하화 추진\n도내 지자체 부지 활용 기대에 관심 집중",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742683",
+   "title": "경기도 집값 상승률 확대…둔화된 서울 집값 추월",
+   "time": "2026-11-16 17:24",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "수원시 영통구",
+   "summary": "경기도 주택 매매가격 상승 폭 확대 흐름\n수원 영통·화성 동탄 등이 도 전체 상승 견인\n서울 주택 매매가 상승률은 둔화세 보여",
+   "place": "수원시 영통구",
+   "latlng": [
+    37.263252,
+    127.071012
+   ],
+   "pin": "place",
+   "pin_name": "영흥수목원",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742682",
+   "title": "LH, 남양주왕숙·고양창릉 등 9천 가구 규모 민간참여사업 공모",
+   "time": "2026-11-16 17:23",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "남양주시",
+   "summary": "LH, 남양주왕숙·고양창릉 9천 가구 사업 공모\n민간 기술·브랜드 활용 공공주택 공급 추진\n연말까지 총 10개 블록 민간참여사업 진행",
+   "place": "남양주시 왕숙지구",
+   "latlng": [
+    37.672771,
+    127.164192
+   ],
+   "pin": "place",
+   "pin_name": "남양주왕숙 공공주택지구",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742598",
+   "title": "김포 걸포4지구 도시개발사업, 보상절차 본격화…사업 추진 ‘가속’",
+   "time": "2026-11-16 13:50",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "김포시",
+   "summary": "김포 걸포4지구 도시개발 토지보상 절차 착수\n83만㎡ 부지에 7천761세대 주거단지 조성\n호반건설 사업 참여로 추진 동력 확보",
+   "place": "김포시 걸포4지구",
+   "latlng": [
+    37.641196,
+    126.692511
+   ],
+   "pin": "place",
+   "pin_name": "김포걸포4지구 도시개발사업 대책위원회",
    "loc_v": 2
   },
   {
@@ -762,159 +827,6 @@
    ],
    "pin": "region",
    "pin_name": "인천 서구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741988",
-   "title": "LH, 광교·안성 주택 21호 무순위 공급…청약 통장 없어도 신청 가능",
-   "time": "2026-11-09 19:10",
-   "source": "중부일보",
-   "category": "시장동향",
-   "region": "수원시",
-   "summary": "LH 경기남부본부 주택 21호 무순위 공급\n수원 광교 및 안성 공도읍 일대 대상\n청약 통장 없이 신청 가능하며 23~24일 접수",
-   "place": "수원시 광교신도시",
-   "latlng": [
-    37.277665,
-    127.066833
-   ],
-   "pin": "place",
-   "pin_name": "광교신도시충전소",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741983",
-   "title": "“도시기본계획 ‘장밋빛 인구계획’ 바로잡아야”… 경기도의회서도 지적",
-   "time": "2026-11-09 18:38",
-   "source": "중부일보",
-   "category": "토지/개발",
-   "region": "경기도",
-   "summary": "경기도의회에서 도시·군기본계획 인구 뻥튀기 지적\n승인권자인 경기도의 부실 검증과 예산 낭비 추궁\n난개발 방지 및 현실적인 도시계획 수립 촉구",
-   "place": "",
-   "latlng": [
-    37.28847,
-    127.05352
-   ],
-   "pin": "region",
-   "pin_name": "경기도",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741981",
-   "title": "경기도 시·군의 운명걸린 철도망 구축 구상…5차 국가철도망 구축계획 포함 여부에 희비 엇갈린다",
-   "time": "2026-11-09 17:58",
-   "source": "중부일보",
-   "category": "도로확장",
-   "region": "경기도",
-   "summary": "정부 5차 국가철도망 구축계획 지자체 의견 수렴 착수\n경기도 시·군 건의 40개 철도 사업 포함 여부 주목\n반영 여부에 따라 철도망 확보 및 도시발전 향방 갈려",
-   "place": "",
-   "latlng": [
-    37.28847,
-    127.05352
-   ],
-   "pin": "region",
-   "pin_name": "경기도",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741969",
-   "title": "과천시, ‘제5차 국가철도망 구축계획 수립’과 관련 시민들의 적극적인 참여 당부",
-   "time": "2026-11-09 17:18",
-   "source": "중부일보",
-   "category": "도로확장",
-   "region": "과천시",
-   "summary": "과천시가 5차 국가철도망 구축계획 관련 시민 참여 당부\n지역 철도망 확충 필요성 알리고 사전 설문조사 안내\n철도 정책에 과천시 의견 반영 위한 협조 요청",
-   "place": "",
-   "latlng": [
-    37.4289,
-    126.98817
-   ],
-   "pin": "region",
-   "pin_name": "과천시",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741967",
-   "title": "대체매립지 후보 2곳 적합하다는데 공개 지연… “지자체 인센티브 협의가 먼저”",
-   "time": "2026-11-09 17:10",
-   "source": "중부일보",
-   "category": "토지/개발",
-   "region": "인천시",
-   "summary": "수도권 대체매립지 4차 공모 민간 후보지 2곳 적합 판정\n지자체 인센티브 부족 판정으로 후보지 공개 재연기\n환경부와 4자 협의체가 인센티브 방안 추가 논의",
-   "place": "",
-   "latlng": [
-    37.456,
-    126.7052
-   ],
-   "pin": "region",
-   "pin_name": "인천시",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741945",
-   "title": "GTX-D·E 운명 가를 제5차 국가철도망 계획…‘연내 고시’ 물 건너가나",
-   "time": "2026-11-09 16:34",
-   "source": "중부일보",
-   "category": "도로확장",
-   "region": "인천시",
-   "summary": "제5차 국가철도망 구축계획 연내 확정·고시 불투명\nGTX-D·E 포함 인천시 건의 노선 발표 연기 가능성\n총사업비 한도 협의 지연으로 13일 의견수렴청취 진행",
-   "place": "",
-   "latlng": [
-    37.456,
-    126.7052
-   ],
-   "pin": "region",
-   "pin_name": "인천시",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741909",
-   "title": "서울 서남권 연결·GTX 오이도 연장...시흥시, 국가철도망 반영 건의",
-   "time": "2026-11-09 13:07",
-   "source": "중부일보",
-   "category": "도로확장",
-   "region": "시흥시",
-   "summary": "시흥시가 신천~신림선과 GTX-C 오이도역 연장을 건의함.\n신천~신림선은 신천역에서 서울 신림역을 잇는 철도 구상임.\n제5차 국가철도망 구축계획 반영을 국토교통부에 요청함.",
-   "place": "시흥시 오이도역",
-   "latlng": [
-    37.361703,
-    126.738404
-   ],
-   "pin": "place",
-   "pin_name": "오이도역 4호선",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741907",
-   "title": "“물류터미널 연장 말고 이전”...군포시민 1천여 명 거리로",
-   "time": "2026-11-09 13:05",
-   "source": "중부일보",
-   "category": "토지/개발",
-   "region": "군포시",
-   "summary": "군포시민 1천여 명이 군포복합물류터미널 이전을 촉구함.\n범시민추진위원회가 출범식을 열고 이전을 강력히 요구함.\n터미널 운영기간 연장 반대와 주민 피해 대책 마련을 주장함.",
-   "place": "군포시 군포복합물류터미널",
-   "latlng": [
-    37.330947,
-    126.937223
-   ],
-   "pin": "place",
-   "pin_name": "군포복합물류터미널",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363741893",
-   "title": "경기도, 재정난에 광교청사 매각 검토…최대 1조 원대 전망",
-   "time": "2026-11-09 11:15",
-   "source": "중부일보",
-   "category": "토지/개발",
-   "region": "수원시 영통구",
-   "summary": "경기도가 재정난 해소를 위해 광교 도청사 매각을 검토함.\n매각 대상은 경기융합타운 내 토지·건물로 감정가 8천억대임.\n광교신도시 입지 가치를 감안하면 최대 1조 원대로 추산됨.",
-   "place": "수원시 영통구 경기융합타운",
-   "latlng": [
-    37.289233,
-    127.053404
-   ],
-   "pin": "place",
-   "pin_name": "광교경기융합타운",
    "loc_v": 2
   }
  ]

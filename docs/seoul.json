@@ -1,8 +1,56 @@
 {
- "updated": "2026-11-16 19:38",
+ "updated": "2026-11-17 07:42",
  "region": "서울",
- "source": "서울경제 · 한국경제",
+ "source": "한국경제 · 서울경제",
  "items": [
+  {
+   "url": "https://www.hankyung.com/article/2026111696876",
+   "title": "\"집주인에게 수십억 빌려 아파트 산다?\"…상환은 어떻게 [시장톡]",
+   "time": "2026-11-17 06:30",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "강남구",
+   "summary": "대출 규제 속 '셀러 파이낸싱' 거래 부활\n집주인이 매수자에게 자금 수십억 대출\n집값 하락 시 상환 리스크 및 손해 우려",
+   "place": "강남구 압구정동",
+   "latlng": [
+    37.530669,
+    127.030809
+   ],
+   "pin": "place",
+   "pin_name": "압구정동",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20115110",
+   "title": "상업용 부동산 강남 불패신화 균열…중소형 빌딩 매매가 2년새 13% 뚝",
+   "time": "2026-11-17 05:50",
+   "source": "서울경제",
+   "category": "상권개발",
+   "region": "강남구",
+   "summary": "강남구 중소형 빌딩 매매가 2년 새 13% 하락\n서초·송파와 달리 강남구만 나홀로 하락세\n고금리 기조 여파로 상업용 부동산 위축",
+   "place": "강남구",
+   "latlng": [
+    37.509111,
+    127.048929
+   ],
+   "pin": "place",
+   "pin_name": "서울선릉과정릉",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20115114",
+   "title": "[기로에 선 재초환] 팔지도 않은 집에 ‘수억 청구서’…보유·양도세까지 ‘삼중 부담’",
+   "time": "2026-11-17 05:44",
+   "source": "서울경제",
+   "category": "재건축/재개발",
+   "region": "",
+   "summary": "재건축초과이익환수제 첫 부과 앞두고 논란\n관리처분계획 인가 시기 따라 부담금 엇갈려\n미실현 이익 과세 및 삼중 부담 반발",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
   {
    "url": "https://www.sedaily.com/article/20115116",
    "title": "성수·종로 등 상권 분산…강남구 중소형 빌딩 매매가 2년새 13% 뚝",
@@ -2041,344 +2089,6 @@
    ],
    "pin": "place",
    "pin_name": "반포센트레빌아스테리움아파트",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.sedaily.com/article/20112151",
-   "title": "사업장 수에 비례하는 과징금 공포…“공급 속도 내려면 족쇄 없애야”",
-   "time": "2026-11-09 18:32",
-   "source": "서울경제",
-   "category": "시장동향",
-   "region": "",
-   "summary": "건설안전특별법 과징금 완화 추진\n규제 강화 시 주택 공급 차질 우려\n정부·여당 건설사 부담 경감 검토",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.sedaily.com/article/20112148",
-   "title": "[위기의 건설업] “공사비·이자 치솟아 지을수록 손해”…매일 12곳 문 닫는다",
-   "time": "2026-11-09 18:31",
-   "source": "서울경제",
-   "category": "시장동향",
-   "region": "",
-   "summary": "건설 경기 침체 장기화로 폐업 증가\n공사비와 금리 부담에 경영 악화\n정부의 주택 공급 속도전에 차질 우려",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.hankyung.com/article/2026110957081",
-   "title": "전세사기로 받지 못한 보증금…정부, 최소 3분의 1 보장한다",
-   "time": "2026-11-09 18:04",
-   "source": "한국경제",
-   "category": "시장동향",
-   "region": "",
-   "summary": "전세사기 피해 보증금 최소보장제 시행\n변제금 부족 시 최소 3분의 1 현금 보전\n정부 차원의 피해 회복 직접 지원",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.sedaily.com/article/20112119",
-   "title": "[단독] ‘매출 3%’ 건안법 과징금 완화 추진",
-   "time": "2026-11-09 18:00",
-   "source": "서울경제",
-   "category": "시장동향",
-   "region": "",
-   "summary": "건설안전특별법 과징금 규제 완화 추진\n사망 사고 시 매출액 3% 과징금 부과 완화\n삼중 규제 해소로 주택 공급 속도 향상",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.sedaily.com/article/20112094",
-   "title": "‘강남 재초환 1호’ 반포현대, 조합원 1인당 부담금 2.2억",
-   "time": "2026-11-09 17:46",
-   "source": "서울경제",
-   "category": "재건축/재개발",
-   "region": "서초구",
-   "summary": "반포현대 재초환 부담금 2.2억 원 통지\n서울 강남권 최초 재초환 부과 사례\n당초 예정액보다 1억 원가량 증액",
-   "place": "서초구 반포센트레빌아스테리움",
-   "latlng": [
-    37.503426,
-    127.016104
-   ],
-   "pin": "place",
-   "pin_name": "반포센트레빌아스테리움아파트",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.sedaily.com/article/20112069",
-   "title": "전세사기 피해자 보증금 3분의 1, 정부서 현금 보전",
-   "time": "2026-11-09 17:24",
-   "source": "서울경제",
-   "category": "시장동향",
-   "region": "",
-   "summary": "전세사기 피해자 대상 최소보장제 도입\n보증금 3분의 1 미만 변제 시 현금 지원\n13일부터 국토교통부 피해 지원 시행",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.sedaily.com/article/20112047",
-   "title": "용산구 “용산공원 주택 반대…토양 정화·기반시설 대책 먼저”",
-   "time": "2026-11-09 17:01",
-   "source": "서울경제",
-   "category": "토지/개발",
-   "region": "용산구",
-   "summary": "용산구 용산공원 부지 주택 공급 반대\n토양 오염 정밀조사 및 정화 선행 요구\n교통·교육 등 필수 기반시설 대책 촉구",
-   "place": "용산구 용산공원",
-   "latlng": [
-    37.521866,
-    126.982834
-   ],
-   "pin": "place",
-   "pin_name": "용산가족공원",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.hankyung.com/article/202611095475i",
-   "title": "스파크플러스, 마곡 진출…르웨스트에 공유오피스 개설",
-   "time": "2026-11-09 16:16",
-   "source": "한국경제",
-   "category": "상권개발",
-   "region": "강서구",
-   "summary": "스파크플러스 마곡 르웨스트 매장 개설\n마곡지구 대형 복합단지 내 입점\n서울 서부권 업무 공간 공급 확대",
-   "place": "강서구 르웨스트",
-   "latlng": [
-    37.562845,
-    126.824716
-   ],
-   "pin": "place",
-   "pin_name": "VL르웨스트",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.hankyung.com/article/202611095484i",
-   "title": "LH, 서울 오피스텔 1000가구 매입…노도강은 '한도 없다'",
-   "time": "2026-11-09 16:12",
-   "source": "한국경제",
-   "category": "시장동향",
-   "region": "",
-   "summary": "LH 서울 역세권 오피스텔 1000가구 매입\n노원·도봉·강북 지역 매입 한도 미적용\n청년 및 신혼부부 임대주택 우선 확보",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.hankyung.com/article/2026110832281",
-   "title": "공공분양, '청약홈'서만 신청? … SH 물량은 따로 접수",
-   "time": "2026-11-09 14:06",
-   "source": "한국경제",
-   "category": "시장동향",
-   "region": "",
-   "summary": "SH 공공분양 청약은 청약홈과 별도 접수\n공급 기관에 따라 신청 창구 확인 필요\n청약 신청 시 모집 공고 확인 유의",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.hankyung.com/article/2026110832301",
-   "title": "연내 공공분양 9000가구…국내 첫 '지분적립형' 나온다",
-   "time": "2026-11-09 14:00",
-   "source": "한국경제",
-   "category": "시장동향",
-   "region": "",
-   "summary": "수도권 연내 공공분양 9000가구 공급\n국내 최초 지분적립형 분양주택 도입\n분양대금 20~30년 분할 납부 가능",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.hankyung.com/article/2026110604696",
-   "title": "\"집값 36억이나 빠졌는데\"…압구정 아파트값의 '숨겨진 반전' [시장톡]",
-   "time": "2026-11-09 13:30",
-   "source": "한국경제",
-   "category": "시장동향",
-   "region": "강남구",
-   "summary": "압구정 신현대11차 최고가 이후 조정\n잠실 리센츠 등 서울 핵심지 가격 변동\n고점과 이전 실거래가 비교 필요성 강조",
-   "place": "강남구 압구정 신현대11차",
-   "latlng": [
-    37.5177,
-    127.0473
-   ],
-   "pin": "region",
-   "pin_name": "강남구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.sedaily.com/article/20111915",
-   "title": "요즘 서울 집값 심상찮더니 “팔겠다는 사람만 넘쳐”…매물 3개월새 ‘30%’ 급증",
-   "time": "2026-11-09 12:01",
-   "source": "서울경제",
-   "category": "시장동향",
-   "region": "",
-   "summary": "서울 아파트 매매 매물 8만 건 돌파\n강남3구 하락세 vs 나머지 지역 상승세\n석 달 새 아파트 매물 30% 급증",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.hankyung.com/article/202611094347i",
-   "title": "서초구, 신반포 재건축 3개 단지 착공 '밀착 지원'",
-   "time": "2026-11-09 11:08",
-   "source": "한국경제",
-   "category": "재건축/재개발",
-   "region": "서초구",
-   "summary": "서초구 신반포 재건축 3개 단지 착공 지원\n신속지원단 네 번째 회의 열어 점검\n동절기 선행공사 안전관리 집중",
-   "place": "서초구 신반포",
-   "latlng": [
-    37.498389,
-    126.994998
-   ],
-   "pin": "place",
-   "pin_name": "신반포주유소",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.sedaily.com/article/20111868",
-   "title": "목동 첫 래미안…삼성물산, 13단지 재건축 시공권 확보",
-   "time": "2026-11-09 11:04",
-   "source": "서울경제",
-   "category": "재건축/재개발",
-   "region": "양천구",
-   "summary": "삼성물산 목동13단지 재건축 시공권 확보\n목동 일대 최초 래미안 브랜드 입성\n대신자산신탁 전체회의서 최종 선정",
-   "place": "양천구 목동13단지",
-   "latlng": [
-    37.51511,
-    126.866174
-   ],
-   "pin": "place",
-   "pin_name": "목동신시가지13단지아파트",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.hankyung.com/article/202611094539i",
-   "title": "목동에 래미안 '첫발'…13단지 시공사에 삼성물산 최종 선정",
-   "time": "2026-11-09 10:59",
-   "source": "한국경제",
-   "category": "재건축/재개발",
-   "region": "양천구",
-   "summary": "목동13단지 재건축 시공사 삼성물산 선정\n목동 최초 래미안 브랜드 입성 확정\n토지등소유자 전체회의서 안건 통과",
-   "place": "양천구 목동13단지",
-   "latlng": [
-    37.51511,
-    126.866174
-   ],
-   "pin": "place",
-   "pin_name": "목동신시가지13단지아파트",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.sedaily.com/article/20111830",
-   "title": "‘30억 로또’ 디에이치 반포124…꽉 막혔던 서울 청약, 연말 3800가구 쏟아진다",
-   "time": "2026-11-09 10:16",
-   "source": "서울경제",
-   "category": "시장동향",
-   "region": "서초구",
-   "summary": "서울 연말 민간 분양 3800가구 공급\n디에이치 반포124 전용 84㎡ 30억 원대\n분양가상한제 적용 대단지 청약 관심",
-   "place": "서초구 디에이치 반포124",
-   "latlng": [
-    37.503289,
-    126.987443
-   ],
-   "pin": "place",
-   "pin_name": "디에이치반포124아파트 (예정)",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.hankyung.com/article/2026110939036",
-   "title": "\"1억만 더 보태면 국평 갈텐데\"…서울 집주인 고민하는 까닭",
-   "time": "2026-11-09 09:04",
-   "source": "한국경제",
-   "category": "시장동향",
-   "region": "",
-   "summary": "서울 아파트 소형-중형 평형 격차 축소\n갈아타기 평균 비용 1.7억 원 기록\n1년 전 대비 매매가 격차 30% 감소",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.hankyung.com/article/2026110938706",
-   "title": "목동에 첫 '래미안' 들어선다…13단지 2조4000억원 재건축",
-   "time": "2026-11-09 08:48",
-   "source": "한국경제",
-   "category": "재건축/재개발",
-   "region": "양천구",
-   "summary": "목동13단지 2조 4000억 재건축 사업\n기존 2280가구에서 최고 49층 3757가구로\n삼성물산 '래미안 모브13' 단지명 제안",
-   "place": "양천구 목동13단지",
-   "latlng": [
-    37.51511,
-    126.866174
-   ],
-   "pin": "place",
-   "pin_name": "목동신시가지13단지아파트",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.sedaily.com/article/20111686",
-   "title": "서울 생애최초 매수자 두 달 새 24% 감소…2030은 외곽으로 몰렸다[코주부]",
-   "time": "2026-11-09 07:10",
-   "source": "서울경제",
-   "category": "시장동향",
-   "region": "",
-   "summary": "서울 생애최초 주택 매수자 두 달 새 감소\n집값 상승과 금리 부담에 관망세 돌아서\n2030세대 매수 수요는 서울 외곽 이동",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.hankyung.com/article/2026110608116",
-   "title": "\"전세요? 요즘 누가 해요\"…집주인도 세입자도 등 돌린 이유 [시장톡]",
-   "time": "2026-11-09 06:30",
-   "source": "한국경제",
-   "category": "시장동향",
-   "region": "",
-   "summary": "서울 아파트 월세 계약 비중 51.1% 달성\n고금리·대출 규제로 임대차 시장 월세화\n전세 외면하고 월세 선호 현상 심화",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.sedaily.com/article/20111688",
-   "title": "서울 연말 분양 3750가구 쏟아진다…반포선 30억 원 시세차익 기대[집슐랭]",
-   "time": "2026-11-09 06:19",
-   "source": "서울경제",
-   "category": "시장동향",
-   "region": "서초구",
-   "summary": "서울 연말에 3750가구 일반분양 공급\n반포 단지 최대 30억 원 시세차익 기대\n강남권 알짜 단지 청약에 실수요자 집중",
-   "place": "서초구 반포동",
-   "latlng": [
-    37.505145,
-    127.013359
-   ],
-   "pin": "place",
-   "pin_name": "반포동",
    "loc_v": 2
   }
  ]
