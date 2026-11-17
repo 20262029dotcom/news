@@ -1,8 +1,144 @@
 {
- "updated": "2026-11-17 18:57",
+ "updated": "2026-11-18 07:50",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742819",
+   "title": "루원청사 찾아간 시의회, 밤늦도록 ‘송곳 검증’… 류윤기 iH 사장 진땀",
+   "time": "2026-11-17 21:30",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "인천",
+   "summary": "인천시의회 iH 루원복합청사 행정사무감사 실시\n검단신도시 기반시설 미비 및 사업 공공성 질타\n업무 파악 미흡과 자료 제출 부실 문제 제기",
+   "place": "인천 서구 루원시티",
+   "latlng": [
+    37.456,
+    126.7052
+   ],
+   "pin": "region",
+   "pin_name": "인천",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742760",
+   "title": "[사설] 도내 출생아 증가에도 역행하는 돌봄행정",
+   "time": "2026-11-17 19:01",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "경기도",
+   "summary": "경기도 출생아 증가에도 돌봄 행정 역행 비판\n산후조리비 지원사업 파행 등 예산 운용 지적\n가족돌봄수당 감액 등 정책 실효성 논란",
+   "place": "",
+   "latlng": [
+    37.28847,
+    127.05352
+   ],
+   "pin": "region",
+   "pin_name": "경기도",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742735",
+   "title": "[자치시대] 지방재정을 압살하는 중앙의 재정 패권주의와 꼼수 예산",
+   "time": "2026-11-17 18:51",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "경기도",
+   "summary": "중앙정부의 지방교부세 삭감으로 지방재정 위기\n부동산 침체와 세수 결손이 지방재정 압박\n지방정부의 예산 운용 자율성 침해 우려",
+   "place": "",
+   "latlng": [
+    37.28847,
+    127.05352
+   ],
+   "pin": "region",
+   "pin_name": "경기도",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742808",
+   "title": "[청약통장, 사라지는 사다리] 하루 349좌씩 증발… ‘내 집 마련 필수품’ 아니다",
+   "time": "2026-11-17 18:28",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "경기도",
+   "summary": "높은 분양가와 대출 규제로 청약통장 해지 증가\n내 집 마련 사다리 기능 상실 우려 확산\n당첨 후 잔금 부담으로 청약 매력도 감소",
+   "place": "",
+   "latlng": [
+    37.28847,
+    127.05352
+   ],
+   "pin": "region",
+   "pin_name": "경기도",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742809",
+   "title": "LH, 3기 신도시에 ‘레미콘 통합 품질관리 시스템’ 도입",
+   "time": "2026-11-17 18:28",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "경기도",
+   "summary": "LH 3기 신도시 레미콘 품질관리 시스템 도입\nGPS 운송 기록 및 검수 이력 체계적 관리\n공공주택 시공 품질 및 안전성 강화 목적",
+   "place": "경기도 3기 신도시",
+   "latlng": [
+    37.28847,
+    127.05352
+   ],
+   "pin": "region",
+   "pin_name": "경기도",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742804",
+   "title": "송도 기숙사 부지 ‘특혜매각’ 전 인천경제청 공무원 2심서 실형",
+   "time": "2026-11-17 18:14",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "인천",
+   "summary": "송도 바이오단지 기숙사 부지 특혜매각 사건\n전 인천경제청 공무원 항소심서 실형 선고\n의혹 제기 6년 만에 사법적 판단 내려져",
+   "place": "인천 연수구 송도국제도시",
+   "latlng": [
+    37.424741,
+    126.615587
+   ],
+   "pin": "place",
+   "pin_name": "송도국제도시 9공구",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742799",
+   "title": "두 차례 사업승인 취소 위기 극복..이천장호원 공공임대아파트 입주 ‘대환영’",
+   "time": "2026-11-17 17:49",
+   "source": "중부일보",
+   "category": "재건축/재개발",
+   "region": "이천시",
+   "summary": "이천 장호원 LH 통합공공임대아파트 입주 시작\n취약계층 주거 안정 및 지역 정주여건 개선\n총 620세대 규모로 지역 인구 유입 기대",
+   "place": "이천시 장호원읍",
+   "latlng": [
+    37.115,
+    127.616828
+   ],
+   "pin": "place",
+   "pin_name": "장호원읍",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742783",
+   "title": "3400억 규모 광교신도시 개발이익금 배분액 결정 앞두고 지자체-GH 동상이몽?",
+   "time": "2026-11-17 17:01",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "수원시",
+   "summary": "광교신도시 개발이익금 배분액 결정 앞둔 갈등\n수원·용인시와 GH 간 배분 비율 이견 발생\n회계용역 결과 토대로 재투자 비율 협의 예정",
+   "place": "수원시 광교신도시",
+   "latlng": [
+    37.277665,
+    127.066833
+   ],
+   "pin": "place",
+   "pin_name": "광교신도시충전소",
+   "loc_v": 2
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363742703",
    "title": "경기도 집합건물 20년 초과 보유자 35.1% 급증…“8·3 세제개편안 등 영향”",
@@ -745,88 +881,6 @@
    ],
    "pin": "place",
    "pin_name": "인천제물포구청 신포청사 주차장",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742109",
-   "title": "위장전입·자격매매로 노린 아파트 당첨…부정청약 의심 354건 적발",
-   "time": "2026-11-10 18:44",
-   "source": "중부일보",
-   "category": "시장동향",
-   "region": "",
-   "summary": "국토부 부정청약 의심 354건 적발\n위장전입 및 청약자격 매매 등 부정 행위\n인천 대리청약 및 분당 위장전입 등 사례 확인",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742095",
-   "title": "수원영통 5천 세대 대규모 이주에 전·월세난 심화되나…임시 보금자리 찾는 전세난민 현상 우려",
-   "time": "2026-11-10 17:28",
-   "source": "중부일보",
-   "category": "재건축/재개발",
-   "region": "수원시 영통구",
-   "summary": "수원 영통 대규모 리모델링 추진\n내년 상반기 5천 세대 이주 시작\n수원 인근 지역 전월세난 심화 우려",
-   "place": "수원시 영통구 신성신안쌍용진흥단지",
-   "latlng": [
-    37.25439,
-    127.065527
-   ],
-   "pin": "place",
-   "pin_name": "신성신안쌍용진흥아파트",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742085",
-   "title": "GTX-B 청학역 총사업비 2천694억…인천시 “내년 본예산 470억 반영”",
-   "time": "2026-11-10 17:14",
-   "source": "중부일보",
-   "category": "도로확장",
-   "region": "인천 연수구",
-   "summary": "GTX-B 청학역 총사업비 2694억\n인천시 내년 예산 470억원 반영\n연수구 숙원 신설사업 집중 점검",
-   "place": "인천 연수구 청학역",
-   "latlng": [
-    37.419038,
-    126.676393
-   ],
-   "pin": "place",
-   "pin_name": "연수역남부공영주차장",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742086",
-   "title": "장고개도로 개통 지연에...인천시의회, 제3보급단 관통도로 ‘임시 개방’ 촉구",
-   "time": "2026-11-10 17:14",
-   "source": "중부일보",
-   "category": "도로확장",
-   "region": "인천 부평구",
-   "summary": "장고개도로 개통 지연 문제 논의\n제3보급단 관통도로 임시개방 촉구\n국방부 협의 통한 도로 개방 추진",
-   "place": "인천 부평구 제3보급단",
-   "latlng": [
-    37.50702,
-    126.72201
-   ],
-   "pin": "region",
-   "pin_name": "인천 부평구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742047",
-   "title": "김교흥 의원 “GTX-D Y자·E 노선 등 국가철도망 구축계획 반영해야”",
-   "time": "2026-11-10 14:47",
-   "source": "중부일보",
-   "category": "도로확장",
-   "region": "인천 서구",
-   "summary": "GTX-D Y자 및 E 노선 반영 촉구\n대장홍대선 청라 계양 연장 요청\n제5차 국가철도망 구축계획 추진",
-   "place": "인천 서구 청라국제도시",
-   "latlng": [
-    37.545,
-    126.676
-   ],
-   "pin": "region",
-   "pin_name": "인천 서구",
    "loc_v": 2
   }
  ]
