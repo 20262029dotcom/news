@@ -1,8 +1,76 @@
 {
- "updated": "2026-11-18 18:55",
+ "updated": "2026-11-19 07:46",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742970",
+   "title": "인천시 “청라7호선 개통 지연, 필요 시 감사원 감사 청구도 검토”",
+   "time": "2026-11-18 20:51",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "인천 서구",
+   "summary": "인천시, 청라7호선 연장 사업 개통 지연 감사 검토\n주민공청회서 공기 단축 방안 및 대체 교통대책 발표\n개통 지연에 따른 책임 규명과 주민 항의 이어져",
+   "place": "서구 청라3동 행정복지센터",
+   "latlng": [
+    37.545,
+    126.676
+   ],
+   "pin": "region",
+   "pin_name": "인천 서구",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742966",
+   "title": "7호선 추가사업비 1천188억 원 추산…인천시 재정 압박 가중",
+   "time": "2026-11-18 19:34",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "인천 서구",
+   "summary": "청라7호선 개통 지연 수습에 추가사업비 1천188억 추산\n내년 사업 예산 3천500억 원에 추가 소요액 더해져\n인천시 재정 부담 증가 속 추가 예산 확보 방안 논의",
+   "place": "서구 청라3동 행정복지센터",
+   "latlng": [
+    37.545,
+    126.676
+   ],
+   "pin": "region",
+   "pin_name": "인천 서구",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742912",
+   "title": "[사설] 솔로몬 지혜 필요한 광교 개발이익금 배분",
+   "time": "2026-11-18 19:01",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "수원시",
+   "summary": "광교신도시 잔여 개발이익금 3천400억 원 배분 정산\n수원시와 용인시 등 기초지자체 재원 활용 청사진 제시\n경기도 및 GH, 사업시행자 간 배분 비율 협의 진행",
+   "place": "수원시 광교신도시",
+   "latlng": [
+    37.277665,
+    127.066833
+   ],
+   "pin": "place",
+   "pin_name": "광교신도시충전소",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742913",
+   "title": "[사설] 경인전철 지하화, 균형발전의 새 지평 열어야",
+   "time": "2026-11-18 19:00",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "인천 부평구",
+   "summary": "인천시, 경인전철 지하화 국가 종합계획 반영 총력전\n국토교통부 철도 지하화 공청회 참석해 당위성 피력\n도심 단절 해소와 미래형 도시 공간 재창조 추진",
+   "place": "부평구 부평역",
+   "latlng": [
+    37.489449,
+    126.724331
+   ],
+   "pin": "place",
+   "pin_name": "부평역 1호선",
+   "loc_v": 2
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363742828",
    "title": "[기고] 평화경제특구 첫 단추, 성공할 곳에 끼워야",
@@ -18,6 +86,20 @@
    ],
    "pin": "place",
    "pin_name": "김포장릉",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742963",
+   "title": "[청약통장, 사라지는 사다리] 15년 모은 내 집 마련 꿈, 이젠 해지부터 고민",
+   "time": "2026-11-18 18:48",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "",
+   "summary": "높은 분양가와 대출 규제로 주택청약통장 해지 증가\n당첨되더라도 잔금 등 자금 부담에 내 집 마련 난항\n청약통장의 기능 약화와 청약에 대한 인식 변화 지적",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
    "loc_v": 2
   },
   {
@@ -745,207 +827,6 @@
    ],
    "pin": "place",
    "pin_name": "서송병원 전기차충전소",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742124",
-   "title": "[시군정담] 용인을 변화하게 만드는 ‘적극행정’",
-   "time": "2026-11-11 18:52",
-   "source": "중부일보",
-   "category": "토지/개발",
-   "region": "용인시 처인구",
-   "summary": "용인 이동·남사 첨단시스템반도체 산단 조성 착공\n후보지 15곳 중 산단계획 승인 완료 유일\n삼성전자 6개 반도체 생산라인 들어설 예정",
-   "place": "용인시 처인구 이동·남사읍 첨단시스템반도체 클러스터 국가산업단지",
-   "latlng": [
-    37.2345,
-    127.2017
-   ],
-   "pin": "region",
-   "pin_name": "용인시 처인구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742251",
-   "title": "10월 경기도 취업자, 1년 전보다 6만1천 명 늘었다",
-   "time": "2026-11-11 18:12",
-   "source": "중부일보",
-   "category": "시장동향",
-   "region": "경기도",
-   "summary": "10월 경기도 취업자 785만 1천 명 기록.\n전년 동기 대비 6만 1천 명 증가함.\n고용률은 63.5%로 전년 대비 소폭 하락.",
-   "place": "",
-   "latlng": [
-    37.28847,
-    127.05352
-   ],
-   "pin": "region",
-   "pin_name": "경기도",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742249",
-   "title": "추미애, 연일 광폭 소통 행보…여야·중앙정부 이어 공무원 노조까지",
-   "time": "2026-11-11 17:59",
-   "source": "중부일보",
-   "category": "도로확장",
-   "region": "경기도",
-   "summary": "경기도, 민주당과 당정협의회 개최.\n광역교통망 개선 및 재정 확충 논의.\n철도망 확충 등 주요 현안 해법 모색.",
-   "place": "",
-   "latlng": [
-    37.28847,
-    127.05352
-   ],
-   "pin": "region",
-   "pin_name": "경기도",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742246",
-   "title": "토지 매입 안돼 늦춰진 ‘수원 새빛학교 개교’…도의회 행감서도 지적",
-   "time": "2026-11-11 17:58",
-   "source": "중부일보",
-   "category": "토지/개발",
-   "region": "수원시",
-   "summary": "수원 새빛학교 개교 1년 6개월 지연.\n토지 매입 및 용지 변경 문제 발생.\n도의회 행감서 설립 지연 원인 질타.",
-   "place": "수원시 새빛학교",
-   "latlng": [
-    37.247996,
-    127.055646
-   ],
-   "pin": "place",
-   "pin_name": "새빛학교 (2028년 9월 예정)",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742244",
-   "title": "지역경제 활성화?…개원 6년에도 나타나지 않는 ‘대형병원 특수’",
-   "time": "2026-11-11 17:57",
-   "source": "중부일보",
-   "category": "상권개발",
-   "region": "용인시",
-   "summary": "용인세브란스병원 인근 상가 공실 심각.\n개원 6년 지났으나 상권 활성화 미비.\n대형 상가 입주 업체 저조한 상태.",
-   "place": "용인시 동백지구",
-   "latlng": [
-    37.274876,
-    127.157334
-   ],
-   "pin": "place",
-   "pin_name": "동백지구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742234",
-   "title": "12년 만의 위반건축물 양성화… 인천 주거용 2천여 건, 신청 안내는 ‘깜깜’",
-   "time": "2026-11-11 17:32",
-   "source": "중부일보",
-   "category": "시장동향",
-   "region": "인천",
-   "summary": "소규모 주거용 위반건축물 양성화 추진.\n인천 내 대상 2천여 건 확인됨.\n정부 지침 미비로 신청 안내 차질.",
-   "place": "인천광역시",
-   "latlng": [
-    37.456,
-    126.7052
-   ],
-   "pin": "region",
-   "pin_name": "인천",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742235",
-   "title": "‘롤러코스터 코스피’ 안전자산 쏠리는 투자자 관심…“투자 가치 판단해야”",
-   "time": "2026-11-11 17:32",
-   "source": "중부일보",
-   "category": "시장동향",
-   "region": "",
-   "summary": "코스피 급등락 반복하며 변동성 확대.\n투자자 안전자산 선호 현상 뚜렷.\n기업 본질 가치 중심 투자 조언.",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742222",
-   "title": "[행감인물] 김진후 경기도의원 “경기남부광역철도, 권역별 논리로 설명해야”",
-   "time": "2026-11-11 17:20",
-   "source": "중부일보",
-   "category": "도로확장",
-   "region": "수원시",
-   "summary": "제5차 국가철도망 계획 반영 논리 수립 주문\n경기남부광역철도 반영 전략 마련 체계화 제안\n수원 등 지역 이동 수요 대응 및 불편 해소 강조",
-   "place": "",
-   "latlng": [
-    37.26333,
-    127.02875
-   ],
-   "pin": "region",
-   "pin_name": "수원시",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742214",
-   "title": "인천시 ‘5대 노선’ 국가계획 반영 전면전…박찬대 시장 직접 뛴다",
-   "time": "2026-11-11 17:07",
-   "source": "중부일보",
-   "category": "도로확장",
-   "region": "인천 서구",
-   "summary": "GTX-D·E 및 대장홍대선 청라 연장 반영 추진\n제5차 국가철도망 구축계획 의견수렴 참석\n인천시 건의 노선 필요성 국토부에 직접 설명",
-   "place": "인천 서구 청라국제도시",
-   "latlng": [
-    37.545,
-    126.676
-   ],
-   "pin": "region",
-   "pin_name": "인천 서구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742206",
-   "title": "“집과 땅 내놓고 어디로 가란 말인가”…김포한강2 원주민들, 정부 신규택지 발표에 반발",
-   "time": "2026-11-11 16:40",
-   "source": "중부일보",
-   "category": "토지/개발",
-   "region": "김포시",
-   "summary": "김포한강2·김포아라 8만9천 가구 공급 추진 반발\n원주민 대책위 보상 및 교통 대책 수립 요구\n공공임대 비율 유지와 선교통 후입주 방안 제시",
-   "place": "김포시 김포한강2 공공주택지구",
-   "latlng": [
-    37.657746,
-    126.654008
-   ],
-   "pin": "place",
-   "pin_name": "김포한강2 공공주택지구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742181",
-   "title": "LH, 인천계양 신도시 첫 입주단지 ‘셔틀버스 운행협약’ 체결...출퇴근 시간 집중 배치",
-   "time": "2026-11-11 14:42",
-   "source": "중부일보",
-   "category": "토지/개발",
-   "region": "인천 계양구",
-   "summary": "LH 인천계양 A2·3블록 셔틀버스 운행협약 체결\n3기 신도시 최초 입주 단지 교통 불편 해소 추진\n출퇴근 시간대 셔틀버스 집중 배치 및 운행",
-   "place": "인천 계양구 인천계양 A2블록",
-   "latlng": [
-    37.556132,
-    126.754699
-   ],
-   "pin": "place",
-   "pin_name": "인천계양루시안트아파트(A2) (2026년12월예정)",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742152",
-   "title": "인천 제물포구 신포청사에 ‘제물포라운지’ 개소…침체된 신포동 상권 활력 기대",
-   "time": "2026-11-11 13:30",
-   "source": "중부일보",
-   "category": "상권개발",
-   "region": "인천",
-   "summary": "제물포구 신포청사에 제물포라운지 개소.\n행정 기능 축소된 청사 복합문화공간화.\n침체된 신포동 상권 활력 기대.",
-   "place": "인천 제물포구 신포청사",
-   "latlng": [
-    37.473386,
-    126.621712
-   ],
-   "pin": "place",
-   "pin_name": "인천제물포구청 신포청사 주차장",
    "loc_v": 2
   }
  ]
