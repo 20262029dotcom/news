@@ -1,8 +1,73 @@
 {
- "updated": "2026-11-18 07:50",
+ "updated": "2026-11-18 18:55",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742828",
+   "title": "[기고] 평화경제특구 첫 단추, 성공할 곳에 끼워야",
+   "time": "2026-11-18 18:51",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "김포시",
+   "summary": "김포시 평화경제특구 지정 추진\n세제 감면 및 기반시설 지원 기대\n접경지역 신성장 동력 창출 구상",
+   "place": "김포시",
+   "latlng": [
+    37.61303,
+    126.711135
+   ],
+   "pin": "place",
+   "pin_name": "김포장릉",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742962",
+   "title": "[의정발언대] 김종국 인천 제물포구의원 “잊혀진 섬 물치도, 시민의 품으로 돌려줘야”",
+   "time": "2026-11-18 18:42",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "인천 동구",
+   "summary": "인천 제물포구 물치도 환원 촉구\n과거 휴양지서 경매 넘어가 논란\n지역 유일 섬으로 보전 개발 필요",
+   "place": "인천 동구 물치도",
+   "latlng": [
+    37.48641,
+    126.63388
+   ],
+   "pin": "region",
+   "pin_name": "인천 동구",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742953",
+   "title": "경기 수출 155% 급증했으나 생산·소비·건설 부진…지역경제 온도 차",
+   "time": "2026-11-18 17:50",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "",
+   "summary": "경기 3분기 수출액 154.7% 증가\n반도체 호황 불구 건설수주 감소\n지역 경제 지표 간 극심한 온도차",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742950",
+   "title": "LH, 준공 30년 분당 돌아보는 ‘계획에서 삶으로’ 전시",
+   "time": "2026-11-18 17:49",
+   "source": "중부일보",
+   "category": "재건축/재개발",
+   "region": "성남시 분당구",
+   "summary": "분당신도시 준공 30년 기념 전시\n1기 신도시 개발 역사 및 특징 조명\n국토발전전시관서 12월 4일까지 열려",
+   "place": "성남시 분당구 분당신도시",
+   "latlng": [
+    37.396508,
+    127.110052
+   ],
+   "pin": "place",
+   "pin_name": "고덕신도시뷰파이브 홍보관",
+   "loc_v": 2
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363742819",
    "title": "루원청사 찾아간 시의회, 밤늦도록 ‘송곳 검증’… 류윤기 iH 사장 진땀",
