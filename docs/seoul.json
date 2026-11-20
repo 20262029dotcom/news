@@ -1,8 +1,22 @@
 {
- "updated": "2026-11-20 18:57",
+ "updated": "2026-11-21 07:42",
  "region": "서울",
- "source": "서울경제 · 한국경제",
+ "source": "한국경제 · 서울경제",
  "items": [
+  {
+   "url": "https://www.hankyung.com/article/2026112008757",
+   "title": "공시가격 현실화율 69% 동결…\"집값 오른 곳, 보유세 늘 수도\"",
+   "time": "2026-11-20 19:56",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "공시가격 현실화율 69% 동결\n단독주택 53.6%·토지 65.5% 유지\n집값 오른 지역 보유세 증가 가능",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
   {
    "url": "https://www.sedaily.com/article/20117139",
    "title": "재초환 폭탄에 보유세까지 겹악재…강남3구 매물 3만건 돌파",
@@ -2158,195 +2172,6 @@
    ],
    "pin": "place",
    "pin_name": "신월동",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.hankyung.com/article/2026111357061",
-   "title": "증축 없고 공기 짧다…커지는 '리모델링' 시장",
-   "time": "2026-11-13 18:07",
-   "source": "한국경제",
-   "category": "재건축/재개발",
-   "region": "",
-   "summary": "서울 도심 노후 단지 중심 리모델링 수요 확대\n대형 건설사 신속형 모델 출시 등 사업 참전 증가\n공기 단축 및 미분양 리스크 낮아 높은 사업성 평가",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.hankyung.com/article/2026111357001",
-   "title": "수도권 4.4만가구 집들이…공급 가뭄 숨통 트이나",
-   "time": "2026-11-13 18:05",
-   "source": "한국경제",
-   "category": "시장동향",
-   "region": "",
-   "summary": "정부 3차 주택공급 발표 및 수도권 입주 소식\n서울 1분기 6000가구 입주로 공급 숨통 기대\n연내 3기 신도시 1.1만가구 분양 추진",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.hankyung.com/article/2026111357011",
-   "title": "양천·중랑 '모아주택' 5곳 2741가구",
-   "time": "2026-11-13 18:05",
-   "source": "한국경제",
-   "category": "재건축/재개발",
-   "region": "양천구",
-   "summary": "양천구·중랑구 모아주택 5곳 2741가구 공급\n저층주거지 개발로 2028년 착공 목표 추진\n신속통합기획 후보지 6곳 추가 선정 발표",
-   "place": "양천구 신월동",
-   "latlng": [
-    37.532816,
-    126.831536
-   ],
-   "pin": "place",
-   "pin_name": "신월동",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.sedaily.com/article/20114114",
-   "title": "IPARK현대산업개발, 이촌 강변강서 재건축 수주 추진…용산 사업 확대",
-   "time": "2026-11-13 16:40",
-   "source": "서울경제",
-   "category": "재건축/재개발",
-   "region": "용산구",
-   "summary": "HDC현대산업개발 이촌동 수주 추진\n강변강서아파트 재건축 사업 대상\n용산 정비창 전면1구역 이어 영역 확대",
-   "place": "용산구 강변강서아파트",
-   "latlng": [
-    37.5323,
-    126.99
-   ],
-   "pin": "region",
-   "pin_name": "용산구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.sedaily.com/article/20114048",
-   "title": "올해냐 2029년이냐…국토부, 재초환 부과시점 이달 중 정리",
-   "time": "2026-11-13 15:06",
-   "source": "서울경제",
-   "category": "재건축/재개발",
-   "region": "",
-   "summary": "국토부 재초환 부과시점 이달 확정\n부담금 부과기한 법률 해석 정리 예정\n3차 주택공급 브리핑서 입장 밝혀",
-   "place": "종로구 정부서울청사",
-   "latlng": [
-    37.574941,
-    126.975141
-   ],
-   "pin": "place",
-   "pin_name": "정부서울청사 본관",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.hankyung.com/article/202611134765H",
-   "title": "\"80억 벌고 또 한남동으로\"…BTS 진, 이번엔 빌딩 샀다 [집코노미-핫!부동산]",
-   "time": "2026-11-13 11:18",
-   "source": "한국경제",
-   "category": "토지/개발",
-   "region": "용산구",
-   "summary": "BTS 진 서울 용산구 한남동 빌딩 매입\n80억원 시세차익 후 한남동 재투자\n용산구 한남동 일대 부동산 투자 지속",
-   "place": "용산구 한남동",
-   "latlng": [
-    37.53463,
-    127.000552
-   ],
-   "pin": "place",
-   "pin_name": "한남동",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.sedaily.com/article/20113934",
-   "title": "강남3구·용산 토허 신청 20% 늘었지만…신청가격은 낙폭 확대",
-   "time": "2026-11-13 11:06",
-   "source": "서울경제",
-   "category": "시장동향",
-   "region": "강남구",
-   "summary": "강남3구·용산 토허 신청 20% 증가\n신청가격은 낙폭 확대 흐름 보여\n전체 신청 건수는 고점의 절반 수준",
-   "place": "강남구",
-   "latlng": [
-    37.509111,
-    127.048929
-   ],
-   "pin": "place",
-   "pin_name": "서울선릉과정릉",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.hankyung.com/article/2026111235051",
-   "title": "\"내년 수도권 집값 3.0% 상승할 것\"",
-   "time": "2026-11-13 10:31",
-   "source": "한국경제",
-   "category": "시장동향",
-   "region": "",
-   "summary": "내년 수도권 집값 3.0% 상승 전망\n건산연 전셋값 입주 감소로 4.5%↑\n건설경기 AI투자 등으로 회복 기대",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.sedaily.com/article/20113887",
-   "title": "국토부 “재산권 침해 소지 있어”…재초환 폐지·완화 급물살",
-   "time": "2026-11-13 10:15",
-   "source": "서울경제",
-   "category": "재건축/재개발",
-   "region": "강남구",
-   "summary": "국토부 재산권 침해 소지 지적\n재초환 폐지 및 완화 논의 급물살\n은마·반포현대 등 부담금 사전통지",
-   "place": "강남구 은마아파트",
-   "latlng": [
-    37.497418,
-    127.065327
-   ],
-   "pin": "place",
-   "pin_name": "은마아파트",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.hankyung.com/article/2026111342916",
-   "title": "서울 아파트 토허 신청 두 달 연속 증가…외곽 상승세 지속",
-   "time": "2026-11-13 09:10",
-   "source": "한국경제",
-   "category": "시장동향",
-   "region": "",
-   "summary": "서울 아파트 토허 신청 두 달 연속 증가\n서울 외곽 지역 아파트 상승세 지속\n거래허가 구역 중심 시장 동향 주목",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.sedaily.com/article/20113742",
-   "title": "억대 재초환 부담금 줄줄이 통지…“산정 방식부터 바꿔야”[집슐랭]",
-   "time": "2026-11-13 07:01",
-   "source": "서울경제",
-   "category": "재건축/재개발",
-   "region": "강남구",
-   "summary": "재건축초과이익환수제 폐지·개선 논의 본격화\n국토부 장관 재초환 제도 전반 검토 발언\n강남권 재건축 단지 수억 원대 부담금 통지",
-   "place": "",
-   "latlng": [
-    37.5177,
-    127.0473
-   ],
-   "pin": "region",
-   "pin_name": "강남구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.sedaily.com/article/20113740",
-   "title": "건산연 “내년 수도권 집값 3% 오를 것...올해보다 둔화”",
-   "time": "2026-11-13 06:30",
-   "source": "서울경제",
-   "category": "시장동향",
-   "region": "",
-   "summary": "내년 수도권 집값 3% 상승 전망 발표\n누적 상승 부담 및 세제 여파로 상승세 둔화\n건산연 매물 증가 가능성 속 조정 시각",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
    "loc_v": 2
   }
  ]
