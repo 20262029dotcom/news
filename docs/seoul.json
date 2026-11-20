@@ -1,8 +1,242 @@
 {
- "updated": "2026-11-20 07:45",
+ "updated": "2026-11-20 18:57",
  "region": "서울",
  "source": "서울경제 · 한국경제",
  "items": [
+  {
+   "url": "https://www.sedaily.com/article/20117139",
+   "title": "재초환 폭탄에 보유세까지 겹악재…강남3구 매물 3만건 돌파",
+   "time": "2026-11-20 18:45",
+   "source": "서울경제",
+   "category": "시장동향",
+   "region": "강남구",
+   "summary": "서울 강남3구 아파트 매물 3만 건 돌파\n공시가 현실화율 동결에도 보유세 인상\n당분간 매물 적체 및 가격 조정세 관측",
+   "place": "",
+   "latlng": [
+    37.5177,
+    127.0473
+   ],
+   "pin": "region",
+   "pin_name": "강남구",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20117138",
+   "title": "반포자이 84㎡ 보유세 831만원 증가…잠실주공5 국평도 354만원 더 낸다",
+   "time": "2026-11-20 18:44",
+   "source": "서울경제",
+   "category": "시장동향",
+   "region": "서초구",
+   "summary": "공시가격 현실화율 동결에도 보유세 증가\n서울 아파트값 지속 상승에 세 부담 확대\n반포자이 및 잠실주공5단지 보유세 수백만 상승",
+   "place": "서초구 반포자이",
+   "latlng": [
+    37.507594,
+    127.013193
+   ],
+   "pin": "place",
+   "pin_name": "반포자이아파트",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026112006401",
+   "title": "서울 집값 급등에…공시가 현실화 '원점'으로",
+   "time": "2026-11-20 17:44",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "서울 집값 급등으로 공시가 현실화율 동결\n내년 공동주택 공시가 현실화율 69% 유지\n세 부담 여론 고려해 원점 유지 결정",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026112007281",
+   "title": "내년 공시가 현실화율 동결",
+   "time": "2026-11-20 17:42",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "내년 공동주택 공시가격 현실화율 동결\n시세 대비 69% 수준으로 유지 결정\n집값 상승한 서울 등 보유세 부담은 증가",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20117066",
+   "title": "내년 공시가 현실화율 69%…5년째 동결",
+   "time": "2026-11-20 17:36",
+   "source": "서울경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "내년 공동주택 공시가 현실화율 69% 동결\n2023년부터 5년 연속 동일 비율 유지\n서울 집값 상승으로 재산세·종부세 부담 확대",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026112006411",
+   "title": "19만 가구 '보편형 공공임대', 소득·자산 안 따지고 입주 검토",
+   "time": "2026-11-20 17:24",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "LH연구원 보편형 공공임대 도입 검토\n소득 및 자산 기준 없이 입주 가능 방안\n다자녀 가구 대상 최장 20년 거주 추진",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026112006441",
+   "title": "목동5·12·14단지 심의 통과…최고 49층 1만1863가구",
+   "time": "2026-11-20 17:23",
+   "source": "한국경제",
+   "category": "재건축/재개발",
+   "region": "양천구",
+   "summary": "양천구 목동 5·12·14단지 통합심의 통과\n최고 49층 총 1만1863가구 규모 조성\n필로티 구조 적용 및 보행통로 조성",
+   "place": "양천구 목동신시가지5단지",
+   "latlng": [
+    37.533944,
+    126.882248
+   ],
+   "pin": "place",
+   "pin_name": "목동신시가지5단지아파트",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20117047",
+   "title": "세운4구역 매장유산 보존안 부결…서울시 “국가유산청이 기준 뒤집어”",
+   "time": "2026-11-20 17:22",
+   "source": "서울경제",
+   "category": "재건축/재개발",
+   "region": "종로구",
+   "summary": "국가유산청 세운4구역 매장유산 보존안 부결\n당초 이전보존에서 원위치 보존으로 방침 변경\n서울시 기속력 및 사업 차질 우려로 재검토 요구",
+   "place": "종로구 세운4구역",
+   "latlng": [
+    37.58069,
+    126.9828
+   ],
+   "pin": "region",
+   "pin_name": "종로구",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026112005977",
+   "title": "\"집 팔아 현금 10억 쥐어도…\" 서울 집주인들 당황한 이유",
+   "time": "2026-11-20 17:15",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "서울 국민평형 매수 가능 자치구 축소\n집값 상승 및 DSR 강화로 선택지 한계\n현금 10억 보유해도 갈아타기 난항",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20117030",
+   "title": "LH 모듈러주택 발주 로드맵 공개…2030년까지 1만8000가구 추진",
+   "time": "2026-11-20 16:51",
+   "source": "서울경제",
+   "category": "토지/개발",
+   "region": "",
+   "summary": "LH 2030년까지 모듈러주택 1만8000가구 발주\n민간 설비투자 유도 위해 중장기 일정 공개\n모듈러주택 시장 활성화 및 생태계 구축",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/202611209634i",
+   "title": "목동 5·12·14단지 재건축 통합심의 통과…최고 49층·1만1863가구 조성",
+   "time": "2026-11-20 11:11",
+   "source": "한국경제",
+   "category": "재건축/재개발",
+   "region": "양천구",
+   "summary": "양천구 목동 5·12·14단지 통합심의 통과\n최고 49층 총 1만1863가구 규모 재건축\n목동 일대 정비사업 추진 속도 가속화",
+   "place": "양천구 목동신시가지5단지",
+   "latlng": [
+    37.533944,
+    126.882248
+   ],
+   "pin": "place",
+   "pin_name": "목동신시가지5단지아파트",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20116852",
+   "title": "목동 5·12·14단지 일제히 통합심의 통과…목동 14개 단지 재편 속도",
+   "time": "2026-11-20 10:39",
+   "source": "서울경제",
+   "category": "재건축/재개발",
+   "region": "양천구",
+   "summary": "양천구 목동 5·12·14단지 통합심의 통과\n최고 49층 1만1863가구 규모로 재건축\n보행 동선 확보 및 공통 가이드라인 적용",
+   "place": "양천구 목동신시가지5단지",
+   "latlng": [
+    37.533944,
+    126.882248
+   ],
+   "pin": "place",
+   "pin_name": "목동신시가지5단지아파트",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20116798",
+   "title": "국토부, 전국 9곳 ‘철도 지하화’ 통합개발 본격 추진",
+   "time": "2026-11-20 09:42",
+   "source": "서울경제",
+   "category": "도로확장",
+   "region": "용산구",
+   "summary": "서울 경부선·경원선 67.6㎞ 대심도 지하화\n상부 공간 초고밀 복합용지 개발 추진\n서울역·용산·영등포 등 주요 역세권 수혜",
+   "place": "용산구 용산역",
+   "latlng": [
+    37.530076,
+    126.964824
+   ],
+   "pin": "place",
+   "pin_name": "용산역",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026112089756",
+   "title": "\"4인 가구 만점은 돼야\"…더 높아진 서울 신축 청약 문턱",
+   "time": "2026-11-20 09:22",
+   "source": "한국경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "서울 신축 아파트 청약 당첨 가점 상승\n4인 가구 만점 수준이어야 당첨 가능\n신축 선호 및 공급 부족으로 문턱 고조",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026112088527",
+   "title": "\"198억 땅 전액 현금으로 샀다\"…유재석, 강남에 건물 짓더니 [집코노미-핫!부동산]",
+   "time": "2026-11-20 07:27",
+   "source": "한국경제",
+   "category": "상권개발",
+   "region": "강남구",
+   "summary": "강남구 논현동 198억 부지에 신축 건물 완공\n지하 3층~지상 4층 연면적 1668㎡ 규모\n소속사 사옥 인근으로 업무 공간 활용 가능",
+   "place": "강남구 논현동",
+   "latlng": [
+    37.512645,
+    127.030155
+   ],
+   "pin": "place",
+   "pin_name": "논현동",
+   "loc_v": 2
+  },
   {
    "url": "https://www.sedaily.com/article/20116657",
    "title": "흑석 ‘국평’ 30억인데 반포 ‘평당 1억’ 안된다는 분상제",
