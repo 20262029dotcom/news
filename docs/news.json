@@ -1,8 +1,25 @@
 {
- "updated": "2026-11-21 07:41",
+ "updated": "2026-11-21 18:43",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743150",
+   "title": "“누가 위임했나”… 인천 송도 열병합발전소 상생협의체, 주민 대표성 논란",
+   "time": "2026-11-21 09:53",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "인천 연수구",
+   "summary": "송도 열병합발전소 증설 관련 주민상생협의체 대표성 논란\n구성 절차와 위원 명단 및 활동 내용 미공개에 문제 제기\n주민 대표 및 지자체·사업자 등 총 21명 참여해 논의",
+   "place": "연수구 송도 열병합발전소",
+   "latlng": [
+    37.4098,
+    126.6787
+   ],
+   "pin": "region",
+   "pin_name": "인천 연수구",
+   "loc_v": 2
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363743141",
    "title": "농어촌 유학 2배 급증했는데 섬엔 ‘살 집 0채’… 박찬대 “모듈러 주택·특화주택 공모 추진”",
