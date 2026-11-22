@@ -1,8 +1,76 @@
 {
- "updated": "2026-11-22 07:34",
+ "updated": "2026-11-22 18:44",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743239",
+   "title": "경기대 부동산자산관리학과, 학술제 통해 ‘주택공급 위기, 어떻게 풀 것인가?’ 대주제로 심층 논의",
+   "time": "2026-11-22 16:14",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "수원시 영통구",
+   "summary": "경기남부 18개 시 미분양 원인 심층 분석\n지역별 주택 공급 속도 조절 등 방안 제안\n도심정비 및 주택 공급체계 개선 종합 논의",
+   "place": "수원시 영통구 경기대학교",
+   "latlng": [
+    37.301149,
+    127.035141
+   ],
+   "pin": "place",
+   "pin_name": "경기대학교 수원캠퍼스",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743232",
+   "title": "인천 3대 숙원사업 ‘청신호’ 켜졌지만… ‘재원과 절차’ 관문 넘어야",
+   "time": "2026-11-22 15:46",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "인천 남동구",
+   "summary": "경인전철 지하화 종합계획 반영 완료\n백령공항 재조사 및 소래IC 심사 통과\n재원 조달과 환경 보완 등 절차 과제",
+   "place": "인천 남동구 소래IC",
+   "latlng": [
+    37.4469,
+    126.73151
+   ],
+   "pin": "region",
+   "pin_name": "인천 남동구",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743198",
+   "title": "수원중수청, 수원에 보금자리 마련할까...시, 신청사 부지 2곳 제안",
+   "time": "2026-11-22 14:48",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "수원시 영통구",
+   "summary": "수원시 중수청 신청사 부지 2곳 최종 제안\n하동 공원 부지 및 이의동 경기대 인근\n성남 이전 우려 속 기관 입지 확정 관심",
+   "place": "수원시 영통구 하동",
+   "latlng": [
+    37.289994,
+    127.074129
+   ],
+   "pin": "place",
+   "pin_name": "하동",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743196",
+   "title": "김포시의회 도시환경위, 도시개발 현안 점검…보상·교통대책 집중 질의",
+   "time": "2026-11-22 14:39",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "김포시",
+   "summary": "풍무역세권 GB 해제 및 걸포4지구 점검\n한강시네폴리스 산업단지 현안 집중 질의\n토지 보상 민원과 교통 대책 마련 요청",
+   "place": "김포시 풍무역세권",
+   "latlng": [
+    37.615278,
+    126.736479
+   ],
+   "pin": "place",
+   "pin_name": "호반써밋풍무I아파트 (2028년10월예정)",
+   "loc_v": 2
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363743150",
    "title": "“누가 위임했나”… 인천 송도 열병합발전소 상생협의체, 주민 대표성 논란",
