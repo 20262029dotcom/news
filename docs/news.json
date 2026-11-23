@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23 19:07",
+ "updated": "2026-11-24 07:47",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
@@ -666,102 +666,6 @@
    ],
    "pin": "place",
    "pin_name": "광교신도시충전소",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742703",
-   "title": "경기도 집합건물 20년 초과 보유자 35.1% 급증…“8·3 세제개편안 등 영향”",
-   "time": "2026-11-16 18:53",
-   "source": "중부일보",
-   "category": "시장동향",
-   "region": "",
-   "summary": "경기 집합건물 매도인 전년 대비 12.7% 증가\n보유 20년 초과 장기 보유자 매도 35.1% 급증\n가격 상승 기대 및 8·3 세제개편안 영향 분석",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742701",
-   "title": "LH 인천지역본부, 부천 지역 청년층 ‘파격적 임대료 지원’",
-   "time": "2026-11-16 18:13",
-   "source": "중부일보",
-   "category": "시장동향",
-   "region": "부천시",
-   "summary": "LH와 부천시 청년 드림주택 공급 협약 체결\n청년층 대상 매입임대주택 공급 및 임대료 지원\n월 최대 20만 원 지원해 자부담 최소화 추진",
-   "place": "",
-   "latlng": [
-    37.50144,
-    126.76601
-   ],
-   "pin": "region",
-   "pin_name": "부천시",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742688",
-   "title": "정부, 철도지하화 종합계획 공청회 개최… 경부·경인·안산·경의중앙선 계획 중인 경기도 ‘촉각’",
-   "time": "2026-11-16 17:32",
-   "source": "중부일보",
-   "category": "도로확장",
-   "region": "",
-   "summary": "정부, 철도지하화 종합계획 수립 공청회 개최\n경부·경인·안산·경의중앙선 노선 지하화 추진\n도내 지자체 부지 활용 기대에 관심 집중",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742683",
-   "title": "경기도 집값 상승률 확대…둔화된 서울 집값 추월",
-   "time": "2026-11-16 17:24",
-   "source": "중부일보",
-   "category": "시장동향",
-   "region": "수원시 영통구",
-   "summary": "경기도 주택 매매가격 상승 폭 확대 흐름\n수원 영통·화성 동탄 등이 도 전체 상승 견인\n서울 주택 매매가 상승률은 둔화세 보여",
-   "place": "수원시 영통구",
-   "latlng": [
-    37.263252,
-    127.071012
-   ],
-   "pin": "place",
-   "pin_name": "영흥수목원",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742682",
-   "title": "LH, 남양주왕숙·고양창릉 등 9천 가구 규모 민간참여사업 공모",
-   "time": "2026-11-16 17:23",
-   "source": "중부일보",
-   "category": "토지/개발",
-   "region": "남양주시",
-   "summary": "LH, 남양주왕숙·고양창릉 9천 가구 사업 공모\n민간 기술·브랜드 활용 공공주택 공급 추진\n연말까지 총 10개 블록 민간참여사업 진행",
-   "place": "남양주시 왕숙지구",
-   "latlng": [
-    37.672771,
-    127.164192
-   ],
-   "pin": "place",
-   "pin_name": "남양주왕숙 공공주택지구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742598",
-   "title": "김포 걸포4지구 도시개발사업, 보상절차 본격화…사업 추진 ‘가속’",
-   "time": "2026-11-16 13:50",
-   "source": "중부일보",
-   "category": "토지/개발",
-   "region": "김포시",
-   "summary": "김포 걸포4지구 도시개발 토지보상 절차 착수\n83만㎡ 부지에 7천761세대 주거단지 조성\n호반건설 사업 참여로 추진 동력 확보",
-   "place": "김포시 걸포4지구",
-   "latlng": [
-    37.641196,
-    126.692511
-   ],
-   "pin": "place",
-   "pin_name": "김포걸포4지구 도시개발사업 대책위원회",
    "loc_v": 2
   }
  ]
