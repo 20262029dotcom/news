@@ -1,8 +1,76 @@
 {
- "updated": "2026-11-23 07:39",
+ "updated": "2026-11-23 19:07",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743371",
+   "title": "민간에 20억에 매각했던 광교 주차장 부지, 120억에 되사달라는 민원에 수원시 ‘당혹’",
+   "time": "2026-11-23 18:03",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "수원시",
+   "summary": "광교신도시 민간 매각 주차장 부지 재매입 민원 발생\n수원시, 광교2동 일대 공영주차장 건립 사업 수립 추진\n민간 주차장에 대한 재산권 침해 저촉 여부 관심",
+   "place": "수원시 광교2동",
+   "latlng": [
+    37.29222,
+    127.070125
+   ],
+   "pin": "place",
+   "pin_name": "광교2동",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743331",
+   "title": "시흥도시공사, 핵심 개발용지 첫 공급 성과 ‘바이오션시티 월곶’ 개발에 탄력",
+   "time": "2026-11-23 15:41",
+   "source": "중부일보",
+   "category": "토지/개발",
+   "region": "시흥시",
+   "summary": "시흥 월곶역세권 핵심 주상복합용지 A-1 낙찰자 선정\n3만3천845㎡ 규모로 약 1천150세대 주택 공급 예정\n도시개발사업 본격화 발판 마련 및 후속 계약 절차 진행",
+   "place": "시흥시 월곶역세권",
+   "latlng": [
+    37.39247,
+    126.743204
+   ],
+   "pin": "place",
+   "pin_name": "시흥 월곶역세권 도시개발구역",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743303",
+   "title": "[분양] 동탄 신고가 속 ‘아크메르 동탄’ 계약조건 완화",
+   "time": "2026-11-23 13:31",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "화성시",
+   "summary": "동탄 아파트 신고가 이어지는 가운데 아크메르 동탄 분양\n1차 계약금 1천만원 정액제 변경 등 초기 부담 완화\n선착순 동·호 지정 계약 진행으로 수요자 관심 집중",
+   "place": "화성시 아크메르 동탄",
+   "latlng": [
+    37.195981,
+    127.092191
+   ],
+   "pin": "place",
+   "pin_name": "아크메르동탄 견본주택",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743275",
+   "title": "고양시 일산 강촌 통합재건축, 환경평가 항목 공개",
+   "time": "2026-11-23 11:04",
+   "source": "중부일보",
+   "category": "재건축/재개발",
+   "region": "고양시",
+   "summary": "일산 강촌 3·5·7·8단지 통합재건축 전략환경평가 공고\n오는 12월 7일까지 주민 의견 수렴 절차 진행\n평가서 초안 작성 및 관계기관 협의 거쳐 정비계획 검토",
+   "place": "고양시 일산 강촌 3·5·7·8단지",
+   "latlng": [
+    37.65819,
+    126.83195
+   ],
+   "pin": "region",
+   "pin_name": "고양시",
+   "loc_v": 2
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363743239",
    "title": "경기대 부동산자산관리학과, 학술제 통해 ‘주택공급 위기, 어떻게 풀 것인가?’ 대주제로 심층 논의",
