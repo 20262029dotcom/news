@@ -1,8 +1,93 @@
 {
- "updated": "2026-11-25 07:52",
+ "updated": "2026-11-26 04:03",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743596",
+   "title": "[사설] 반도체 특수에도 먹구름 낀 평택 부동산 시장",
+   "time": "2026-11-25 19:00",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "평택시",
+   "summary": "평택시 미분양 물량이 경기도 전체의 1/4 차지.\n주요 단지 청약 성적 부진으로 위기감 고조.\n삼성전자 호재에도 부동산 시장 침체 지속.",
+   "place": "평택시 지제역",
+   "latlng": [
+    37.018782,
+    127.069833
+   ],
+   "pin": "place",
+   "pin_name": "평택지제역",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743634",
+   "title": "경기·인천 10월 인구 순유입 전국 1·2위",
+   "time": "2026-11-25 18:54",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "경기도",
+   "summary": "10월 경기·인천 인구 순유입 전국 1·2위 기록.\n경기도 3,560명, 인천 1,835명 순유입.\n전년 동기 대비 경기도 유입 규모 42.7% 증가.",
+   "place": "",
+   "latlng": [
+    37.28847,
+    127.05352
+   ],
+   "pin": "region",
+   "pin_name": "경기도",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743625",
+   "title": "주택관리사협회 전·현직 회장 갈등, “사퇴 직전 43억 원 규모 건축 계약 부적절” VS \"적법하게 체결\"",
+   "time": "2026-11-25 17:54",
+   "source": "중부일보",
+   "category": "재건축/재개발",
+   "region": "경기도",
+   "summary": "대한주택관리사협회 경기도회관 건립 사업 갈등.\n전 회장의 사퇴 직전 계약 체결 적절성 논란.\n현 회장 측 경찰 고발 예고 및 수사 촉구.",
+   "place": "",
+   "latlng": [
+    37.28847,
+    127.05352
+   ],
+   "pin": "region",
+   "pin_name": "경기도",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743602",
+   "title": "상가 공실 해법 찾는다… 인천시, 지구단위계획구역 ‘비주거 의무 비율’ 손질",
+   "time": "2026-11-25 16:45",
+   "source": "중부일보",
+   "category": "상권개발",
+   "region": "인천시",
+   "summary": "상가 공실 해소 위해 비주거 의무 비율 개선.\n지구단위계획구역 내 주거복합건축물 기준 완화.\n상업시설 수요 감소 반영한 도시계획 개편.",
+   "place": "인천광역시",
+   "latlng": [
+    37.456,
+    126.7052
+   ],
+   "pin": "region",
+   "pin_name": "인천시",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743599",
+   "title": "인천시, 경기·강원과 ‘동서평화물류고속도로’ 공동 전선 확대",
+   "time": "2026-11-25 16:41",
+   "source": "중부일보",
+   "category": "도로확장",
+   "region": "인천시",
+   "summary": "인천·경기·강원 동서평화물류고속도로 추진.\n영종~강화~고성 잇는 노선 공동 전선 구축.\n국회에서 3개 시·도 지사 협력 방안 논의.",
+   "place": "인천광역시",
+   "latlng": [
+    37.456,
+    126.7052
+   ],
+   "pin": "region",
+   "pin_name": "인천시",
+   "loc_v": 2
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363743505",
    "title": "전국 최다 미분양 평택...반도체 특수에도 효과 미비",
@@ -485,153 +570,6 @@
    ],
    "pin": "region",
    "pin_name": "광주시",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742970",
-   "title": "인천시 “청라7호선 개통 지연, 필요 시 감사원 감사 청구도 검토”",
-   "time": "2026-11-18 20:51",
-   "source": "중부일보",
-   "category": "도로확장",
-   "region": "인천 서구",
-   "summary": "인천시, 청라7호선 연장 사업 개통 지연 감사 검토\n주민공청회서 공기 단축 방안 및 대체 교통대책 발표\n개통 지연에 따른 책임 규명과 주민 항의 이어져",
-   "place": "서구 청라3동 행정복지센터",
-   "latlng": [
-    37.545,
-    126.676
-   ],
-   "pin": "region",
-   "pin_name": "인천 서구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742966",
-   "title": "7호선 추가사업비 1천188억 원 추산…인천시 재정 압박 가중",
-   "time": "2026-11-18 19:34",
-   "source": "중부일보",
-   "category": "도로확장",
-   "region": "인천 서구",
-   "summary": "청라7호선 개통 지연 수습에 추가사업비 1천188억 추산\n내년 사업 예산 3천500억 원에 추가 소요액 더해져\n인천시 재정 부담 증가 속 추가 예산 확보 방안 논의",
-   "place": "서구 청라3동 행정복지센터",
-   "latlng": [
-    37.545,
-    126.676
-   ],
-   "pin": "region",
-   "pin_name": "인천 서구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742912",
-   "title": "[사설] 솔로몬 지혜 필요한 광교 개발이익금 배분",
-   "time": "2026-11-18 19:01",
-   "source": "중부일보",
-   "category": "토지/개발",
-   "region": "수원시",
-   "summary": "광교신도시 잔여 개발이익금 3천400억 원 배분 정산\n수원시와 용인시 등 기초지자체 재원 활용 청사진 제시\n경기도 및 GH, 사업시행자 간 배분 비율 협의 진행",
-   "place": "수원시 광교신도시",
-   "latlng": [
-    37.277665,
-    127.066833
-   ],
-   "pin": "place",
-   "pin_name": "광교신도시충전소",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742913",
-   "title": "[사설] 경인전철 지하화, 균형발전의 새 지평 열어야",
-   "time": "2026-11-18 19:00",
-   "source": "중부일보",
-   "category": "도로확장",
-   "region": "인천 부평구",
-   "summary": "인천시, 경인전철 지하화 국가 종합계획 반영 총력전\n국토교통부 철도 지하화 공청회 참석해 당위성 피력\n도심 단절 해소와 미래형 도시 공간 재창조 추진",
-   "place": "부평구 부평역",
-   "latlng": [
-    37.489449,
-    126.724331
-   ],
-   "pin": "place",
-   "pin_name": "부평역 1호선",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742828",
-   "title": "[기고] 평화경제특구 첫 단추, 성공할 곳에 끼워야",
-   "time": "2026-11-18 18:51",
-   "source": "중부일보",
-   "category": "토지/개발",
-   "region": "김포시",
-   "summary": "김포시 평화경제특구 지정 추진\n세제 감면 및 기반시설 지원 기대\n접경지역 신성장 동력 창출 구상",
-   "place": "김포시",
-   "latlng": [
-    37.61303,
-    126.711135
-   ],
-   "pin": "place",
-   "pin_name": "김포장릉",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742963",
-   "title": "[청약통장, 사라지는 사다리] 15년 모은 내 집 마련 꿈, 이젠 해지부터 고민",
-   "time": "2026-11-18 18:48",
-   "source": "중부일보",
-   "category": "시장동향",
-   "region": "",
-   "summary": "높은 분양가와 대출 규제로 주택청약통장 해지 증가\n당첨되더라도 잔금 등 자금 부담에 내 집 마련 난항\n청약통장의 기능 약화와 청약에 대한 인식 변화 지적",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742962",
-   "title": "[의정발언대] 김종국 인천 제물포구의원 “잊혀진 섬 물치도, 시민의 품으로 돌려줘야”",
-   "time": "2026-11-18 18:42",
-   "source": "중부일보",
-   "category": "토지/개발",
-   "region": "인천 동구",
-   "summary": "인천 제물포구 물치도 환원 촉구\n과거 휴양지서 경매 넘어가 논란\n지역 유일 섬으로 보전 개발 필요",
-   "place": "인천 동구 물치도",
-   "latlng": [
-    37.48641,
-    126.63388
-   ],
-   "pin": "region",
-   "pin_name": "인천 동구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742953",
-   "title": "경기 수출 155% 급증했으나 생산·소비·건설 부진…지역경제 온도 차",
-   "time": "2026-11-18 17:50",
-   "source": "중부일보",
-   "category": "시장동향",
-   "region": "",
-   "summary": "경기 3분기 수출액 154.7% 증가\n반도체 호황 불구 건설수주 감소\n지역 경제 지표 간 극심한 온도차",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363742950",
-   "title": "LH, 준공 30년 분당 돌아보는 ‘계획에서 삶으로’ 전시",
-   "time": "2026-11-18 17:49",
-   "source": "중부일보",
-   "category": "재건축/재개발",
-   "region": "성남시 분당구",
-   "summary": "분당신도시 준공 30년 기념 전시\n1기 신도시 개발 역사 및 특징 조명\n국토발전전시관서 12월 4일까지 열려",
-   "place": "성남시 분당구 분당신도시",
-   "latlng": [
-    37.396508,
-    127.110052
-   ],
-   "pin": "place",
-   "pin_name": "고덕신도시뷰파이브 홍보관",
    "loc_v": 2
   }
  ]
