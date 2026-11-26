@@ -1,8 +1,36 @@
 {
- "updated": "2026-11-26 13:02",
+ "updated": "2026-11-27 03:54",
  "region": "경기·인천",
  "source": "중부일보",
  "items": [
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743749",
+   "title": "\"공공주택 입주자 모십니다\"…내년 경기도 4만4천가구 물량 공급",
+   "time": "2026-11-26 19:52",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "",
+   "summary": "내년 경기도 공공주택 4만4천 가구 입주자 모집\n공공분양 2만7천 가구·공공임대 1만7천 가구 공급\n수도권 모집 물량 79% 경기도 집중 및 신규 택지 지정",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743742",
+   "title": "대출 규제에 기준금리 3.25% 인상까지… 내 집 마련 더 멀어지나",
+   "time": "2026-11-26 18:53",
+   "source": "중부일보",
+   "category": "시장동향",
+   "region": "",
+   "summary": "대출 규제와 기준금리 인상으로 매수 심리 위축 우려\n금융비용 상승으로 내 집 마련 및 전월세난 심화 우려\n대출 문턱 높아져 실수요자 주택 매입 부담 가중",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
   {
    "url": "https://www.joongboo.com/news/articleView.html?idxno=363743596",
    "title": "[사설] 반도체 특수에도 먹구름 낀 평택 부동산 시장",
@@ -409,167 +437,6 @@
    ],
    "pin": "region",
    "pin_name": "인천 제물포구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743096",
-   "title": "남양주 왕숙·왕숙2·진접2지구, 스마트도시 조성 본격 추진",
-   "time": "2026-11-19 18:33",
-   "source": "중부일보",
-   "category": "토지/개발",
-   "region": "남양주시",
-   "summary": "남양주시 왕숙·왕숙2·진접2지구 스마트도시 조성 추진\n스마트도시건설사업 실시계획 심의 및 의결 완료\n지역 특성에 맞는 스마트도시 서비스 도입 추진",
-   "place": "남양주시 왕숙지구",
-   "latlng": [
-    37.672771,
-    127.164192
-   ],
-   "pin": "place",
-   "pin_name": "남양주왕숙 공공주택지구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743094",
-   "title": "안양시, 16년 숙원 경부선 철도 지하화 본궤도…국토부 종합계획(안) 조건부 반영",
-   "time": "2026-11-19 18:20",
-   "source": "중부일보",
-   "category": "도로확장",
-   "region": "안양시",
-   "summary": "안양시 경부선 철도 지하화 국토부 종합계획 조건부 반영\n철도부지 활용 상부 개발 및 공간 통합 추진\n지자체 간 협의 및 사업성 확보 후 본격 추진 예정",
-   "place": "안양시 석수역",
-   "latlng": [
-    37.435093,
-    126.902321
-   ],
-   "pin": "place",
-   "pin_name": "석수역 1호선",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743093",
-   "title": "경기도 철도지하화 희비 엇갈렸다…부천·평택 추진, 의왕·군포는 보류",
-   "time": "2026-11-19 18:07",
-   "source": "중부일보",
-   "category": "도로확장",
-   "region": "부천시",
-   "summary": "경기도 내 철도 지하화 사업 4곳 신규 추진 및 조건부 반영\n부천 경인선과 평택 서정리역 지하화 신규 추진 대상 포함\n안양·파주는 조건부 반영, 의왕·군포는 추가 검토 분류",
-   "place": "부천시 온수역",
-   "latlng": [
-    37.489327,
-    126.821688
-   ],
-   "pin": "place",
-   "pin_name": "e편한세상온수역아파트",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743086",
-   "title": "인천 물치도 2차 경매도 유찰… 최저매각가격 46억 원대로 하락",
-   "time": "2026-11-19 17:43",
-   "source": "중부일보",
-   "category": "토지/개발",
-   "region": "인천 동구",
-   "summary": "인천 물치도 법원 2차 경매 유찰로 최저가 46억 원대 하락\n감정가 94억 원 대비 절반 수준으로 경매가 감소\n만석동 산3 일대 토지 및 건물 매각 재추진 예정",
-   "place": "인천 동구 물치도",
-   "latlng": [
-    37.48641,
-    126.63388
-   ],
-   "pin": "region",
-   "pin_name": "인천 동구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743081",
-   "title": "LH, ‘발주·계약·착공’ 기간 단축…주택 신속공급 뒷받침",
-   "time": "2026-11-19 17:36",
-   "source": "중부일보",
-   "category": "시장동향",
-   "region": "",
-   "summary": "LH 발주·계약·착공 신속 추진방안 시행\n착공 예정일 기준 역산해 관리하는 등 절차 개선\n정부 8·13 주택 신속공급 방안 후속 조치 추진",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743075",
-   "title": "[청약통장, 사라지는 사다리](하)청약통장…‘내 집 마련 출발점’서 ‘당첨 뒤 부담 시작점’으로",
-   "time": "2026-11-19 17:23",
-   "source": "중부일보",
-   "category": "시장동향",
-   "region": "",
-   "summary": "고분양가와 대출 규제로 청약통장 해지자 증가세\n당첨 후 잔금 및 비용 부담에 내 집 마련 사다리 약화\n청약통장의 역할 변화와 자금 부담 실태 집중 분석",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743073",
-   "title": "경인선 지하화 첫 단추…국토부 ‘철도지하화 종합계획(안)’ 반영",
-   "time": "2026-11-19 17:17",
-   "source": "중부일보",
-   "category": "도로확장",
-   "region": "인천 중구",
-   "summary": "인천~부천 경인선 온수역~인천역 구간 지하화 국가계획 반영\n국토부 철도지하화 종합계획 공청회서 신규 사업 포함\n127년간 도심 단절 해소 및 상부 공간 개발 기대",
-   "place": "인천 중구 인천역",
-   "latlng": [
-    37.47354,
-    126.62141
-   ],
-   "pin": "region",
-   "pin_name": "인천 중구",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743058",
-   "title": "이재준 수원시장, 주택 정비사업 기간 단축 위한 제도개선방안 국무총리에 건의",
-   "time": "2026-11-19 16:54",
-   "source": "중부일보",
-   "category": "재건축/재개발",
-   "region": "수원시",
-   "summary": "이재준 수원시장 주택 정비사업 기간 단축 제도개선 건의\n국무총리 간담회서 재개발·재건축 절차 간소화 요청\n국가 전략 부지 활용 및 주택공급 활성화 방안 제안",
-   "place": "",
-   "latlng": [
-    37.26333,
-    127.02875
-   ],
-   "pin": "region",
-   "pin_name": "수원시",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743045",
-   "title": "인천 신도시-원도심 간 양극화 해소, ‘동반성장 전략’ 필요",
-   "time": "2026-11-19 16:23",
-   "source": "중부일보",
-   "category": "토지/개발",
-   "region": "",
-   "summary": "인천연구원 신도시와 원도심 양극화 해소 전략 발표\n경제자유구역 바이오·반도체 성과의 원도심 확산 필요\n인천을 5개 권역으로 나누어 동반성장 산업 전략 제안",
-   "place": "",
-   "latlng": null,
-   "pin": "region",
-   "pin_name": "",
-   "loc_v": 2
-  },
-  {
-   "url": "https://www.joongboo.com/news/articleView.html?idxno=363743034",
-   "title": "주택 3만호 공급 나선 광주시… 정부에 기반시설 확충 지원 요청",
-   "time": "2026-11-19 15:40",
-   "source": "중부일보",
-   "category": "토지/개발",
-   "region": "광주시",
-   "summary": "광주시 주택 3만 호 공급 추진 맞춰 정부에 기반시설 지원 요청\n대규모 인구 유입 대비 교통망 및 상하수도 확충 필요 강조\n국무총리 간담회서 도시개발 여건과 인프라 부족 설명",
-   "place": "",
-   "latlng": [
-    37.42908,
-    127.25519
-   ],
-   "pin": "region",
-   "pin_name": "광주시",
    "loc_v": 2
   }
  ]
