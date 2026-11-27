@@ -1,8 +1,81 @@
 {
- "updated": "2026-11-27 03:55",
+ "updated": "2026-11-27 12:59",
  "region": "서울",
- "source": "한국경제 · 서울경제",
+ "source": "서울경제 · 한국경제",
  "items": [
+  {
+   "url": "https://www.sedaily.com/article/20119699",
+   "title": "“안 팔리면 LH가 사준다”…내년 공공주택 5.6만 호 공급",
+   "time": "2026-11-27 09:44",
+   "source": "서울경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "정부 미분양 방지 LH 매입확약 대상 확대\n수도권 규제지역 공공·민간택지 3.8만호 편입\n내년 공공주택 5.6만 호 공급 추진",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20119680",
+   "title": "지하철역서 사무실까지 한 번에…‘직통 역세권’ 오피스 주목",
+   "time": "2026-11-27 09:10",
+   "source": "서울경제",
+   "category": "상권개발",
+   "region": "",
+   "summary": "지하철역 직접 연결 오피스 경쟁력 부각\n우량 자산 중심으로 오피스 임차 수요 집중\n출퇴근 편의와 상업시설 접근성 확보",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.hankyung.com/article/2026112738156",
+   "title": "'디에이치 반포124' 출격…12월 전국 2.4만 가구 일반분양",
+   "time": "2026-11-27 08:53",
+   "source": "한국경제",
+   "category": "재건축/재개발",
+   "region": "서초구",
+   "summary": "디에이치 반포124 등 12월 분양 출격\n전국 2만 4천 가구 일반분양 예정\n서울 주요 재건축 단지 청약 관심 집중",
+   "place": "서초구 디에이치 반포124",
+   "latlng": [
+    37.503289,
+    126.987443
+   ],
+   "pin": "place",
+   "pin_name": "디에이치반포124아파트 (예정)",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20119560",
+   "title": "서울 아파트값 보합 근접…한강벨트 하락세, 광진·영등포로 옮겨가[집슐랭]",
+   "time": "2026-11-27 06:20",
+   "source": "서울경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "서울 아파트값 상승률 0.01%로 낮아져\n강남3구 하락세 광진·영등포 등 확산\n매물 증가와 금리 영향에 보합 전환 눈앞",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
+  {
+   "url": "https://www.sedaily.com/article/20119561",
+   "title": "“미분양 나면 LH가 산다”…수도권 모든 택지로 매입확약 확대[코주부]",
+   "time": "2026-11-27 05:22",
+   "source": "서울경제",
+   "category": "시장동향",
+   "region": "",
+   "summary": "미분양 주택 LH 매입확약 제도 확대 적용\n수도권 규제지역 공공·민간택지 전체 포함\n약 3만 8000가구 추가 대상 편입 추진",
+   "place": "",
+   "latlng": null,
+   "pin": "region",
+   "pin_name": "",
+   "loc_v": 2
+  },
   {
    "url": "https://www.hankyung.com/article/2026112631521",
    "title": "수도권 공공주택 5.6만가구 푼다…민간 미분양도 무제한 매입",
